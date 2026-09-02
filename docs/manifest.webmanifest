@@ -1,0 +1,15 @@
+{
+  "name": "Lyceum — Faculdade Livre de História",
+  "short_name": "Lyceum",
+  "description": "Currículo autodirigido para estudar História com método, fontes e historiografia.",
+  "lang": "pt-BR",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f0e7",
+  "theme_color": "#171611",
+  "icons": [
+    {"src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"},
+    {"src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
+  ]
+}

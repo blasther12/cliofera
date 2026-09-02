@@ -1,10 +1,13 @@
-const CACHE_NAME = 'lyceum-v3';
+const CACHE_NAME = 'lyceum-v4';
 const APP_SHELL = [
   './',
   './index.html',
   './data.json',
   './content.json',
   './content/year-1.json',
+  './content/year-2.json',
+  './content/year-3.json',
+  './content/year-4.json',
   './manifest.webmanifest',
   './assets/styles.css',
   './assets/course-content.css',

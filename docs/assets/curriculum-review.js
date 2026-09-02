@@ -15,6 +15,34 @@
     .replaceAll('"', '&quot;');
   const resolveCourseId = id => id === 'segunda-guerra' ? 'fascismo-segunda-guerra' : id;
 
+  const appendUnique = (target = [], incoming = [], key = value => typeof value === 'string' ? value : JSON.stringify(value)) => {
+    const result = [...target];
+    const seen = new Set(result.map(key));
+    for (const item of incoming || []) {
+      const id = key(item);
+      if (!seen.has(id)) {
+        seen.add(id);
+        result.push(item);
+      }
+    }
+    return result;
+  };
+
+  const mergeContentReview = overlay => {
+    for (const [courseId, patch] of Object.entries(overlay || {})) {
+      if (patch.mode === 'replace' || !state.content[courseId]) {
+        const { mode, ...detail } = patch;
+        state.content[courseId] = detail;
+        continue;
+      }
+      const detail = state.content[courseId];
+      detail.objectives = appendUnique(detail.objectives, patch.objectives);
+      detail.modules = appendUnique(detail.modules, patch.modules, module => module.title);
+      detail.readingGuide = appendUnique(detail.readingGuide, patch.readingGuide, reading => reading.work);
+      if (patch.finalProject) detail.finalProject = patch.finalProject;
+    }
+  };
+
   const cleanCourseTitle = title => String(title || '')
     .replace(/^Panorama da História (?:da|de|do|das|dos)?\s*/i, '')
     .replace(/^História (?:da|de|do|das|dos)\s+/i, '')
@@ -44,10 +72,11 @@
     loadJson('./extra-courses-review.json', { courses: [] }),
     loadJson('./content/extension-c1.json'),
     loadJson('./content/extension-c2.json'),
+    loadJson('./content/final-review.json'),
     loadJson('./literature-review.json'),
     loadJson('./media.json'),
     loadJson('./timeline.json', { axes: [], events: [] })
-  ]).then(([reviewCourses, contentC1, contentC2, literatureReview, media, timeline]) => {
+  ]).then(([reviewCourses, contentC1, contentC2, finalReview, literatureReview, media, timeline]) => {
     let attempts = 0;
 
     const apply = () => {
@@ -60,6 +89,7 @@
       state.media = media;
       state.timeline = timeline;
       Object.assign(state.content, contentC1, contentC2);
+      mergeContentReview(finalReview);
       Object.assign(state.literature, literatureReview);
 
       for (const course of reviewCourses.courses || []) {

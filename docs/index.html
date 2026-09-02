@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Lyceum — uma faculdade autodidata de História." />
+  <meta name="theme-color" content="#171611" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Lyceum" />
+  <title>Lyceum · Faculdade Livre de História</title>
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./icons/icon-32.png" />
+  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png" />
+  <link rel="stylesheet" href="./assets/styles.css" />
+</head>
+<body>
+  <div class="shell">
+    <header class="topbar">
+      <a class="brand" href="#/">
+        <span class="brand-mark">L</span>
+        <span><strong>Lyceum</strong><small>Faculdade Livre de História</small></span>
+      </a>
+      <button id="menuButton" class="menu-button" aria-label="Abrir navegação">☰</button>
+      <nav id="topNav" class="topnav">
+        <a href="#/">Painel</a>
+        <a href="#/curriculo">Currículo</a>
+        <a href="#/debates">Grandes Debates</a>
+        <a href="#/metodo">Método</a>
+        <button id="installApp" class="nav-install" hidden>Instalar</button>
+      </nav>
+    </header>
+
+    <main id="app" class="app" aria-live="polite"></main>
+
+    <footer class="footer">
+      <span>Lyceum · estudo histórico autodirigido</span>
+      <div class="footer-actions">
+        <button id="exportProgress" class="text-button">Exportar progresso</button>
+        <button id="importProgress" class="text-button">Importar progresso</button>
+        <button id="resetProgress" class="text-button">Zerar progresso</button>
+        <input id="importProgressFile" type="file" accept="application/json,.json" hidden />
+      </div>
+    </footer>
+
+    <nav class="mobile-tabbar" aria-label="Navegação móvel">
+      <a href="#/" aria-label="Painel"><span>⌂</span><small>Painel</small></a>
+      <a href="#/curriculo" aria-label="Currículo"><span>▦</span><small>Currículo</small></a>
+      <a href="#/debates" aria-label="Debates"><span>◈</span><small>Debates</small></a>
+      <a href="#/metodo" aria-label="Método"><span>✦</span><small>Método</small></a>
+    </nav>
+  </div>
+
+  <script src="./assets/app.js" defer></script>
+</body>
+</html>

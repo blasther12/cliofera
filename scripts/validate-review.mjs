@@ -2,6 +2,7 @@ import { readFile } from 'node:fs/promises';
 
 const root = new URL('../docs/', import.meta.url);
 const readJson = async path => JSON.parse(await readFile(new URL(path, root), 'utf8'));
+const resolveCourseId = id => id === 'segunda-guerra' ? 'fascismo-segunda-guerra' : id;
 
 const [base, extras, review, literature, literatureReview, timeline, media, ...catalogs] = await Promise.all([
   readJson('data.json'),
@@ -63,7 +64,10 @@ for (const term of ['minoic', 'micên', 'povos do mar', 'ilíada', 'odisseia']) 
 if (!Array.isArray(timeline.events) || timeline.events.length < 50) errors.push('cronologia mestra possui menos de 50 marcos');
 if (!Array.isArray(timeline.axes) || timeline.axes.length < 5) errors.push('eixos transversais insuficientes');
 for (const event of timeline.events || []) {
-  for (const id of event.courses || []) if (!ids.has(id)) errors.push(`cronologia referencia disciplina inexistente: ${id} (${event.title})`);
+  for (const rawId of event.courses || []) {
+    const id = resolveCourseId(rawId);
+    if (!ids.has(id)) errors.push(`cronologia referencia disciplina inexistente: ${rawId} (${event.title})`);
+  }
 }
 
 for (const [courseId, entry] of Object.entries(media)) {

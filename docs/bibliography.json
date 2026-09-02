@@ -1,0 +1,134 @@
+{
+  "entries": [
+    {
+      "id": "bloch-apologia",
+      "author": "Marc Bloch",
+      "title": "Apologia da História ou O Ofício de Historiador",
+      "type": "historiografia",
+      "editionNote": "Use uma edição integral com introdução e notas editoriais; compare traduções quando um conceito for central ao argumento.",
+      "why": "Introdução clássica ao problema, às fontes e ao ofício do historiador.",
+      "courses": ["introducao-historia", "historiografia-i", "metodologia-pesquisa"]
+    },
+    {
+      "id": "carr-que-e-historia",
+      "author": "E. H. Carr",
+      "title": "Que é História?",
+      "type": "historiografia",
+      "editionNote": "Leia junto de críticas posteriores para não transformar o livro em manual definitivo de epistemologia histórica.",
+      "why": "Ajuda a discutir relação entre fatos, seleção, interpretação e historiador.",
+      "courses": ["introducao-historia", "historiografia-i"]
+    },
+    {
+      "id": "herodoto-historias",
+      "author": "Heródoto",
+      "title": "Histórias",
+      "type": "fonte primária",
+      "editionNote": "Prefira edição com notas sobre etnografia, tradição manuscrita e contexto das Guerras Persas.",
+      "why": "Permite estudar escrita histórica antiga, alteridade, memória e construção narrativa.",
+      "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0126",
+      "courses": ["antiguidade-ii", "historiografia-i"]
+    },
+    {
+      "id": "tucidides-guerra-peloponeso",
+      "author": "Tucídides",
+      "title": "História da Guerra do Peloponeso",
+      "type": "fonte primária",
+      "editionNote": "Leia discursos e narrativa militar como construção autoral, não como transcrição literal.",
+      "why": "Fundamental para guerra, causalidade, política e tradição historiográfica grega.",
+      "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0200",
+      "courses": ["antiguidade-ii", "historiografia-i"]
+    },
+    {
+      "id": "beard-spqr",
+      "author": "Mary Beard",
+      "title": "SPQR: Uma História da Roma Antiga",
+      "type": "síntese historiográfica",
+      "editionNote": "Use como síntese narrativa e compare capítulos específicos com bibliografia especializada da disciplina.",
+      "why": "Boa porta de entrada para cidadania, República, Império e evidência material/textual romana.",
+      "courses": ["roma"]
+    },
+    {
+      "id": "bloch-sociedade-feudal",
+      "author": "Marc Bloch",
+      "title": "A Sociedade Feudal",
+      "type": "historiografia",
+      "editionNote": "Leia como obra clássica e historicamente situada; confronte o modelo com debates posteriores sobre 'feudalismo'.",
+      "why": "Ajuda a compreender senhorio, vínculos pessoais e a construção historiográfica do feudalismo.",
+      "courses": ["medieval"]
+    },
+    {
+      "id": "kuhn-estrutura",
+      "author": "Thomas S. Kuhn",
+      "title": "A Estrutura das Revoluções Científicas",
+      "type": "história e filosofia da ciência",
+      "editionNote": "Acompanhe com críticas à generalização do conceito de paradigma para campos e períodos distintos.",
+      "why": "Introduz debates sobre mudança científica, comunidade, normalidade e ruptura.",
+      "courses": ["historia-ciencia"]
+    },
+    {
+      "id": "thompson-classe-operaria",
+      "author": "E. P. Thompson",
+      "title": "A Formação da Classe Operária Inglesa",
+      "type": "história social",
+      "editionNote": "Leia introdução e capítulos de formação política junto de fontes operárias e debates sobre experiência e classe.",
+      "why": "Referência central para agência, experiência e formação de classe na industrialização.",
+      "courses": ["revolucao-industrial", "historiografia-ii", "capitalismo"]
+    },
+    {
+      "id": "manifesto-comunista",
+      "author": "Karl Marx e Friedrich Engels",
+      "title": "Manifesto do Partido Comunista",
+      "type": "fonte primária política",
+      "editionNote": "Leia prefácios de diferentes edições e situe o texto em 1848; não o use como resumo de toda a obra de Marx.",
+      "why": "Fonte decisiva para linguagem política, classe, revolução e internacionalismo do século XIX.",
+      "url": "https://www.marxists.org/portugues/marx/1848/ManifestoDoPartidoComunista/",
+      "courses": ["socialismo", "seculo-xix"]
+    },
+    {
+      "id": "fitzpatrick-revolucao-russa",
+      "author": "Sheila Fitzpatrick",
+      "title": "A Revolução Russa",
+      "type": "síntese historiográfica",
+      "editionNote": "Use como síntese e compare com interpretações políticas e sociais divergentes sobre 1917 e o período soviético inicial.",
+      "why": "Conecta revolução, guerra civil, NEP, Stalin e transformação social sem reduzir o processo a uma única causa.",
+      "courses": ["revolucao-russa-urss", "socialismo"]
+    },
+    {
+      "id": "ginzburg-queijo-vermes",
+      "author": "Carlo Ginzburg",
+      "title": "O Queijo e os Vermes",
+      "type": "micro-história",
+      "editionNote": "Leia junto de discussão sobre inquisidores, mediação documental e limites para recuperar a voz de Menocchio.",
+      "why": "Exemplo clássico de escala micro, cultura popular e leitura indiciária de arquivos.",
+      "courses": ["historiografia-ii", "metodologia-pesquisa"]
+    },
+    {
+      "id": "fanon-condenados",
+      "author": "Frantz Fanon",
+      "title": "Os Condenados da Terra",
+      "type": "fonte intelectual e política",
+      "editionNote": "Contextualize Guerra da Argélia, colonialismo francês e debates anticoloniais; confronte com historiografia de descolonização.",
+      "why": "Fonte importante para violência colonial, nacionalismo, libertação e pensamento pós-colonial.",
+      "courses": ["descolonizacao-sul-global", "historiografia-ii"]
+    },
+    {
+      "id": "cunha-indios-brasil",
+      "author": "Manuela Carneiro da Cunha (org.)",
+      "title": "História dos Índios no Brasil",
+      "type": "coletânea historiográfica",
+      "editionNote": "Use capítulos conforme região e problema; complemente com produção indígena contemporânea e pesquisas recentes.",
+      "why": "Obra de referência para diversidade, colonialismo, política indigenista e protagonismo indígena.",
+      "courses": ["historia-indigena-americas", "afro-indigena", "brasil-i"]
+    },
+    {
+      "id": "programming-historian",
+      "author": "The Programming Historian",
+      "title": "Lições de Humanidades Digitais",
+      "type": "recurso metodológico",
+      "editionNote": "Escolha lições pela pergunta de pesquisa e registre versão, ferramentas e passos para reprodutibilidade.",
+      "why": "Tutoriais revisados para OCR, dados, GIS, redes, texto, web e métodos digitais em História.",
+      "url": "https://programminghistorian.org/pt/",
+      "courses": ["humanidades-digitais", "metodologia-pesquisa"]
+    }
+  ]
+}

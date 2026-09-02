@@ -1,0 +1,91 @@
+{
+  "antiguidade-ii": {
+    "images": [
+      {"title":"Palácio de Cnossos, Creta","caption":"Referência visual para o mundo palacial minoico antes da formação das pólis.","src":"https://commons.wikimedia.org/wiki/Special:FilePath/Minoan_Palace_Knossos%2C_Crete.jpg","sourceUrl":"https://commons.wikimedia.org/wiki/File:Minoan_Palace_Knossos,_Crete.jpg","credit":"Aivin Gast / Wikimedia Commons","license":"CC BY-SA 4.0"}
+    ],
+    "videos": [
+      {"title":"Introduction to Ancient Greek History","creator":"YaleCourses / Donald Kagan","url":"https://www.youtube.com/watch?v=9FrHGAd_yto","note":"Curso universitário completo; use como contraponto audiovisual às leituras e atualize interpretações com bibliografia recente."}
+    ]
+  },
+  "roma": {
+    "images": [],
+    "videos": [
+      {"title":"The 2,000-Year History of Rome and Its Lessons Today","creator":"UCTV / Edward Watts","url":"https://www.youtube.com/watch?v=vtWUY4ySzig","note":"Síntese de longa duração para conectar República, Império, cristianização e continuidade romana oriental."},
+      {"title":"Roman Architecture","creator":"YaleCourses","url":"https://www.youtube.com/results?search_query=YaleCourses+Roman+Architecture","note":"Use as aulas sobre cidade, monumentos e arquitetura como cultura material, não apenas história da arte."}
+    ]
+  },
+  "arqueologia-cultura-material": {
+    "images": [
+      {"title":"Arqueóloga em escavação estratigráfica","caption":"A escavação é registro destrutivo: contexto, camada e posição precisam ser documentados antes da retirada.","src":"https://commons.wikimedia.org/wiki/Special:FilePath/Archaeologist_using_a_spade_to_excavate_a_trench.jpg","sourceUrl":"https://commons.wikimedia.org/wiki/File:Archaeologist_using_a_spade_to_excavate_a_trench.jpg","credit":"Wikimedia Commons","license":"CC BY 4.0"}
+    ],
+    "videos": [
+      {"title":"Archaeology methods: university lectures","creator":"YouTube · busca orientada","url":"https://www.youtube.com/results?search_query=archaeology+methods+university+lecture+stratigraphy","note":"Priorize universidades, museus e serviços arqueológicos; compare demonstração técnica com o manual-base."}
+    ]
+  },
+  "bizancio-mediterraneo-oriental": {
+    "images": [
+      {"title":"Mosaico da Deësis, Hagia Sophia","caption":"O mosaico do século XIII permite discutir arte, religião, restauração e memória de Constantinopla.","src":"https://commons.wikimedia.org/wiki/Special:FilePath/Interior_of_Hagia_Sophia%2C_Istanbul%2C_Turkey._Wall_mosaics._The_so-called_De%C3%ABsis_mosaic%2C_13th_century_CE.jpg","sourceUrl":"https://commons.wikimedia.org/wiki/File:Interior_of_Hagia_Sophia,_Istanbul,_Turkey._Wall_mosaics._The_so-called_De%C3%ABsis_mosaic,_13th_century_CE.jpg","credit":"Osama Shukir Muhammed Amin / Wikimedia Commons","license":"CC BY-SA"}
+    ],
+    "videos": [
+      {"title":"Byzantine history university lectures","creator":"YouTube · busca orientada","url":"https://www.youtube.com/results?search_query=Byzantine+history+university+lecture+Constantinople","note":"Dê preferência a universidades e museus; evite vídeos que tratem Bizâncio apenas como 'decadência de Roma'."}
+    ]
+  },
+  "china-leste-asiatico": {
+    "images": [
+      {"title":"Exército de Terracota, Qin","caption":"Cultura material do primeiro império unificado ajuda a discutir Estado, trabalho, morte e representação do poder.","src":"https://commons.wikimedia.org/wiki/Special:FilePath/Terracotta_Army.jpg","sourceUrl":"https://commons.wikimedia.org/wiki/File:Terracotta_Army.jpg","credit":"Ondřej Žváček / Wikimedia Commons","license":"licença livre conforme página do arquivo"}
+    ],
+    "videos": [
+      {"title":"China in World History","creator":"YouTube · busca orientada","url":"https://www.youtube.com/results?search_query=university+lecture+history+of+China+Qin+Han+Tang+Song","note":"Use séries universitárias e compare qualquer narrativa dinástica com os processos econômicos e sociais do curso."}
+    ]
+  },
+  "india-sul-asia": {
+    "images": [
+      {"title":"Bahadur Shah em miniatura mogol","caption":"Miniatura de corte para analisar iconografia imperial, patronagem e representação política no mundo mogol.","src":"https://commons.wikimedia.org/wiki/Special:FilePath/Miniature._%E2%80%98The_Mughal_Emperor_Bahadur_Shah_on_his_throne%E2%80%99_India%2C_Mughal%3B_c._1707-1708.jpg","sourceUrl":"https://commons.wikimedia.org/wiki/File:Miniature._%E2%80%98The_Mughal_Emperor_Bahadur_Shah_on_his_throne%E2%80%99_India,_Mughal;_c._1707-1708.jpg","credit":"Wikimedia Commons","license":"consulte a página do arquivo"}
+    ],
+    "videos": [
+      {"title":"History of India and South Asia","creator":"YouTube · busca orientada","url":"https://www.youtube.com/results?search_query=university+lecture+history+India+Maurya+Mughal+Partition","note":"Procure séries que atravessem períodos antigos, mogóis e coloniais em vez de começar a história apenas no Raj britânico."}
+    ]
+  },
+  "historia-indigena-americas": {
+    "images": [
+      {"title":"Códice Mendoza","caption":"Manuscrito colonial indígena-espanhol que exige leitura simultânea de pictogramas, anotações e contexto de produção.","src":"https://commons.wikimedia.org/wiki/Special:FilePath/Codex_Mendoza_page_1_Annotations.jpg","sourceUrl":"https://commons.wikimedia.org/wiki/File:Codex_Mendoza_page_1_Annotations.jpg","credit":"Bodleian Libraries / Wikimedia Commons","license":"consulte a página do arquivo"}
+    ],
+    "videos": [
+      {"title":"Indigenous history of the Americas","creator":"YouTube · busca orientada","url":"https://www.youtube.com/results?search_query=university+lecture+Indigenous+history+Americas+Native+American+history","note":"Priorize universidades, arquivos tribais e produtores indígenas; compare autoria e posição de fala."}
+    ]
+  },
+  "escravidao-atlantica": {
+    "images": [
+      {"title":"Mapa do tráfico transatlântico","caption":"Use mapas de rotas como visualização de padrões, não como substituto de dados de viagens e experiências individuais.","src":"https://commons.wikimedia.org/wiki/Special:FilePath/Transatlantic_slave_trade.jpg","sourceUrl":"https://commons.wikimedia.org/wiki/File:Transatlantic_slave_trade.jpg","credit":"Wikimedia Commons","license":"consulte a página do arquivo"}
+    ],
+    "videos": [
+      {"title":"Atlantic Slave Trade","creator":"YouTube · busca orientada","url":"https://www.youtube.com/results?search_query=Atlantic+Slave+Trade+university+lecture+SlaveVoyages","note":"Combine aulas com a base SlaveVoyages e fontes autobiográficas para não reduzir a história a rotas comerciais."}
+    ]
+  },
+  "descolonizacao-sul-global": {
+    "images": [
+      {"title":"Conferência de Bandung, 1955","caption":"Delegações asiáticas e africanas reunidas para discutir soberania, colonialismo e cooperação internacional.","src":"https://commons.wikimedia.org/wiki/Special:FilePath/Delegates_at_the_opening_meeting_of_the_Bandung_Conference.png","sourceUrl":"https://commons.wikimedia.org/wiki/File:Delegates_at_the_opening_meeting_of_the_Bandung_Conference.png","credit":"Foreign Ministry of Indonesia / Wikimedia Commons","license":"domínio público na Indonésia conforme página do arquivo"}
+    ],
+    "videos": [
+      {"title":"Decolonization and the Global South","creator":"YouTube · busca orientada","url":"https://www.youtube.com/results?search_query=decolonization+Bandung+Global+South+university+lecture","note":"Compare vídeos sobre Índia, África e Sudeste Asiático para não transformar descolonização em um modelo único."}
+    ]
+  },
+  "humanidades-digitais": {
+    "images": [],
+    "videos": [
+      {"title":"The Programming Historian","creator":"YouTube · busca orientada","url":"https://www.youtube.com/results?search_query=Programming+Historian+digital+history+GIS+OCR","note":"Use demonstrações técnicas apenas com documentação de método, versão de ferramenta e validação das fontes."}
+    ]
+  },
+  "socialismo": {
+    "images": [],
+    "videos": [
+      {"title":"Marx, socialism and European political thought","creator":"YouTube · busca orientada","url":"https://www.youtube.com/results?search_query=YaleCourses+Marx+socialism+European+history","note":"Trate vídeo como introdução; para cada tradição retorne aos textos primários e à historiografia indicada na disciplina."}
+    ]
+  },
+  "medieval": {
+    "images": [],
+    "videos": [
+      {"title":"Medieval history university lectures","creator":"YouTube · busca orientada","url":"https://www.youtube.com/results?search_query=medieval+history+university+lecture+feudalism+crusades","note":"Procure cursos que tratem feudalismo como problema historiográfico e incluam Mediterrâneo, Bizâncio e Islã."}
+    ]
+  }
+}

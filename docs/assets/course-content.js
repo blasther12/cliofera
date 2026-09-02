@@ -144,7 +144,7 @@
         return r.json();
       });
     } catch (error) {
-      console.warn('Lyceum: conteúdo detalhado indisponível.', error);
+      console.warn('Cliofera: conteúdo detalhado indisponível.', error);
       catalog = {};
     }
 

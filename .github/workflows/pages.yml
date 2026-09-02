@@ -24,6 +24,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v7
 
+      - name: Validate curriculum JSON
+        run: |
+          node scripts/validate-content.mjs
+          node --check docs/assets/app.js
+          python -m json.tool docs/data.json > /dev/null
+          python -m json.tool docs/content.json > /dev/null
+          python -m json.tool docs/content/year-1.json > /dev/null
+          python -m json.tool docs/content/year-2.json > /dev/null
+          python -m json.tool docs/content/year-3.json > /dev/null
+          python -m json.tool docs/content/year-4.json > /dev/null
+
       - name: Setup Pages
         uses: actions/configure-pages@v6
 

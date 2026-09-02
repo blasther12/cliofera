@@ -1,0 +1,92 @@
+{
+  "courses": [
+    {
+      "id": "arqueologia-cultura-material",
+      "title": "Arqueologia, Epigrafia e Cultura Material",
+      "year": 1,
+      "semester": 1,
+      "area": "Método",
+      "summary": "Métodos para investigar sociedades por objetos, sítios, inscrições, moedas, estratigrafia e paisagens, conectando História e Arqueologia.",
+      "modules": ["Arqueologia e pensamento histórico", "Estratigrafia, contexto e datação", "Cultura material e cotidiano", "Epigrafia e inscrições", "Numismática e circulação", "Paisagem, arqueologia digital e ética"],
+      "readings": ["Renfrew e Bahn — Archaeology: Theories, Methods and Practice", "Ian Hodder — Reading the Past", "Mary Beard — estudos sobre epigrafia e cultura material romana"],
+      "debates": []
+    },
+    {
+      "id": "bizancio-mediterraneo-oriental",
+      "title": "Bizâncio e o Mediterrâneo Oriental",
+      "year": 2,
+      "semester": 3,
+      "area": "Medieval",
+      "summary": "Do Império Romano do Oriente à queda de Constantinopla, com Justiniano, cristianismo oriental, iconoclasmo, cruzadas e relações com o Islã.",
+      "modules": ["Roma Oriental e Constantinopla", "Justiniano e o século VI", "Cristianismo oriental e iconoclasmo", "Bizâncio, eslavos e mundo islâmico", "Cruzadas e 1204", "Paleólogos e queda de Constantinopla"],
+      "readings": ["Judith Herrin — Byzantium", "Anthony Kaldellis — The New Roman Empire", "Procópio — Guerras e História Secreta, leitura crítica"],
+      "debates": []
+    },
+    {
+      "id": "china-leste-asiatico",
+      "title": "História da China e do Leste Asiático",
+      "year": 2,
+      "semester": 3,
+      "area": "Ásia",
+      "summary": "China e Leste Asiático em longa duração: Zhou, Qin, Han, Tang, Song, Yuan, Ming, Qing, Japão, Coreia, imperialismo e revoluções.",
+      "modules": ["Zhou, pensamento clássico e Estados Combatentes", "Qin e Han: formação imperial", "Tang e redes eurasiáticas", "Song, economia e transformação social", "Mongóis, Yuan, Ming e Qing", "Japão, Coreia, imperialismo e revoluções modernas"],
+      "readings": ["Patricia Ebrey — The Cambridge Illustrated History of China", "Mark Edward Lewis — The Early Chinese Empires", "Kenneth Pomeranz — A Grande Divergência"],
+      "debates": []
+    },
+    {
+      "id": "india-sul-asia",
+      "title": "História da Índia e do Sul da Ásia",
+      "year": 2,
+      "semester": 4,
+      "area": "Ásia",
+      "summary": "Vale do Indo, tradições védicas, budismo, Maurya, Gupta, sultanatos, império mogol, colonialismo britânico, nacionalismo e Partição.",
+      "modules": ["Vale do Indo e primeiros urbanismos", "Vedas, religiões e formações sociais", "Maurya, Ashoka e budismo", "Gupta e mundos regionais", "Sultanatos e Império Mogol", "Raj britânico, nacionalismos, independência e Partição"],
+      "readings": ["Upinder Singh — A History of Ancient and Early Medieval India", "Romila Thapar — Early India", "Sugata Bose e Ayesha Jalal — Modern South Asia"],
+      "debates": []
+    },
+    {
+      "id": "historia-indigena-americas",
+      "title": "História Indígena das Américas",
+      "year": 3,
+      "semester": 5,
+      "area": "Américas",
+      "summary": "Povos indígenas como sujeitos históricos antes, durante e depois da colonização, com território, diplomacia, guerra, trabalho, religião, cidadania e movimentos contemporâneos.",
+      "modules": ["Diversidade indígena antes de 1492", "Conquista, epidemias e alianças", "Diplomacia, fronteiras e territorialidades", "Missões, trabalho e resistência", "Estados nacionais e políticas indigenistas", "Movimentos indígenas, direitos e memória contemporânea"],
+      "readings": ["Manuela Carneiro da Cunha — História dos Índios no Brasil", "John Monteiro — Negros da Terra", "James Lockhart — The Nahuas After the Conquest", "Ailton Krenak — Ideias para Adiar o Fim do Mundo"],
+      "debates": []
+    },
+    {
+      "id": "escravidao-atlantica",
+      "title": "Escravidão Atlântica, Abolições e Pós-Abolição",
+      "year": 3,
+      "semester": 5,
+      "area": "Atlântico",
+      "summary": "Tráfico atlântico, escravização, plantation, família, cultura, resistências, quilombos, abolicionismos, emancipação e desigualdades do pós-abolição.",
+      "modules": ["Escravidões africanas e expansão atlântica", "Tráfico transatlântico e economia política", "Plantation, trabalho e vida cotidiana", "Família, cultura, religião e resistência", "Revoltas, quilombos e abolicionismos", "Emancipação, pós-abolição, raça e cidadania"],
+      "readings": ["John Thornton — Africa and Africans in the Making of the Atlantic World", "David Eltis e David Richardson — Atlas of the Transatlantic Slave Trade", "João José Reis — Rebelião Escrava no Brasil", "Saidiya Hartman — Lose Your Mother"],
+      "debates": []
+    },
+    {
+      "id": "descolonizacao-sul-global",
+      "title": "Descolonização, Terceiro Mundo e Sul Global",
+      "year": 4,
+      "semester": 8,
+      "area": "Contemporânea",
+      "summary": "Independências na Ásia e África, Bandung, nacionalismos anticoloniais, guerras de libertação, não alinhamento, desenvolvimento e legados pós-coloniais.",
+      "modules": ["Impérios no pós-1945 e crise colonial", "Índia, Partição e Sul da Ásia", "Indochina, Indonésia e Sudeste Asiático", "África: independências e guerras de libertação", "Bandung, não alinhamento e terceiro-mundismo", "Pós-colonialismo, desenvolvimento e Sul Global"],
+      "readings": ["Frederick Cooper — Africa Since 1940", "Vijay Prashad — The Darker Nations", "Frantz Fanon — Os Condenados da Terra", "Odd Arne Westad — The Global Cold War"],
+      "debates": []
+    },
+    {
+      "id": "humanidades-digitais",
+      "title": "Humanidades Digitais para História",
+      "year": 4,
+      "semester": 8,
+      "area": "Método",
+      "summary": "Pesquisa histórica com bases digitais, OCR, GIS, visualização, redes, acervos digitais, reprodutibilidade, preservação e crítica de ferramentas algorítmicas.",
+      "modules": ["Fontes nascidas digitais e digitalizadas", "OCR, bancos de dados e limpeza de dados", "GIS e história espacial", "Redes, visualização e análise exploratória", "Acervos digitais, metadados e preservação", "IA, algoritmos, reprodutibilidade e ética"],
+      "readings": ["Daniel J. Cohen e Roy Rosenzweig — Digital History", "Matthew K. Gold e Lauren Klein — Debates in the Digital Humanities", "The Programming Historian — lições selecionadas"],
+      "debates": []
+    }
+  ]
+}

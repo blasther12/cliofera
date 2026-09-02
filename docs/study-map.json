@@ -1,0 +1,126 @@
+{
+  "paths": [
+    {
+      "id": "antiguidade",
+      "title": "Antiguidade, arqueologia e mundos clássicos",
+      "description": "Da cultura material e do Oriente Próximo ao Egeu, Grécia, Roma e Antiguidade Tardia.",
+      "courses": ["arqueologia-cultura-material", "pre-historia", "antiguidade-i", "antiguidade-ii", "roma", "historiografia-i"]
+    },
+    {
+      "id": "mediterraneo-medieval",
+      "title": "Mediterrâneo, Islã e mundos medievais",
+      "description": "Bizâncio, Islã, Europa medieval, África e redes afro-eurasiáticas em histórias simultâneas.",
+      "courses": ["bizancio-mediterraneo-oriental", "mundo-islamico", "medieval", "africa-i", "economica-i"]
+    },
+    {
+      "id": "asia-global",
+      "title": "Ásia e conexões globais",
+      "description": "China, Índia, Japão, redes eurasiáticas, colonialismo, nacionalismos e descolonização.",
+      "courses": ["historia-asia", "china-leste-asiatico", "india-sul-asia", "colonialismo", "descolonizacao-sul-global", "global-contemporanea"]
+    },
+    {
+      "id": "americas-brasil",
+      "title": "Américas, povos indígenas e Brasil",
+      "description": "Povos originários, conquista, escravidão, independências, formação nacional, raça, cidadania e memória.",
+      "courses": ["america-pre-colombiana", "historia-indigena-americas", "colonialismo", "escravidao-atlantica", "brasil-i", "revolucoes-atlanticas", "brasil-ii", "america-latina", "america-anglo-saxonica", "brasil-iii", "historia-parana", "afro-indigena"]
+    },
+    {
+      "id": "capitalismo-socialismo",
+      "title": "Capitalismo, trabalho e socialismos",
+      "description": "Transformações econômicas, industrialização, classe, movimentos sociais e tradições socialistas em longa duração.",
+      "courses": ["economica-i", "revolucao-industrial", "capitalismo", "socialismo", "seculo-xix", "primeira-guerra", "revolucao-russa-urss", "guerra-fria"]
+    },
+    {
+      "id": "seculo-xx",
+      "title": "Século XX, guerras e ordem global",
+      "description": "Guerras mundiais, revoluções, fascismos, genocídios, Guerra Fria, descolonização e globalização.",
+      "courses": ["primeira-guerra", "revolucao-russa-urss", "fascismo-segunda-guerra", "guerra-fria", "descolonizacao-sul-global", "global-contemporanea", "direitos-humanos"]
+    },
+    {
+      "id": "metodo-pesquisa",
+      "title": "Método, historiografia e pesquisa",
+      "description": "Como formular problemas, criticar fontes, comparar interpretações, pesquisar acervos e produzir História pública ou acadêmica.",
+      "courses": ["introducao-historia", "escrita-academica", "historiografia-i", "historiografia-ii", "arquivos-acervos", "patrimonio-museus", "humanidades-digitais", "metodologia-pesquisa", "trabalho-final"]
+    }
+  ],
+  "prerequisites": {
+    "antiguidade-ii": ["antiguidade-i"],
+    "roma": ["antiguidade-i", "antiguidade-ii"],
+    "historiografia-i": ["introducao-historia"],
+    "historiografia-ii": ["historiografia-i"],
+    "bizancio-mediterraneo-oriental": ["roma"],
+    "medieval": ["roma"],
+    "mundo-islamico": ["antiguidade-i"],
+    "economica-i": ["introducao-historia"],
+    "moderna": ["medieval"],
+    "colonialismo": ["moderna", "america-pre-colombiana"],
+    "brasil-i": ["colonialismo"],
+    "revolucoes-atlanticas": ["moderna"],
+    "revolucao-industrial": ["economica-i", "moderna"],
+    "capitalismo": ["economica-i", "revolucao-industrial"],
+    "socialismo": ["revolucao-industrial", "capitalismo"],
+    "brasil-ii": ["brasil-i", "revolucoes-atlanticas"],
+    "seculo-xix": ["revolucoes-atlanticas"],
+    "primeira-guerra": ["seculo-xix"],
+    "revolucao-russa-urss": ["socialismo", "primeira-guerra"],
+    "fascismo-segunda-guerra": ["primeira-guerra", "seculo-xix"],
+    "guerra-fria": ["fascismo-segunda-guerra", "revolucao-russa-urss"],
+    "descolonizacao-sul-global": ["colonialismo", "guerra-fria"],
+    "global-contemporanea": ["guerra-fria", "descolonizacao-sul-global"],
+    "metodologia-pesquisa": ["introducao-historia", "historiografia-ii"],
+    "trabalho-final": ["metodologia-pesquisa"]
+  },
+  "related": {
+    "arqueologia-cultura-material": ["pre-historia", "antiguidade-i", "historia-arte"],
+    "antiguidade-i": ["antiguidade-ii", "mundo-islamico", "arqueologia-cultura-material"],
+    "antiguidade-ii": ["roma", "filosofia-politica", "historiografia-i"],
+    "roma": ["bizancio-mediterraneo-oriental", "medieval", "direitos-humanos"],
+    "medieval": ["bizancio-mediterraneo-oriental", "mundo-islamico", "economica-i"],
+    "mundo-islamico": ["bizancio-mediterraneo-oriental", "africa-i", "historia-asia"],
+    "africa-i": ["escravidao-atlantica", "afro-indigena", "descolonizacao-sul-global"],
+    "colonialismo": ["historia-indigena-americas", "escravidao-atlantica", "historia-asia", "historia-ambiental"],
+    "revolucao-industrial": ["capitalismo", "socialismo", "historia-alimentacao", "historia-ambiental"],
+    "socialismo": ["revolucao-russa-urss", "capitalismo", "guerra-fria"],
+    "brasil-i": ["historia-indigena-americas", "escravidao-atlantica", "historia-parana"],
+    "brasil-ii": ["escravidao-atlantica", "historia-genero", "america-latina"],
+    "brasil-iii": ["direitos-humanos", "historia-genero", "patrimonio-museus"],
+    "historiografia-ii": ["historia-genero", "afro-indigena", "humanidades-digitais"],
+    "guerra-fria": ["descolonizacao-sul-global", "america-latina", "historia-asia"],
+    "arquivos-acervos": ["humanidades-digitais", "patrimonio-museus", "metodologia-pesquisa"],
+    "metodologia-pesquisa": ["arquivos-acervos", "humanidades-digitais", "trabalho-final"]
+  },
+  "defaultEditorial": {
+    "status": "reviewed",
+    "lastReviewed": "2026-09-02",
+    "reviewEveryDays": 365
+  },
+  "editorial": {
+    "global-contemporanea": {"status": "reviewed", "lastReviewed": "2026-09-02", "reviewEveryDays": 180},
+    "brasil-iii": {"status": "reviewed", "lastReviewed": "2026-09-02", "reviewEveryDays": 180},
+    "humanidades-digitais": {"status": "reviewed", "lastReviewed": "2026-09-02", "reviewEveryDays": 180},
+    "trabalho-final": {"status": "reviewed", "lastReviewed": "2026-09-02", "reviewEveryDays": 365}
+  },
+  "sourceCollections": [
+    {"title": "Biblioteca Nacional Digital", "url": "https://bndigital.bn.gov.br/", "scope": "Brasil, livros, manuscritos e coleções digitalizadas"},
+    {"title": "Hemeroteca Digital Brasileira", "url": "https://memoria.bn.gov.br/", "scope": "jornais, revistas e periódicos brasileiros"},
+    {"title": "Arquivo Nacional", "url": "https://www.gov.br/arquivonacional/", "scope": "documentos e acervos da história do Brasil"},
+    {"title": "Perseus Digital Library", "url": "https://www.perseus.tufts.edu/", "scope": "fontes e textos do mundo greco-romano"},
+    {"title": "Internet History Sourcebooks", "url": "https://sourcebooks.fordham.edu/", "scope": "fontes primárias traduzidas de múltiplos períodos"},
+    {"title": "Gallica", "url": "https://gallica.bnf.fr/", "scope": "coleções digitalizadas da Bibliothèque nationale de France"},
+    {"title": "Europeana", "url": "https://www.europeana.eu/", "scope": "patrimônio cultural e acervos europeus"},
+    {"title": "The Programming Historian", "url": "https://programminghistorian.org/", "scope": "métodos digitais aplicados à pesquisa histórica"}
+  ],
+  "courseSources": {
+    "antiguidade-ii": ["Perseus Digital Library"],
+    "roma": ["Perseus Digital Library"],
+    "medieval": ["Internet History Sourcebooks"],
+    "moderna": ["Gallica", "Internet History Sourcebooks"],
+    "brasil-i": ["Biblioteca Nacional Digital", "Arquivo Nacional"],
+    "brasil-ii": ["Hemeroteca Digital Brasileira", "Arquivo Nacional"],
+    "brasil-iii": ["Hemeroteca Digital Brasileira", "Arquivo Nacional"],
+    "historia-parana": ["Biblioteca Nacional Digital", "Hemeroteca Digital Brasileira"],
+    "arquivos-acervos": ["Arquivo Nacional"],
+    "humanidades-digitais": ["The Programming Historian", "Europeana"],
+    "metodologia-pesquisa": ["Biblioteca Nacional Digital", "Arquivo Nacional", "Europeana"]
+  }
+}

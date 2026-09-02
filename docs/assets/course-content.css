@@ -1,0 +1,59 @@
+.course-study-content { display: grid; gap: 26px; margin-bottom: 30px; }
+.course-content-intro h2 { margin: 7px 0 12px; }
+.course-intro-text { font-family: Georgia, serif; font-size: 20px; line-height: 1.72; color: #3f3b35; max-width: 900px; }
+.content-objectives { margin-top: 24px; padding-top: 22px; border-top: 1px solid var(--line); }
+.content-objectives h3 { margin: 0 0 12px; font-size: 21px; }
+.content-objectives ul { columns: 2; column-gap: 34px; margin: 0; padding-left: 20px; line-height: 1.7; }
+.content-objectives li { break-inside: avoid; margin-bottom: 7px; }
+.course-content-nav { position: sticky; top: 72px; z-index: 12; display: flex; gap: 8px; overflow-x: auto; padding: 8px; background: rgba(244,240,231,.92); border: 1px solid var(--line); border-radius: 999px; backdrop-filter: blur(14px); }
+.course-content-nav a { white-space: nowrap; text-decoration: none; padding: 8px 13px; background: var(--paper); border: 1px solid var(--line); border-radius: 999px; font-size: 13px; font-weight: 700; }
+.course-content-section { scroll-margin-top: 145px; }
+.lesson-stack { display: grid; gap: 12px; }
+.lesson-card { background: var(--paper); border: 1px solid var(--line); border-radius: 17px; overflow: hidden; box-shadow: 0 8px 28px rgba(30,25,15,.04); }
+.lesson-card summary { list-style: none; cursor: pointer; display: flex; align-items: center; gap: 15px; padding: 18px 20px; }
+.lesson-card summary::-webkit-details-marker { display: none; }
+.lesson-card summary:after { content: '+'; margin-left: auto; font-size: 25px; color: var(--accent); font-family: Georgia, serif; }
+.lesson-card[open] summary:after { content: '−'; }
+.lesson-card[open] summary { border-bottom: 1px solid var(--line); }
+.lesson-number { display: grid; place-items: center; width: 42px; height: 42px; flex: 0 0 42px; border-radius: 50%; background: var(--dark); color: #fff8e8; font-family: Georgia, serif; }
+.lesson-card summary small { display: block; color: var(--muted); text-transform: uppercase; letter-spacing: .12em; font-size: 10px; font-weight: 800; margin-bottom: 3px; }
+.lesson-card summary strong { font-family: Georgia, serif; font-size: 21px; }
+.lesson-body { padding: 24px; }
+.lesson-explanation { max-width: 860px; }
+.lesson-explanation p { font-family: Georgia, serif; font-size: 18px; line-height: 1.72; margin: 0 0 15px; color: #403c36; }
+.lesson-subsection { margin-top: 23px; }
+.lesson-subsection h4, .lesson-reading h4, .reading-guide-card h4, .final-project-card h4 { font-family: Georgia, serif; font-size: 19px; margin: 0 0 10px; }
+.concept-list { display: flex; flex-wrap: wrap; gap: 7px; }
+.concept-list span { padding: 6px 10px; background: var(--accent-soft); color: var(--accent); border-radius: 999px; font-size: 12px; font-weight: 750; }
+.lesson-reading { margin-top: 24px; padding: 18px; border-left: 4px solid var(--gold); background: #f7f1e5; border-radius: 0 14px 14px 0; }
+.lesson-reading h4 { margin-top: 6px; }
+.lesson-reading p { margin: 7px 0; line-height: 1.6; color: #514d46; }
+.lesson-columns { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; align-items: start; margin-top: 6px; }
+.lesson-columns ul { padding-left: 20px; line-height: 1.65; margin-bottom: 0; }
+.exercise-box { margin-top: 23px; padding: 18px; background: var(--dark); color: #f8f0df; border-radius: 14px; }
+.exercise-box .eyebrow { color: #d7b66f; }
+.exercise-box p { margin: 8px 0 0; line-height: 1.65; color: #e0d8ca; }
+.reading-guide-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
+.reading-guide-card { background: var(--paper); border: 1px solid var(--line); border-radius: 16px; padding: 20px; }
+.reading-priority { display: inline-flex; padding: 5px 9px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: .08em; }
+.reading-guide-card h4 { margin: 12px 0 7px; font-size: 21px; }
+.reading-role { color: var(--muted); line-height: 1.55; }
+.reading-instruction { margin-top: 17px; padding-top: 15px; border-top: 1px solid var(--line); }
+.reading-instruction strong { font-size: 12px; text-transform: uppercase; letter-spacing: .09em; color: var(--accent); }
+.reading-instruction p { line-height: 1.6; margin: 6px 0 0; }
+.final-project-card { background: var(--dark); color: #f8f0df; border-radius: var(--radius); padding: 28px; }
+.final-project-card .eyebrow { color: #d7b66f; }
+.final-project-card h2 { font-size: 30px; margin: 7px 0 13px; }
+.final-project-card p, .final-project-card li { color: #ddd4c5; line-height: 1.7; }
+.final-project-card ul { padding-left: 20px; }
+
+@media (max-width: 760px) {
+  .content-objectives ul { columns: 1; }
+  .course-content-nav { top: 66px; border-radius: 15px; }
+  .lesson-body { padding: 19px; }
+  .lesson-card summary { padding: 15px; }
+  .lesson-card summary strong { font-size: 18px; }
+  .lesson-explanation p { font-size: 17px; }
+  .lesson-columns, .reading-guide-grid { grid-template-columns: 1fr; }
+  .course-intro-text { font-size: 18px; }
+}

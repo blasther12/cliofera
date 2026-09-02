@@ -1,0 +1,248 @@
+{
+  "arqueologia-cultura-material": {
+    "intro": "Historiadores trabalham com textos, mas sociedades humanas também deixam edifícios, objetos, paisagens, inscrições, moedas, restos biológicos e camadas de ocupação. Esta disciplina introduz ferramentas da Arqueologia e de campos auxiliares da História para que o estudante aprenda a formular perguntas a partir da materialidade, avaliar contexto e proveniência e combinar vestígios diferentes sem reduzir objetos a simples ilustrações de narrativas já prontas.",
+    "objectives": [
+      "Compreender a diferença entre objeto, contexto arqueológico e evidência histórica.",
+      "Ler estratigrafia, proveniência e datação como argumentos, não como etiquetas automáticas.",
+      "Usar cultura material, inscrições e moedas para investigar poder, economia e cotidiano.",
+      "Reconhecer limites, vieses de preservação e problemas éticos da escavação e da coleta.",
+      "Relacionar arqueologia, história ambiental, GIS e documentação escrita."
+    ],
+    "modules": [
+      {
+        "title": "Arqueologia e pensamento histórico",
+        "explanation": ["Arqueologia investiga sociedades a partir de seus vestígios materiais. Escavar não significa apenas encontrar objetos: significa registrar relações espaciais, camadas, associações e alterações do terreno que permitem reconstruir processos de deposição e uso.", "Para o historiador, a grande vantagem é ampliar o conjunto de pessoas e práticas visíveis. Grupos pouco documentados em arquivos escritos podem aparecer por moradia, alimentação, descarte, ferramentas, paisagens e padrões funerários."],
+        "concepts": ["cultura material", "contexto", "sítio", "proveniência", "vestígio"],
+        "reading": {"work": "Renfrew e Bahn — Archaeology: Theories, Methods and Practice", "focus": "Introdução aos tipos de evidência, formação de sítios e perguntas arqueológicas.", "why": "Fornece vocabulário metodológico para não tratar artefatos como peças soltas."},
+        "questions": ["O que um objeto perde quando é retirado de seu contexto?", "Que grupos sociais podem aparecer melhor na arqueologia do que nos arquivos escritos?"],
+        "exercise": "Escolha um objeto cotidiano e liste dez perguntas históricas que poderiam ser feitas a partir de material, desgaste, local de uso e descarte."
+      },
+      {
+        "title": "Estratigrafia, contexto e datação",
+        "explanation": ["Estratigrafia estuda a sobreposição de depósitos e eventos. Em condições simples, camadas inferiores tendem a ser mais antigas, mas cortes, aterros, fossas, erosão e reocupações podem inverter ou perturbar sequências.", "Datações relativas e absolutas precisam ser combinadas. Tipologias cerâmicas, moedas, carbono-14, dendrocronologia e outras técnicas produzem intervalos e probabilidades, não datas mágicas sem margem de erro."],
+        "concepts": ["estratigrafia", "datação relativa", "carbono-14", "tipologia", "terminus post quem"],
+        "reading": {"work": "Edward Harris — Principles of Archaeological Stratigraphy", "focus": "Relações estratigráficas e construção de sequências de deposição.", "why": "Ensina a pensar sítios como cronologias argumentadas a partir de relações físicas."},
+        "questions": ["Por que uma moeda de 1500 encontrada em uma camada não prova que toda a camada foi formada em 1500?", "Como perturbações posteriores alteram a interpretação?"],
+        "exercise": "Desenhe uma matriz estratigráfica simples com piso, fossa, aterro e muro e explique a ordem provável dos eventos."
+      },
+      {
+        "title": "Cultura material e cotidiano",
+        "explanation": ["Objetos participam de relações sociais. Uma panela, um vestido, uma ferramenta ou uma casa possuem formas de produção, circulação, uso, reparo e descarte que podem indicar trabalho, gênero, status, identidade e hábitos cotidianos.", "O desafio é evitar duas armadilhas: imaginar que um tipo de objeto corresponde automaticamente a um povo, ou atribuir significado simbólico sem evidência contextual. Cultura material exige comparação entre conjuntos e práticas."],
+        "concepts": ["consumo", "uso", "descarte", "tecnologia", "identidade"],
+        "reading": {"work": "Ian Hodder — Reading the Past", "focus": "Interpretação contextual e crítica a associações automáticas entre artefato e identidade.", "why": "Mostra por que significado material depende de relações históricas específicas."},
+        "questions": ["Um estilo cerâmico identifica necessariamente uma etnia?", "Como objetos podem revelar desigualdade social?"],
+        "exercise": "Compare dois inventários domésticos ou dois conjuntos arqueológicos e proponha hipóteses sobre trabalho, consumo e status."
+      },
+      {
+        "title": "Epigrafia e inscrições",
+        "explanation": ["Inscrições em pedra, metal, cerâmica, madeira e outros suportes combinam texto e materialidade. A posição de uma inscrição, seu tamanho, público e suporte fazem parte da mensagem tanto quanto as palavras.", "Epigrafia exige atenção a abreviações, fórmulas, reconstruções e lacunas. Uma dedicatória monumental e um grafite de parede representam práticas de escrita e públicos muito diferentes."],
+        "concepts": ["epigrafia", "inscrição", "suporte", "fórmula", "público"],
+        "reading": {"work": "Alison Cooley — The Cambridge Manual of Latin Epigraphy", "focus": "Princípios de leitura, contexto e publicação de inscrições.", "why": "Mesmo usando exemplos romanos, oferece método transferível a outras tradições epigráficas."},
+        "questions": ["Por que o lugar onde uma inscrição foi exibida importa?", "Como uma restauração editorial deve ser distinguida do texto preservado?"],
+        "exercise": "Analise uma inscrição publicada em banco de dados: transcreva o que está preservado, identifique reconstruções e descreva o contexto material."
+      },
+      {
+        "title": "Numismática e circulação",
+        "explanation": ["Moedas são instrumentos econômicos, objetos políticos e meios de comunicação. Metal, peso, iconografia, legenda e local de achado podem iluminar soberania, tributação, comércio e circulação monetária.", "Tesouros monetários precisam ser contextualizados: a moeda mais recente pode oferecer um terminus post quem para o depósito, mas não explica sozinha por que o conjunto foi enterrado ou abandonado."],
+        "concepts": ["numismática", "cunhagem", "iconografia", "tesouro monetário", "circulação"],
+        "reading": {"work": "Christopher Howgego — Ancient History from Coins", "focus": "Como moedas podem sustentar perguntas políticas, econômicas e sociais.", "why": "Demonstra usos e limites da evidência numismática em História."},
+        "questions": ["Que mensagens políticas cabem em uma moeda?", "Por que mapa de achados não equivale automaticamente a mapa de comércio?"],
+        "exercise": "Escolha três moedas de um mesmo governante e compare imagem, legenda, metal e contexto de circulação."
+      },
+      {
+        "title": "Paisagem, arqueologia digital e ética",
+        "explanation": ["Paisagens são construções históricas. Estradas, campos, rios modificados, assentamentos e limites podem ser estudados por levantamento, sensoriamento remoto, LiDAR, fotografia aérea e GIS.", "Ao mesmo tempo, arqueologia envolve patrimônio, comunidades locais, restos humanos, tráfico de antiguidades e colonialismo disciplinar. Produzir conhecimento exige discutir quem autoriza escavar, quem conserva e quem tem direito de interpretar e acessar materiais."],
+        "concepts": ["paisagem", "GIS", "sensoriamento remoto", "patrimônio", "repatriação"],
+        "reading": {"work": "Lynn Meskell — Archaeology Under Fire", "focus": "Patrimônio, identidade, conflito e ética arqueológica.", "why": "Coloca técnica e política no mesmo quadro de análise."},
+        "questions": ["Quem deve decidir o destino de restos humanos e objetos retirados em contextos coloniais?", "Como GIS pode criar a ilusão de precisão excessiva?"],
+        "exercise": "Escolha um sítio e proponha um plano de pesquisa que combine fontes escritas, levantamento espacial, cultura material e protocolo ético."
+      }
+    ],
+    "readingGuide": [
+      {"work": "Renfrew e Bahn — Archaeology: Theories, Methods and Practice", "role": "Manual-base", "how": "Use como consulta por método, criando glossário de técnicas e limites.", "deliverable": "Mapa de métodos com pergunta, evidência, potencial e limitação."},
+      {"work": "Ian Hodder — Reading the Past", "role": "Interpretação", "how": "Leia comparando explicações processuais e contextuais.", "deliverable": "Resenha crítica sobre como significado é atribuído a objetos."},
+      {"work": "Christopher Howgego — Ancient History from Coins", "role": "Estudo de caso", "how": "Use para treinar passagem de objeto material a argumento histórico.", "deliverable": "Análise de um pequeno conjunto monetário."}
+    ],
+    "finalProject": "Produza um dossiê de pesquisa de um sítio, monumento ou conjunto material combinando pelo menos três tipos de evidência e explicitando cronologia, contexto, hipóteses alternativas e questões éticas."
+  },
+  "bizancio-mediterraneo-oriental": {
+    "intro": "O Império que chamamos de Bizantino era, para seus habitantes, o Império Romano. Constantinopla tornou-se o principal centro político de uma formação estatal que atravessou mais de mil anos, conectando Mediterrâneo, Bálcãs, Mar Negro e Oriente Próximo. Estudar Bizâncio corrige um corte artificial entre Roma e a Idade Média e ajuda a compreender cristianismos orientais, expansão islâmica, cruzadas, comércio e diplomacia euro-asiática.",
+    "objectives": ["Entender Bizâncio como continuidade e transformação do Império Romano.", "Relacionar religião, corte, administração e legitimidade imperial.", "Analisar contatos e conflitos com persas, árabes, eslavos, latinos e turcos.", "Compreender iconoclasmo, cruzadas e 1204 como disputas internas e internacionais.", "Explicar a queda de Constantinopla dentro de processos de longa duração."],
+    "modules": [
+      {
+        "title": "Roma Oriental e Constantinopla",
+        "explanation": ["A fundação de Constantinopla por Constantino em 330 reforçou uma tendência de deslocamento político para o leste. A cidade controlava rotas entre Mediterrâneo e Mar Negro e desenvolveu instituições imperiais profundamente romanas e cristãs.", "A divisão administrativa do império não criou imediatamente dois mundos isolados. Leis, exércitos, impostos, elites e identidades permaneceram conectados por séculos."],
+        "concepts": ["Constantinopla", "romanidade", "imperador", "cristianização", "Mediterrâneo oriental"],
+        "reading": {"work": "Judith Herrin — Byzantium", "focus": "Formação de Constantinopla e continuidade romana.", "why": "Oferece entrada acessível sem tratar Bizâncio como simples decadência de Roma."},
+        "questions": ["Por que os habitantes do império se chamavam romanos?", "Que vantagens políticas e geográficas Constantinopla oferecia?"],
+        "exercise": "Compare um mapa do império no século IV com um do século VII e identifique continuidades e perdas territoriais."
+      },
+      {
+        "title": "Justiniano e o século VI",
+        "explanation": ["Justiniano tentou restaurar controle sobre territórios ocidentais, reformou leis e patrocinou obras monumentais como Hagia Sophia. As guerras contra vândalos, ostrogodos e persas ampliaram prestígio e custos fiscais.", "Procópio oferece narrativas indispensáveis e contraditórias: suas Guerras exaltam campanhas enquanto a História Secreta ataca violentamente Justiniano e Teodora. Essa tensão é excelente para crítica de fontes."],
+        "concepts": ["Justiniano", "Corpus Juris Civilis", "Hagia Sophia", "reconquista", "Procópio"],
+        "reading": {"work": "Procópio — Guerras e História Secreta", "focus": "Compare retratos do mesmo governo em gêneros diferentes.", "why": "Permite observar como propósito e público alteram a representação política."},
+        "questions": ["A política de Justiniano foi restauração romana ou transformação imperial?", "Como explicar retratos tão diferentes do mesmo governante?"],
+        "exercise": "Escreva uma crítica documental comparando duas passagens de Procópio sobre Justiniano ou Teodora."
+      },
+      {
+        "title": "Cristianismo oriental e iconoclasmo",
+        "explanation": ["Debates sobre natureza de Cristo, autoridade episcopal, liturgia e imagens religiosas envolveram teologia e política. O iconoclasmo dos séculos VIII e IX não foi simples guerra entre pessoas que gostavam ou odiavam imagens.", "Imperadores, monges, bispos, exército e regiões diferentes tinham interesses e argumentos distintos. A restauração das imagens em 843 tornou-se elemento central da memória ortodoxa."],
+        "concepts": ["ortodoxia", "ícone", "iconoclasmo", "concílio", "patriarcado"],
+        "reading": {"work": "Leslie Brubaker e John Haldon — Byzantium in the Iconoclast Era", "focus": "Evidências e revisão das narrativas tradicionais sobre iconoclasmo.", "why": "Mostra como debates historiográficos mudam quando fontes são relidas criticamente."},
+        "questions": ["Por que imagens religiosas podiam tornar-se questão de Estado?", "Que problemas surgem porque muitas fontes iconoclastas foram destruídas?"],
+        "exercise": "Compare uma defesa de ícones com uma fonte hostil às imagens e liste pressupostos teológicos e políticos."
+      },
+      {
+        "title": "Bizâncio, eslavos e mundo islâmico",
+        "explanation": ["As conquistas árabes do século VII retiraram do império Síria, Palestina e Egito, alterando finanças, fronteiras e escala estatal. Ao norte, migrações e formações políticas eslavas transformaram os Bálcãs.", "Bizâncio respondeu por guerra, tributação, diplomacia, comércio e missão religiosa. Converter búlgaros ou povos da Rus' também era forma de construir redes políticas."],
+        "concepts": ["califado", "fronteira", "Bálcãs", "diplomacia", "cristianização"],
+        "reading": {"work": "Anthony Kaldellis — The New Roman Empire", "focus": "Séculos VII a X e adaptação imperial.", "why": "Recoloca a capacidade de transformação do Estado romano oriental no centro da narrativa."},
+        "questions": ["Perda territorial significa necessariamente colapso estatal?", "Como religião funcionava como linguagem diplomática?"],
+        "exercise": "Construa uma tabela das relações bizantinas com árabes, búlgaros e Rus' usando guerra, comércio, tributo e religião."
+      },
+      {
+        "title": "Cruzadas e 1204",
+        "explanation": ["As cruzadas aproximaram e tensionaram cristãos latinos e orientais. Em 1204, a Quarta Cruzada desviou-se para Constantinopla, saqueou a cidade e criou um Império Latino.", "O episódio enfraqueceu estruturas políticas e econômicas, mas Bizâncio não desapareceu: Estados sucessores em Niceia, Epiro e Trebizonda disputaram legitimidade e territórios até a recuperação de Constantinopla em 1261."],
+        "concepts": ["cruzadas", "1204", "Império Latino", "Niceia", "cisma"],
+        "reading": {"work": "Jonathan Harris — Byzantium and the Crusades", "focus": "Relações entre bizantinos e cruzados antes e depois de 1204.", "why": "Evita narrar cruzadas apenas do ponto de vista latino."},
+        "questions": ["Por que a Quarta Cruzada atacou uma cidade cristã?", "1204 foi mais decisivo para a queda posterior que 1453?"],
+        "exercise": "Compare uma crônica latina e uma bizantina sobre 1204, identificando vocabulário de legitimidade e culpa."
+      },
+      {
+        "title": "Paleólogos e queda de Constantinopla",
+        "explanation": ["Após 1261, o império restaurado era menor, financeiramente pressionado e cercado por potências balcânicas, italianas e turcas. Ainda assim, viveu intensa produção intelectual e artística.", "A conquista otomana de 1453 resultou de expansão territorial, artilharia, bloqueio e isolamento político, não de uma decadência linear iniciada mil anos antes. Constantinopla continuou central sob domínio otomano."],
+        "concepts": ["Paleólogos", "otomanos", "1453", "artilharia", "Renascimento paleólogo"],
+        "reading": {"work": "Donald Nicol — The Last Centuries of Byzantium", "focus": "Estruturas políticas e relações internacionais dos séculos XIII a XV.", "why": "Permite explicar 1453 sem teleologia de decadência inevitável."},
+        "questions": ["Por que impérios menores podem permanecer culturalmente dinâmicos?", "Que fatores de curto e longo prazo explicam 1453?"],
+        "exercise": "Construa uma explicação multicausal para 1453 separando fatores militares, fiscais, diplomáticos e geográficos."
+      }
+    ],
+    "readingGuide": [
+      {"work": "Judith Herrin — Byzantium", "role": "Síntese", "how": "Use como mapa geral e marque conexões com Roma, Islã e Europa medieval.", "deliverable": "Linha do tempo comentada de 330 a 1453."},
+      {"work": "Anthony Kaldellis — The New Roman Empire", "role": "Revisão historiográfica", "how": "Observe a insistência na identidade romana e compare com manuais tradicionais.", "deliverable": "Ensaio sobre o problema do nome 'Bizantino'."},
+      {"work": "Procópio — obras selecionadas", "role": "Fonte primária", "how": "Leia sempre identificando gênero, patronagem e audiência.", "deliverable": "Crítica comparativa de duas representações do governo de Justiniano."}
+    ],
+    "finalProject": "Escreva 2.000 a 3.000 palavras respondendo: Bizâncio deve ser entendido como continuação de Roma, civilização medieval própria ou ambas? Use fontes primárias e pelo menos três historiadores modernos."
+  },
+  "china-leste-asiatico": {
+    "intro": "Esta disciplina acompanha a história da China e suas conexões com Coreia, Japão, estepes e redes asiáticas. Em vez de imaginar uma civilização imóvel, o curso destaca transformações de Estado, economia, pensamento, fronteiras e identidades. Dinastias são úteis para organizar cronologia, mas não substituem processos sociais: mudanças agrárias, urbanização, circulação monetária, guerras e contatos regionais atravessam diferentes casas governantes.",
+    "objectives": ["Construir uma cronologia básica das principais formações imperiais chinesas.", "Relacionar confucionismo, legalismo, budismo e instituições políticas.", "Compreender transformações econômicas de Tang e Song e debates sobre a Grande Divergência.", "Analisar relações entre China, povos das estepes, Coreia e Japão.", "Explicar imperialismo, revolução e formação de Estados modernos no Leste Asiático."],
+    "modules": [
+      {
+        "title": "Zhou, pensamento clássico e Estados Combatentes",
+        "explanation": ["A longa era Zhou viu descentralização política e competição entre Estados. Nesse ambiente surgiram tradições associadas a Confúcio, Mozi, Laozi e pensadores legalistas.", "Essas tradições não eram filosofias abstratas desconectadas da política: respondiam a problemas de ordem, guerra, administração, família e virtude em uma época de transformação."],
+        "concepts": ["Zhou", "Mandato do Céu", "confucionismo", "legalismo", "Estados Combatentes"],
+        "reading": {"work": "Confúcio — Analectos", "focus": "Passagens sobre governo, educação, ritual e virtude.", "why": "Ajuda a estudar uma tradição que seria reinterpretada continuamente por séculos."},
+        "questions": ["Como Mandato do Céu podia legitimar e também deslegitimar dinastias?", "Que problema político confucionismo e legalismo tentavam resolver?"],
+        "exercise": "Compare duas propostas de governo, uma confuciana e uma legalista, usando textos primários."
+      },
+      {
+        "title": "Qin e Han: formação imperial",
+        "explanation": ["Qin unificou reinos rivais em 221 a.C. por guerra, padronização e administração centralizada. Sua curta duração não significa fracasso completo: muitas estruturas foram adaptadas pelos Han.", "A dinastia Han combinou burocracia, tributação, expansão militar, rotas comerciais e construção ideológica de império. Relações com Xiongnu mostram que fronteiras eram espaços de negociação e conflito."],
+        "concepts": ["Qin", "Han", "burocracia", "padronização", "Xiongnu"],
+        "reading": {"work": "Mark Edward Lewis — The Early Chinese Empires", "focus": "Formação estatal Qin-Han e construção de identidade imperial.", "why": "Apresenta instituições e cultura como processos interligados."},
+        "questions": ["Por que Qin pode ser breve e ainda assim estruturalmente decisivo?", "Como impérios negociam fronteiras móveis?"],
+        "exercise": "Crie um quadro comparando Qin e Han em administração, ideologia, expansão e duração."
+      },
+      {
+        "title": "Tang e redes eurasiáticas",
+        "explanation": ["Tang governou uma sociedade cosmopolita conectada à Ásia Central, península coreana, Japão e rotas comerciais. Chang'an reuniu mercadores, diplomatas e religiões diferentes.", "Budismo ganhou força e também enfrentou perseguições. A rebelião de An Lushan no século VIII mostra tensões entre exército, fronteiras, finanças e corte."],
+        "concepts": ["Tang", "Chang'an", "Rota da Seda", "budismo", "An Lushan"],
+        "reading": {"work": "Valerie Hansen — The Silk Road", "focus": "Redes de circulação e evidências documentais locais.", "why": "Evita representar a Rota da Seda como uma única estrada comercial contínua."},
+        "questions": ["O que significa cosmopolitismo em uma capital imperial?", "Como circulação religiosa se conecta a comércio e diplomacia?"],
+        "exercise": "Mapeie cinco pontos de circulação entre China e Ásia Central e identifique bens, pessoas e ideias envolvidos."
+      },
+      {
+        "title": "Song, economia e transformação social",
+        "explanation": ["Durante Song, crescimento urbano, impressão, papel-moeda, mercados e produção artesanal alcançaram grande escala. Mudanças no sistema de exames e na elite letrada alteraram relações sociais.", "A intensidade econômica do período alimenta debates sobre por que industrialização mecanizada não ocorreu ali antes da Europa. A resposta não pode ser reduzida a uma suposta falta cultural de inovação."],
+        "concepts": ["Song", "urbanização", "papel-moeda", "impressão", "Grande Divergência"],
+        "reading": {"work": "Kenneth Pomeranz — A Grande Divergência", "focus": "Comparação entre regiões chinesas e europeias antes da industrialização.", "why": "Questiona narrativas que tratam supremacia europeia como destino antigo."},
+        "questions": ["Quais indicadores sugerem alta comercialização na China Song?", "Que fatores Pomeranz usa para explicar divergência posterior?"],
+        "exercise": "Compare duas explicações para a divergência econômica entre China e Europa."
+      },
+      {
+        "title": "Mongóis, Yuan, Ming e Qing",
+        "explanation": ["A conquista mongol integrou a China a um império eurasiático de escala inédita. Yuan governou por estruturas imperiais que combinavam tradições mongóis e chinesas.", "Ming e Qing reorganizaram fronteiras, comércio e administração. Qing, de origem manchu, expandiu territórios e governou uma formação multiétnica que não deve ser reduzida a simples continuidade nacional chinesa."],
+        "concepts": ["Yuan", "Ming", "Qing", "manchus", "império multiétnico"],
+        "reading": {"work": "Pamela Crossley — A Translucent Mirror", "focus": "Identidade e ideologia no império Qing.", "why": "Ajuda a pensar império e etnicidade sem projetar nacionalismo moderno para trás."},
+        "questions": ["Qing foi uma dinastia chinesa ou um império manchu?", "Como a escala mongol alterou circulação eurasiática?"],
+        "exercise": "Compare mapas Yuan e Qing e analise como diferentes regimes pensaram fronteira e diversidade."
+      },
+      {
+        "title": "Japão, Coreia, imperialismo e revoluções modernas",
+        "explanation": ["O Leste Asiático moderno foi moldado por reformas estatais, imperialismo europeu e japonês, nacionalismos, guerras e revoluções. A Restauração Meiji transformou instituições japonesas; a Coreia tornou-se colônia japonesa em 1910.", "Na China, queda Qing, república, guerra civil, invasão japonesa e revolução comunista produziram rupturas profundas. Depois de 1945, divisão da Coreia e Guerra Fria regional consolidaram novas fronteiras."],
+        "concepts": ["Meiji", "imperialismo japonês", "República da China", "revolução comunista", "Coreia"],
+        "reading": {"work": "Marius Jansen — The Making of Modern Japan", "focus": "Transformação institucional e imperialismo japonês.", "why": "Permite comparar modernização e construção imperial sem tratá-las como processos separados."},
+        "questions": ["Modernização implica ocidentalização?", "Como imperialismo japonês altera narrativas simples de Ocidente versus Ásia?"],
+        "exercise": "Monte uma cronologia conectando 1868, 1895, 1910, 1931, 1937, 1945 e 1949."
+      }
+    ],
+    "readingGuide": [
+      {"work": "Patricia Ebrey — The Cambridge Illustrated History of China", "role": "Síntese", "how": "Use para cronologia e cultura material, anotando mudanças entre períodos.", "deliverable": "Linha do tempo de dinastias e processos sociais paralelos."},
+      {"work": "Kenneth Pomeranz — A Grande Divergência", "role": "Debate historiográfico", "how": "Compare China e Europa sem assumir excepcionalismo europeu desde o início.", "deliverable": "Quadro de hipóteses para a divergência econômica."},
+      {"work": "Analectos de Confúcio e documentos imperiais selecionados", "role": "Fontes", "how": "Contextualize produção, transmissão e uso político posterior.", "deliverable": "Análise de como uma ideia clássica foi reinterpretada em outro período."}
+    ],
+    "finalProject": "Escreva um ensaio comparativo sobre uma transformação de longa duração na China ou no Leste Asiático, articulando pelo menos três períodos e evitando explicar o presente como resultado inevitável do passado."
+  },
+  "india-sul-asia": {
+    "intro": "O Sul da Ásia reúne enorme diversidade linguística, religiosa, política e ecológica. Esta disciplina evita transformar 'Índia' em uma unidade eterna e acompanha diferentes formações urbanas, impérios, redes religiosas e Estados regionais antes do domínio colonial. O curso termina com o Raj britânico, nacionalismos, independência e Partição, destacando como categorias coloniais e projetos políticos modernos reorganizaram identidades anteriores.",
+    "objectives": ["Distinguir grandes períodos e regiões da história sul-asiática sem pressupor unidade política contínua.", "Relacionar hinduísmo, budismo, jainismo, islamismo e sikhismo a contextos históricos específicos.", "Analisar Maurya, Gupta, sultanatos e Mogóis como formações políticas distintas.", "Compreender colonialismo britânico como processo econômico, administrativo e cultural.", "Explicar nacionalismos, independência e Partição como processos conflituosos e contingentes."],
+    "modules": [
+      {
+        "title": "Vale do Indo e primeiros urbanismos",
+        "explanation": ["Harappa, Mohenjo-daro e outros centros do terceiro milênio a.C. formaram uma das primeiras sociedades urbanas do mundo. Planejamento, padronização de pesos e redes comerciais são visíveis arqueologicamente.", "A escrita do Indo permanece não decifrada, o que limita afirmações sobre língua, religião e governo. Esse caso exige disciplina metodológica para separar evidência de especulação."],
+        "concepts": ["Harappa", "Mohenjo-daro", "urbanismo", "escrita do Indo", "arqueologia"],
+        "reading": {"work": "Upinder Singh — A History of Ancient and Early Medieval India", "focus": "Capítulos sobre Harappa e limites da documentação.", "why": "Integra arqueologia e história sem preencher lacunas documentais com certezas indevidas."},
+        "questions": ["O que podemos afirmar sem decifrar a escrita do Indo?", "Padronização material prova existência de um Estado centralizado?"],
+        "exercise": "Liste evidências a favor e contra um modelo de centralização política para a civilização do Indo."
+      },
+      {
+        "title": "Vedas, religiões e formações sociais",
+        "explanation": ["Textos védicos foram produzidos e transmitidos oralmente durante séculos em contextos de transformação social. Eles não descrevem toda a população do Sul da Ásia, mas preservam tradições de grupos específicos.", "Conceitos de varna, ritual e autoridade sacerdotal mudaram ao longo do tempo. Upanishads, movimentos śramaṇa e novas tradições religiosas mostram diversidade intelectual crescente."],
+        "concepts": ["Vedas", "varna", "ritual", "Upanishads", "śramaṇa"],
+        "reading": {"work": "Romila Thapar — Early India", "focus": "Transformações entre sociedades védicas e formação de Estados.", "why": "Evita ler categorias sociais posteriores como se fossem imutáveis desde a Antiguidade."},
+        "questions": ["Por que textos religiosos não equivalem a censos sociais?", "Como transmissão oral afeta o uso histórico de um texto?"],
+        "exercise": "Compare uma passagem védica e uma upanishádica, identificando diferenças de preocupação religiosa e social."
+      },
+      {
+        "title": "Maurya, Ashoka e budismo",
+        "explanation": ["O Império Maurya, especialmente sob Ashoka no século III a.C., articulou vastos territórios por administração, tributos e redes políticas. Inscrições de Ashoka espalhadas pelo subcontinente são fontes centrais.", "Após a guerra de Kalinga, Ashoka promoveu dhamma e patronagem budista, mas suas inscrições devem ser lidas como comunicação imperial, não como diário íntimo de conversão."],
+        "concepts": ["Maurya", "Ashoka", "dhamma", "Kalinga", "inscrições"],
+        "reading": {"work": "Inscrições de Ashoka — seleção", "focus": "Público, geografia e vocabulário político-religioso.", "why": "É oportunidade excelente para epigrafia e construção de autoridade imperial."},
+        "questions": ["Dhamma era budismo estatal?", "O que a distribuição geográfica das inscrições sugere sobre governo?"],
+        "exercise": "Compare dois éditos de Ashoka e identifique mensagem, público e problemas de tradução."
+      },
+      {
+        "title": "Gupta e mundos regionais",
+        "explanation": ["O período Gupta é frequentemente chamado de 'idade de ouro', expressão que precisa ser examinada criticamente. Produção literária, matemática, astronomia e arte floresceram, mas benefícios e experiências variavam por região e grupo social.", "Após Gupta, múltiplos reinos regionais desenvolveram centros políticos e culturais próprios. Uma narrativa focada apenas em impérios perde grande parte da diversidade sul-asiática."],
+        "concepts": ["Gupta", "idade de ouro", "Sânscrito", "regionalização", "patronagem"],
+        "reading": {"work": "Upinder Singh — A History of Ancient and Early Medieval India", "focus": "Gupta, redes regionais e produção cultural.", "why": "Ajuda a desmontar a ideia de uma única sequência imperial contínua."},
+        "questions": ["Quem fica invisível quando chamamos um período de idade de ouro?", "Como patronagem política molda produção cultural?"],
+        "exercise": "Avalie criticamente o rótulo 'idade de ouro Gupta' usando três indicadores diferentes."
+      },
+      {
+        "title": "Sultanatos e Império Mogol",
+        "explanation": ["Sultanatos de Délhi e outros Estados islâmicos conectaram o Sul da Ásia a redes persianizadas e centro-asiáticas. O Império Mogol combinou conquista, administração fiscal, patronagem e negociação com elites regionais.", "Políticas religiosas variaram entre governantes e contextos. Reduzir toda a época a conflito permanente entre 'hindus' e 'muçulmanos' projeta categorias políticas modernas sobre sociedades mais complexas."],
+        "concepts": ["Sultanato de Délhi", "Mogóis", "mansabdari", "Akbar", "Persianização"],
+        "reading": {"work": "Muzaffar Alam e Sanjay Subrahmanyam — estudos sobre mundo mogol", "focus": "Administração, cultura política e conexões regionais.", "why": "Apresenta o império como espaço plural e conectado."},
+        "questions": ["Como Akbar governava diversidade religiosa e regional?", "Por que categorias comunais modernas podem distorcer o período mogol?"],
+        "exercise": "Analise uma miniatura mogol como fonte sobre corte, hierarquia e representação imperial."
+      },
+      {
+        "title": "Raj britânico, nacionalismos, independência e Partição",
+        "explanation": ["A expansão britânica ocorreu gradualmente por companhia comercial, alianças, guerra, tributação e administração. A rebelião de 1857 marcou ruptura importante e levou ao governo direto da Coroa.", "Nacionalismo anticolonial reuniu projetos concorrentes. Congresso Nacional Indiano, Liga Muçulmana, movimentos sociais e lideranças regionais disputavam futuros diferentes. A independência de 1947 veio acompanhada da Partição, violência em massa e deslocamentos entre Índia e Paquistão."],
+        "concepts": ["Companhia das Índias Orientais", "Raj", "1857", "Congresso", "Partição"],
+        "reading": {"work": "Sugata Bose e Ayesha Jalal — Modern South Asia", "focus": "Colonialismo, nacionalismos e Partição.", "why": "Integra dimensões regionais e evita narrativa nacional única."},
+        "questions": ["Por que 1857 recebe nomes diferentes em historiografias distintas?", "A Partição era inevitável em 1947?"],
+        "exercise": "Compare discursos de Gandhi, Nehru, Jinnah e uma voz subalterna sobre independência e comunidade política."
+      }
+    ],
+    "readingGuide": [
+      {"work": "Upinder Singh — A History of Ancient and Early Medieval India", "role": "Manual-base", "how": "Acompanhe mapas, sítios arqueológicos e fontes primárias por região.", "deliverable": "Cronologia regional comentada até o período medieval inicial."},
+      {"work": "Romila Thapar — Early India", "role": "Interpretação", "how": "Observe debates sobre categorias, Estado e identidade.", "deliverable": "Resenha sobre o risco de nacionalizar o passado antigo."},
+      {"work": "Sugata Bose e Ayesha Jalal — Modern South Asia", "role": "Moderno e contemporâneo", "how": "Leia colonialismo e nacionalismos em escala subcontinental.", "deliverable": "Mapa de projetos políticos concorrentes antes de 1947."}
+    ],
+    "finalProject": "Produza um ensaio de 2.000 a 3.000 palavras sobre uma ruptura ou continuidade entre período pré-colonial e colonial no Sul da Ásia, usando ao menos uma fonte primária e três estudos historiográficos."
+  }
+}

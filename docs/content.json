@@ -1,0 +1,170 @@
+{
+  "introducao-historia": {
+    "intro": "História não é apenas o conjunto de coisas que aconteceram. É também uma forma disciplinada de investigar o passado a partir dos vestígios que chegaram até nós. O historiador formula perguntas, seleciona e critica fontes, confronta evidências e constrói interpretações que precisam ser argumentadas publicamente. Nesta disciplina, o objetivo é aprender essa linguagem antes de mergulhar nos grandes períodos históricos.",
+    "objectives": [
+      "Distinguir passado, memória, História e historiografia.",
+      "Entender como uma fonte se transforma em evidência histórica.",
+      "Reconhecer que periodizações são ferramentas analíticas, não divisões naturais do tempo.",
+      "Construir explicações históricas sem reduzir acontecimentos a uma causa única.",
+      "Aplicar crítica documental básica a textos, imagens, objetos e testemunhos.",
+      "Separar interpretação fundamentada de opinião livre sobre o passado."
+    ],
+    "modules": [
+      {
+        "title": "O que é História?",
+        "explanation": [
+          "O passado é tudo aquilo que aconteceu. História, como disciplina, é o conhecimento que construímos sobre esse passado por meio de perguntas, fontes, métodos e argumentos. Essa diferença é fundamental: o passado não pode ser visitado diretamente, mas deixou vestígios que podem ser interrogados.",
+          "O historiador não simplesmente coleta fatos prontos. Ele precisa decidir quais problemas investigar, avaliar quais fontes são relevantes e explicar por que determinadas evidências sustentam uma interpretação. Isso não significa que qualquer interpretação seja válida. Uma interpretação histórica precisa resistir ao confronto com as fontes, com outros estudos e com críticas metodológicas.",
+          "Também é útil distinguir História de historiografia. História pode designar tanto os processos do passado quanto a disciplina que os estuda. Historiografia é o estudo de como historiadores escreveram e interpretaram determinado tema ao longo do tempo."
+        ],
+        "concepts": ["passado", "História", "historiografia", "evidência", "interpretação", "problema histórico"],
+        "reading": {
+          "work": "Marc Bloch — Apologia da História ou O Ofício de Historiador",
+          "focus": "Leia a introdução e os trechos iniciais sobre o ofício do historiador e a relação entre seres humanos e tempo.",
+          "why": "Bloch apresenta a História como investigação, não como simples memorização de acontecimentos."
+        },
+        "questions": [
+          "Qual é a diferença entre dizer que algo aconteceu e explicar historicamente por que aconteceu?",
+          "Uma interpretação histórica pode ser objetiva sem ser neutra?",
+          "O que torna uma afirmação sobre o passado historicamente defensável?"
+        ],
+        "exercise": "Escolha um acontecimento conhecido e encontre duas explicações diferentes para ele. Liste o que cada explicação considera importante, quais causas privilegia e quais evidências seriam necessárias para sustentá-la."
+      },
+      {
+        "title": "Tempo histórico e periodização",
+        "explanation": [
+          "Cronologia organiza acontecimentos em sequência. Tempo histórico pergunta como diferentes processos mudam em velocidades distintas. Uma guerra pode durar anos, uma instituição pode atravessar séculos e certas estruturas econômicas ou culturais podem sobreviver a várias mudanças políticas.",
+          "Periodizações como Antiguidade, Idade Média e Idade Moderna são construções historiográficas. Elas ajudam a organizar o estudo, mas não são fronteiras naturais. O ano de 476, por exemplo, pode ser útil como referência para o fim político do Império Romano do Ocidente, mas não fez todas as estruturas romanas desaparecerem de um dia para o outro.",
+          "Pensar historicamente exige perceber continuidades, rupturas, ritmos diferentes e a escala temporal adequada para cada problema."
+        ],
+        "concepts": ["cronologia", "periodização", "continuidade", "ruptura", "longa duração", "anacronismo"],
+        "reading": {
+          "work": "Marc Bloch — Apologia da História",
+          "focus": "Concentre-se nas passagens sobre tempo histórico e sobre o perigo de compreender uma época apenas a partir das categorias do presente.",
+          "why": "A leitura ajuda a abandonar a ideia de que períodos históricos são caixas rígidas."
+        },
+        "questions": [
+          "Quando uma periodização ajuda e quando ela esconde continuidades?",
+          "Por que o anacronismo é um problema para a análise histórica?",
+          "Um mesmo acontecimento pode representar ruptura em uma dimensão e continuidade em outra?"
+        ],
+        "exercise": "Pegue a passagem da República para o Império Romano ou da Colônia para o Império do Brasil e monte duas listas: o que mudou e o que permaneceu."
+      },
+      {
+        "title": "Fontes e documentos",
+        "explanation": [
+          "Fontes históricas são vestígios do passado utilizados para responder perguntas. Podem ser leis, cartas, jornais, fotografias, edifícios, moedas, objetos, registros administrativos, músicas, mapas, entrevistas, bancos de dados e muitos outros materiais.",
+          "Nenhum documento fala sozinho. Uma carta privada pode revelar relações familiares, linguagem política, alfabetização ou redes comerciais dependendo da pergunta feita. Por isso, a mesma fonte pode produzir evidências para pesquisas muito diferentes.",
+          "A ausência também importa. Arquivos refletem relações de poder: algumas instituições produziram enormes quantidades de documentos, enquanto grupos marginalizados muitas vezes aparecem apenas através do olhar de autoridades, tribunais ou elites. O historiador precisa perguntar não só o que sobreviveu, mas por que sobreviveu."
+        ],
+        "concepts": ["fonte primária", "fonte secundária", "arquivo", "vestígio", "evidência", "silêncio documental"],
+        "reading": {
+          "work": "Carlo Ginzburg — Mitos, Emblemas, Sinais",
+          "focus": "Como leitura complementar, procure o ensaio sobre o paradigma indiciário.",
+          "why": "Ginzburg mostra como pequenos indícios podem sustentar investigações históricas quando interpretados cuidadosamente."
+        },
+        "questions": [
+          "Uma fonte primária é necessariamente mais confiável do que uma obra posterior?",
+          "Como uma mesma fonte pode responder perguntas diferentes?",
+          "O que podemos aprender com aquilo que não foi registrado?"
+        ],
+        "exercise": "Escolha uma fotografia histórica. Descreva primeiro apenas o que é observável. Depois formule três perguntas históricas diferentes que poderiam utilizar essa imagem como fonte."
+      },
+      {
+        "title": "Memória e História",
+        "explanation": [
+          "Memória e História se relacionam, mas não são equivalentes. A memória é vivida, seletiva, afetiva e ligada à identidade de indivíduos e grupos. A História transforma memórias em objetos de investigação e procura confrontá-las com outras evidências.",
+          "Testemunhos são fontes valiosas justamente porque registram experiências e significados. Ao mesmo tempo, lembranças são reconstruídas continuamente. Esquecer, reorganizar acontecimentos e interpretar o passado a partir do presente fazem parte do funcionamento da memória.",
+          "Monumentos, feriados, museus, nomes de ruas e comemorações também são formas de memória pública. Estudá-los significa perguntar quem decidiu lembrar, o que foi selecionado e quais versões ficaram à margem."
+        ],
+        "concepts": ["memória coletiva", "testemunho", "identidade", "comemoração", "esquecimento", "memória pública"],
+        "reading": {
+          "work": "Pierre Nora — Entre Memória e História: a problemática dos lugares",
+          "focus": "Leia como introdução ao problema dos lugares de memória.",
+          "why": "O texto ajuda a perceber monumentos e comemorações como objetos históricos, e não apenas como lembranças transparentes do passado."
+        },
+        "questions": [
+          "Por que uma lembrança sincera ainda pode conter imprecisões?",
+          "Quem controla a memória pública de uma sociedade?",
+          "Historiadores devem corrigir memórias coletivas quando elas entram em conflito com evidências?"
+        ],
+        "exercise": "Escolha um monumento, feriado ou nome de rua da sua cidade e investigue que narrativa histórica ele procura preservar. Depois identifique algo relevante que essa narrativa deixa de fora."
+      },
+      {
+        "title": "Causalidade e explicação histórica",
+        "explanation": [
+          "Grandes acontecimentos raramente possuem uma única causa. Historiadores distinguem condições de longa duração, causas estruturais, decisões individuais, conjunturas e gatilhos imediatos. Explicar historicamente significa mostrar como esses elementos se relacionaram.",
+          "A Primeira Guerra Mundial, por exemplo, não pode ser explicada apenas pelo assassinato do arquiduque Francisco Ferdinando. O atentado foi um gatilho dentro de um sistema de alianças, rivalidades imperiais, nacionalismos, decisões diplomáticas e expectativas militares já existentes.",
+          "Também devemos preservar a contingência: pessoas do passado não sabiam como os acontecimentos terminariam. Uma boa narrativa histórica evita transformar o resultado final em algo que parecia inevitável desde o início."
+        ],
+        "concepts": ["causa", "condição", "estrutura", "conjuntura", "contingência", "agência"],
+        "reading": {
+          "work": "E. H. Carr — Que é História?",
+          "focus": "Leia o capítulo dedicado à causalidade na História.",
+          "why": "Carr oferece uma boa porta de entrada para pensar hierarquias de causas e explicações históricas."
+        },
+        "questions": [
+          "Qual é a diferença entre causa e gatilho?",
+          "Como equilibrar estruturas sociais e decisões individuais?",
+          "Dizer que algo era provável é diferente de dizer que era inevitável?"
+        ],
+        "exercise": "Escolha um acontecimento histórico e classifique possíveis explicações em quatro grupos: longa duração, conjuntura, ação de indivíduos e gatilho imediato."
+      },
+      {
+        "title": "Introdução à crítica documental",
+        "explanation": [
+          "Crítica documental é o conjunto de perguntas usadas para avaliar uma fonte antes de transformá-la em evidência. Comece pela proveniência: quem produziu o material, quando, onde, em qual gênero e em quais circunstâncias?",
+          "Depois analise intenção e público. Um relatório policial, um discurso eleitoral e uma carta íntima obedecem a regras diferentes e precisam ser lidos de maneiras diferentes. Pergunte o que o autor poderia saber, o que desejava comunicar e quais incentivos tinha para omitir, exagerar ou reorganizar informações.",
+          "Por fim, confronte a fonte com outras evidências. A confiabilidade não é uma etiqueta fixa atribuída ao documento inteiro. Uma fonte pode ser pouco confiável para um detalhe factual e extremamente reveladora sobre valores, medos ou propaganda de determinado grupo."
+        ],
+        "concepts": ["autoria", "proveniência", "contexto", "intenção", "público", "corroboração"],
+        "reading": {
+          "work": "Marc Bloch — Apologia da História",
+          "focus": "Leia a parte dedicada à crítica histórica e à avaliação dos testemunhos.",
+          "why": "Bloch mostra que desconfiança metódica não significa rejeitar fontes, mas aprender a interrogá-las."
+        },
+        "questions": [
+          "Uma fonte tendenciosa pode ser historicamente útil?",
+          "Como o gênero do documento altera aquilo que podemos inferir dele?",
+          "Por que corroborar uma informação com fontes independentes é importante?"
+        ],
+        "exercise": "Analise uma notícia, discurso ou documento histórico usando seis perguntas: quem produziu, quando, para quem, com qual objetivo, o que afirma e com quais outras fontes seria possível confrontá-lo."
+      }
+    ],
+    "readingGuide": [
+      {
+        "priority": "Essencial",
+        "work": "Marc Bloch — Apologia da História ou O Ofício de Historiador",
+        "role": "Livro-base da disciplina.",
+        "how": "Não tente apenas resumir. Para cada capítulo, registre qual problema Bloch está tentando resolver e qual ideia de trabalho histórico aparece ali.",
+        "after": "Escreva uma página respondendo: o que um historiador faz que um simples cronista não faz?"
+      },
+      {
+        "priority": "Essencial",
+        "work": "E. H. Carr — Que é História?",
+        "role": "Introduz os debates sobre fatos, interpretação, causalidade e relação entre historiador e passado.",
+        "how": "Leia Carr em diálogo com Bloch. Marque pontos de aproximação e de tensão entre os dois.",
+        "after": "Produza uma tabela com duas colunas: Bloch e Carr. Compare como cada um trata fatos, interpretação e causalidade."
+      },
+      {
+        "priority": "Complementar",
+        "work": "Peter Burke — A Escola dos Annales",
+        "role": "Mostra como o campo histórico ampliou seus objetos, problemas e métodos durante o século XX.",
+        "how": "Use para entender que aquilo que os historiadores consideram digno de estudo também tem história.",
+        "after": "Liste cinco temas que hoje parecem naturais para a História, mas que poderiam receber pouca atenção em uma historiografia política tradicional."
+      },
+      {
+        "priority": "Aprofundamento",
+        "work": "Carlo Ginzburg — Mitos, Emblemas, Sinais",
+        "role": "Aprofunda o raciocínio baseado em indícios e evidências fragmentárias.",
+        "how": "Priorize o ensaio sobre o paradigma indiciário.",
+        "after": "Escolha um indício pequeno em uma fonte e descreva quais hipóteses ele permite formular e quais ele não permite afirmar."
+      }
+    ],
+    "finalProject": {
+      "title": "Ensaio final: o que significa pensar historicamente?",
+      "prompt": "Escreva entre 1.500 e 2.500 palavras defendendo uma resposta para a pergunta: História é reconstrução do passado, interpretação do passado ou ambas? Use pelo menos Bloch e Carr, inclua um exemplo de fonte primária e apresente ao menos uma objeção à sua própria tese.",
+      "criteria": ["clareza da tese", "uso de referências", "distinção entre evidência e opinião", "qualidade dos exemplos", "capacidade de responder a contrapontos"]
+    }
+  }
+}

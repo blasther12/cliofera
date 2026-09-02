@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cliofera-v7';
+const CACHE_NAME = 'cliofera-v8';
 const APP_SHELL = [
   './',
   './index.html',
@@ -34,9 +34,11 @@ const APP_SHELL = [
   './assets/greece-enhancement.js',
   './assets/curriculum-review.js',
   './icons/cliofera-mark.svg',
-  './icons/icon-192.png',
-  './icons/icon-512.png',
-  './icons/apple-touch-icon.png'
+  './icons/cliofera-app-icon.svg',
+  './icons/icon-32-v2.png',
+  './icons/icon-192-v2.png',
+  './icons/icon-512-v2.png',
+  './icons/apple-touch-icon-v2.png'
 ];
 
 self.addEventListener('install', event => {

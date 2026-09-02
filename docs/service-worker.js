@@ -1,10 +1,12 @@
-const CACHE_NAME = 'cliofera-v9';
+const CACHE_NAME = 'cliofera-v10';
 const APP_SHELL = [
   './',
   './index.html',
   './data.json',
   './extra-courses.json',
   './extra-courses-review.json',
+  './study-map.json',
+  './assessments.json',
   './literature.json',
   './literature-greece.json',
   './literature-review.json',
@@ -29,11 +31,13 @@ const APP_SHELL = [
   './assets/theme.css',
   './assets/media-timeline.css',
   './assets/install.css',
+  './assets/study-tools.css',
   './assets/app.js',
   './assets/install.js',
   './assets/theme.js',
   './assets/greece-enhancement.js',
   './assets/curriculum-review.js',
+  './assets/study-tools.js',
   './icons/cliofera-mark.svg',
   './icons/cliofera-app-icon.svg',
   './icons/icon-32-v2.png',

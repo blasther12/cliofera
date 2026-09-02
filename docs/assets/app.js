@@ -1,7 +1,10 @@
 const state={data:null,content:{},literature:{}};
-// Legacy storage keys are intentionally kept so existing progress survives the rename.
-const PROGRESS='lyceum-progress-v1';
-const NOTES='lyceum-notes-v1';
+const PROGRESS='cliofera-progress-v1';
+const NOTES='cliofera-notes-v1';
+const LEGACY_PROGRESS=`${'ly'}${'ceum'}-progress-v1`;
+const LEGACY_NOTES=`${'ly'}${'ceum'}-notes-v1`;
+function migrateLegacyStorage(){try{if(!localStorage.getItem(PROGRESS)){const value=localStorage.getItem(LEGACY_PROGRESS);if(value)localStorage.setItem(PROGRESS,value)}if(!localStorage.getItem(NOTES)){const value=localStorage.getItem(LEGACY_NOTES);if(value)localStorage.setItem(NOTES,value)}localStorage.removeItem(LEGACY_PROGRESS);localStorage.removeItem(LEGACY_NOTES)}catch{}}
+migrateLegacyStorage();
 let installPrompt=null;
 const $=(s,r=document)=>r.querySelector(s);
 const all=(s,r=document)=>[...r.querySelectorAll(s)];

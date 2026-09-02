@@ -19,7 +19,22 @@
   };
 
   function updateReadingMode() {
-    document.body.classList.toggle('course-reading', route()[0] === 'course');
+    const reading = route()[0] === 'course';
+    document.body.classList.toggle('course-reading', reading);
+    document.body.classList.toggle('lesson-reading-active', reading && !!document.querySelector('.lesson-card[open]'));
+  }
+
+  function makeOpening(body) {
+    if (body.querySelector('.lesson-opening')) return body.querySelector('.lesson-opening');
+    const firstParagraph = [...body.children].find(node => node.tagName === 'P');
+    if (!firstParagraph) return null;
+
+    const opening = document.createElement('section');
+    opening.className = 'lesson-opening';
+    opening.innerHTML = '<div class="eyebrow">Comece aqui</div>';
+    body.insertBefore(opening, firstParagraph);
+    opening.appendChild(firstParagraph);
+    return opening;
   }
 
   function decorate() {
@@ -37,29 +52,34 @@
 
     document.querySelectorAll('.lesson-card').forEach((card, index) => {
       const body = card.querySelector('.lesson-body');
-      if (!body || body.querySelector('[data-lesson-meta]')) return;
+      if (!body) return;
 
-      const previous = index > 0 ? (lessons[index - 1]?.title || course.modules?.[index - 1]) : null;
-      const prior = previous
-        ? `<span class="lesson-meta-prereq"><span>Antes:</span> <strong>${safe(previous)}</strong></span>`
-        : prereqs.length
-          ? `<span class="lesson-meta-prereq"><span>Antes:</span> ${prereqs.map(item => `<a href="#/course/${safe(item.id)}">${safe(item.title)}</a>`).join(' · ')}</span>`
-          : '';
+      const opening = makeOpening(body);
+      let meta = body.querySelector('[data-lesson-meta]');
+      if (!meta) {
+        const previous = index > 0 ? (lessons[index - 1]?.title || course.modules?.[index - 1]) : null;
+        const prior = previous
+          ? `<span class="lesson-meta-prereq"><span>Antes</span><strong>${safe(previous)}</strong></span>`
+          : prereqs.length
+            ? `<span class="lesson-meta-prereq"><span>Antes</span>${prereqs.map(item => `<a href="#/course/${safe(item.id)}">${safe(item.title)}</a>`).join(' · ')}</span>`
+            : '';
 
-      const meta = document.createElement('div');
-      meta.className = 'lesson-meta';
-      meta.dataset.lessonMeta = 'true';
-      meta.setAttribute('aria-label', 'Informações da aula');
-      meta.innerHTML = `
-        <span class="lesson-meta-item"><span>Tempo</span><strong>${estimated(course, index)}</strong></span>
-        <span class="lesson-meta-item"><span>Nível</span><strong>${difficulty(course)}</strong></span>
-        ${prior}
-      `;
+        meta = document.createElement('div');
+        meta.className = 'lesson-meta';
+        meta.dataset.lessonMeta = 'true';
+        meta.setAttribute('aria-label', 'Informações da aula');
+        meta.innerHTML = `
+          <span class="lesson-meta-item"><span>Tempo</span><strong>${estimated(course, index)}</strong></span>
+          <span class="lesson-meta-item"><span>Nível</span><strong>${difficulty(course)}</strong></span>
+          ${prior}
+        `;
+      }
 
-      const explanation = body.querySelector('.lesson-explanation');
-      if (explanation) explanation.after(meta);
-      else body.insertBefore(meta, body.firstChild);
+      if (opening && opening.nextElementSibling !== meta) opening.after(meta);
+      else if (!opening && body.firstElementChild !== meta) body.prepend(meta);
     });
+
+    updateReadingMode();
   }
 
   async function init() {
@@ -73,7 +93,18 @@
         decorate();
         const observer = new MutationObserver(() => decorate());
         if (app()) observer.observe(app(), { childList: true, subtree: true });
+
         addEventListener('hashchange', () => setTimeout(decorate, 120));
+        document.addEventListener('toggle', event => {
+          const card = event.target;
+          if (!(card instanceof HTMLDetailsElement) || !card.classList.contains('lesson-card')) return;
+          if (card.open && matchMedia('(max-width: 760px)').matches) {
+            document.querySelectorAll('.lesson-card[open]').forEach(other => {
+              if (other !== card) other.open = false;
+            });
+          }
+          updateReadingMode();
+        }, true);
         return;
       }
       setTimeout(wait, 100);

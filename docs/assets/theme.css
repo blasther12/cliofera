@@ -42,6 +42,7 @@
 :root[data-theme="dark"] .reading-guide-card p,
 :root[data-theme="dark"] .course-intro-text,
 :root[data-theme="dark"] .lesson-body > p,
+:root[data-theme="dark"] .lesson-explanation p,
 :root[data-theme="dark"] .literature-intro,
 :root[data-theme="dark"] .media-card p,
 :root[data-theme="dark"] .timeline-event p {
@@ -78,7 +79,45 @@
   background: transparent;
 }
 
-/* Secondary course content that had light-only hardcoded colors */
+/* Reading surfaces */
+:root[data-theme="dark"] .lesson-card,
+:root[data-theme="dark"] .reading-guide-card,
+:root[data-theme="dark"] .course-content-intro,
+:root[data-theme="dark"] .panel {
+  background: var(--paper);
+  border-color: var(--line);
+}
+
+:root[data-theme="dark"] .lesson-reading,
+:root[data-theme="dark"] .reading-callout {
+  background: #241f19;
+  color: var(--ink);
+  border-left-color: var(--gold);
+}
+
+:root[data-theme="dark"] .lesson-reading p,
+:root[data-theme="dark"] .reading-callout p,
+:root[data-theme="dark"] .reading-guide-card p {
+  color: #cfc7ba;
+}
+
+:root[data-theme="dark"] .course-content-nav {
+  background: rgba(15,18,22,.92);
+  border-color: var(--line);
+}
+
+:root[data-theme="dark"] .literature-panel {
+  background: linear-gradient(145deg, #1b1a17, #171b21);
+  border-color: var(--line);
+}
+
+:root[data-theme="dark"] .literature-note {
+  background: rgba(255,255,255,.035);
+  border-color: var(--line);
+  color: #cfc7ba;
+}
+
+/* Secondary course content */
 :root[data-theme="dark"] .reading-list {
   color: #c9c3b8;
 }
@@ -107,15 +146,6 @@
 
 :root[data-theme="dark"] .mini-track {
   background: #292e35;
-}
-
-:root[data-theme="dark"] .reading-callout {
-  background: #241f19;
-  color: var(--ink);
-}
-
-:root[data-theme="dark"] .reading-callout p {
-  color: #cfc7ba;
 }
 
 :root[data-theme="dark"] .content-badge {

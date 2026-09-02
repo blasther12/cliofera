@@ -3,20 +3,29 @@ import { readFile } from 'node:fs/promises';
 const root = new URL('../docs/', import.meta.url);
 const readJson = async path => JSON.parse(await readFile(new URL(path, root), 'utf8'));
 
-const data = await readJson('data.json');
+const base = await readJson('data.json');
+const extras = await readJson('extra-courses.json');
+const literature = await readJson('literature.json');
 const catalogs = await Promise.all([
   readJson('content.json'),
   readJson('content/year-1.json'),
   readJson('content/year-2.json'),
   readJson('content/year-3.json'),
   readJson('content/year-4.json'),
+  readJson('content/extension-a.json'),
+  readJson('content/extension-b.json'),
 ]);
 
+const courses = [...(base.courses || []), ...(extras.courses || [])];
 const content = Object.assign({}, ...catalogs);
 const errors = [];
 const warnings = [];
+const ids = new Set();
 
-for (const course of data.courses) {
+for (const course of courses) {
+  if (ids.has(course.id)) errors.push(`${course.id}: id de disciplina duplicado`);
+  ids.add(course.id);
+
   const detail = content[course.id];
   if (!detail) {
     errors.push(`${course.id}: sem conteúdo detalhado`);
@@ -39,17 +48,34 @@ for (const course of data.courses) {
     if (!module.exercise) errors.push(`${prefix}: exercício ausente`);
   }
 
+  const literary = literature[course.id];
+  if (!literary) {
+    errors.push(`${course.id}: biblioteca literária ausente`);
+  } else {
+    const works = [...(literary.essential || []), ...(literary.extended || [])];
+    if (!literary.intro || literary.intro.length < 50) errors.push(`${course.id}: orientação da biblioteca literária ausente`);
+    if (!Array.isArray(literary.essential) || literary.essential.length < 3) errors.push(`${course.id}: menos de 3 obras literárias essenciais`);
+    if (new Set(works).size !== works.length) warnings.push(`${course.id}: há obra repetida dentro da própria biblioteca literária`);
+  }
+
   if (detail.modules?.length !== course.modules?.length) {
-    warnings.push(`${course.id}: checklist possui ${course.modules.length} módulos e conteúdo detalhado possui ${detail.modules.length}.`);
+    warnings.push(`${course.id}: checklist base possui ${course.modules.length} módulos e conteúdo detalhado possui ${detail.modules.length}; o app sincroniza pelos títulos das aulas detalhadas.`);
   }
 }
 
-const unknown = Object.keys(content).filter(id => !data.courses.some(course => course.id === id));
-if (unknown.length) warnings.push(`Conteúdos sem disciplina correspondente: ${unknown.join(', ')}`);
+const unknownContent = Object.keys(content).filter(id => !ids.has(id));
+if (unknownContent.length) warnings.push(`Conteúdos sem disciplina correspondente: ${unknownContent.join(', ')}`);
+const unknownLiterature = Object.keys(literature).filter(id => !ids.has(id));
+if (unknownLiterature.length) warnings.push(`Bibliotecas literárias sem disciplina correspondente: ${unknownLiterature.join(', ')}`);
 
-console.log(`Disciplinas no currículo: ${data.courses.length}`);
-console.log(`Disciplinas com conteúdo: ${data.courses.filter(c => content[c.id]).length}`);
-console.log(`Aulas detalhadas: ${Object.values(content).reduce((n, c) => n + (c.modules?.length || 0), 0)}`);
+const lessonCount = courses.reduce((n, c) => n + (content[c.id]?.modules?.length || 0), 0);
+const literaryCount = courses.reduce((n, c) => n + (literature[c.id]?.essential?.length || 0) + (literature[c.id]?.extended?.length || 0), 0);
+
+console.log(`Disciplinas no currículo expandido: ${courses.length}`);
+console.log(`Disciplinas com conteúdo: ${courses.filter(c => content[c.id]).length}`);
+console.log(`Disciplinas com biblioteca literária: ${courses.filter(c => literature[c.id]).length}`);
+console.log(`Aulas detalhadas: ${lessonCount}`);
+console.log(`Obras na biblioteca literária: ${literaryCount}`);
 
 if (warnings.length) {
   console.warn('\nAvisos:');
@@ -62,4 +88,4 @@ if (errors.length) {
   process.exit(1);
 }
 
-console.log('\nConteúdo acadêmico válido.');
+console.log('\nCurrículo, conteúdo e biblioteca literária válidos.');

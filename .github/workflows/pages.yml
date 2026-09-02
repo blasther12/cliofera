@@ -29,6 +29,7 @@ jobs:
           node scripts/validate-content.mjs
           node scripts/validate-review.mjs
           node --check docs/assets/app.js
+          node --check docs/assets/install.js
           node --check docs/assets/greece-enhancement.js
           node --check docs/assets/curriculum-review.js
           node --check docs/assets/theme.js

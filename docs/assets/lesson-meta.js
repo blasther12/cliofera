@@ -1,4 +1,5 @@
 (() => {
+  let studyMap=null;
   const app=()=>document.getElementById('app');
   const route=()=>location.hash.replace(/^#\/?/,'').split('/').filter(Boolean);
   const courses=()=>{try{return state?.data?.courses||[]}catch{return[]}};
@@ -14,7 +15,7 @@
 
   function decorate(){
     const p=route();if(p[0]!=='course'||!p[1])return;const course=courseById(p[1]);if(!course)return;
-    const detail=state.content?.[course.id];const lessons=detail?.modules||[];const prereqIds=window.clioferaStudyMap?.prerequisites?.[course.id]||[];const prereqs=prereqIds.map(courseById).filter(Boolean);
+    const detail=state.content?.[course.id];const lessons=detail?.modules||[];const prereqIds=studyMap?.prerequisites?.[course.id]||[];const prereqs=prereqIds.map(courseById).filter(Boolean);
     document.querySelectorAll('.lesson-card').forEach((card,index)=>{
       const body=card.querySelector('.lesson-body');if(!body||body.querySelector('[data-lesson-meta]'))return;
       const previous=index>0?(lessons[index-1]?.title||course.modules?.[index-1]):null;
@@ -24,5 +25,6 @@
     });
   }
 
-  const wait=()=>{if(courses().length>=30){window.clioferaStudyMap=window.clioferaStudyMap||null;decorate();const observer=new MutationObserver(()=>decorate());if(app())observer.observe(app(),{childList:true,subtree:true});addEventListener('hashchange',()=>setTimeout(decorate,120));return}setTimeout(wait,100)};wait();
+  async function init(){try{const res=await fetch('./study-map.json',{cache:'no-store'});if(res.ok)studyMap=await res.json()}catch{}const wait=()=>{if(courses().length>=30){decorate();const observer=new MutationObserver(()=>decorate());if(app())observer.observe(app(),{childList:true,subtree:true});addEventListener('hashchange',()=>setTimeout(decorate,120));return}setTimeout(wait,100)};wait()}
+  init();
 })();

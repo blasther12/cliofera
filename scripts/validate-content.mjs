@@ -5,7 +5,9 @@ const readJson = async path => JSON.parse(await readFile(new URL(path, root), 'u
 
 const base = await readJson('data.json');
 const extras = await readJson('extra-courses.json');
-const literature = await readJson('literature.json');
+const literatureBase = await readJson('literature.json');
+const literatureGreece = await readJson('literature-greece.json');
+const literature = {...literatureBase, ...literatureGreece};
 const catalogs = await Promise.all([
   readJson('content.json'),
   readJson('content/year-1.json'),
@@ -14,6 +16,7 @@ const catalogs = await Promise.all([
   readJson('content/year-4.json'),
   readJson('content/extension-a.json'),
   readJson('content/extension-b.json'),
+  readJson('content/greece-expansion.json'),
 ]);
 
 const courses = [...(base.courses || []), ...(extras.courses || [])];
@@ -63,6 +66,11 @@ for (const course of courses) {
   }
 }
 
+const greece = content['antiguidade-ii'];
+if (!greece?.modules?.some(m => /Povos do Mar/i.test(m.title))) errors.push('antiguidade-ii: aula explícita sobre Povos do Mar ausente');
+if (!greece?.readingGuide?.some(r => /Ilíada/i.test(r.work))) errors.push('antiguidade-ii: Ilíada ausente do guia de leitura');
+if (!greece?.readingGuide?.some(r => /Odisseia/i.test(r.work))) errors.push('antiguidade-ii: Odisseia ausente do guia de leitura');
+
 const unknownContent = Object.keys(content).filter(id => !ids.has(id));
 if (unknownContent.length) warnings.push(`Conteúdos sem disciplina correspondente: ${unknownContent.join(', ')}`);
 const unknownLiterature = Object.keys(literature).filter(id => !ids.has(id));
@@ -76,6 +84,7 @@ console.log(`Disciplinas com conteúdo: ${courses.filter(c => content[c.id]).len
 console.log(`Disciplinas com biblioteca literária: ${courses.filter(c => literature[c.id]).length}`);
 console.log(`Aulas detalhadas: ${lessonCount}`);
 console.log(`Obras na biblioteca literária: ${literaryCount}`);
+console.log(`Aulas de Grécia Antiga e Mundo Egeu: ${greece?.modules?.length || 0}`);
 
 if (warnings.length) {
   console.warn('\nAvisos:');

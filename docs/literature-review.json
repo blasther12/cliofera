@@ -1,0 +1,42 @@
+{
+  "arqueologia-cultura-material": {
+    "intro": "Nesta disciplina, literatura e relatos de viagem entram principalmente como exercícios de contraste entre vestígio material e narrativa escrita.",
+    "essential": ["Marguerite Yourcenar — Memórias de Adriano", "Umberto Eco — O Nome da Rosa", "Italo Calvino — As Cidades Invisíveis"],
+    "extended": ["Agatha Christie — Morte na Mesopotâmia", "Rose Macaulay — Pleasure of Ruins", "Orhan Pamuk — O Museu da Inocência"]
+  },
+  "bizancio-mediterraneo-oriental": {
+    "intro": "Textos bizantinos e recepções modernas ajudam a perceber corte, religião, guerra, viagem e memória de Constantinopla.",
+    "essential": ["Procópio — História Secreta", "Ana Comnena — Alexíada", "Digenis Akritas — epopeia bizantina"],
+    "extended": ["Nicolau Mesarites — relatos selecionados sobre Constantinopla", "William Butler Yeats — Sailing to Byzantium", "Umberto Eco — Baudolino"]
+  },
+  "china-leste-asiatico": {
+    "intro": "A tradição literária chinesa permite acompanhar valores de corte, família, burocracia, guerra, gênero e vida urbana em épocas muito diferentes.",
+    "essential": ["Confúcio — Analectos", "Luo Guanzhong — Romance dos Três Reinos", "Cao Xueqin — O Sonho da Câmara Vermelha"],
+    "extended": ["Sima Qian — Registros do Historiador, seleções", "Wu Cheng'en — Jornada ao Oeste", "Lu Xun — Diário de um Louco e outros contos", "Mo Yan — Sorgo Vermelho", "Ba Jin — Família"]
+  },
+  "india-sul-asia": {
+    "intro": "Épica, poesia, autobiografia e ficção permitem estudar religião, corte, colonialismo, nacionalismo, gênero e Partição sem confundir literatura com descrição transparente da sociedade.",
+    "essential": ["Mahabharata — seleção", "Ramayana — seleção", "Rabindranath Tagore — O Lar e o Mundo"],
+    "extended": ["Kalidasa — Shakuntala", "Baburnama — memórias de Babur", "Mulk Raj Anand — Untouchable", "Khushwant Singh — Train to Pakistan", "Salman Rushdie — Os Filhos da Meia-Noite", "Bapsi Sidhwa — Cracking India"]
+  },
+  "historia-indigena-americas": {
+    "intro": "Priorize autoria indígena, tradição oral registrada com contexto e literatura produzida por escritores indígenas contemporâneos.",
+    "essential": ["Popol Vuh — tradição maia k'iche'", "Davi Kopenawa e Bruce Albert — A Queda do Céu", "Ailton Krenak — Ideias para Adiar o Fim do Mundo"],
+    "extended": ["Eliane Potiguara — Metade Cara, Metade Máscara", "Daniel Munduruku — O Banquete dos Deuses", "Leslie Marmon Silko — Ceremony", "Louise Erdrich — Love Medicine", "Tommy Orange — There There"]
+  },
+  "escravidao-atlantica": {
+    "intro": "Memórias, autobiografias, romances e poesia ajudam a acessar experiência, linguagem política e memória da escravidão, sempre em diálogo com arquivo e historiografia.",
+    "essential": ["Olaudah Equiano — The Interesting Narrative", "Frederick Douglass — Narrative of the Life of Frederick Douglass", "Maria Firmina dos Reis — Úrsula"],
+    "extended": ["Harriet Jacobs — Incidents in the Life of a Slave Girl", "Machado de Assis — contos e romances selecionados sobre escravidão e pós-abolição", "Toni Morrison — Beloved", "Conceição Evaristo — Ponciá Vicêncio", "Octavia Butler — Kindred"]
+  },
+  "descolonizacao-sul-global": {
+    "intro": "Ficção e testemunho pós-coloniais ajudam a compreender violência, identidade, fronteiras, nacionalismo e frustração com promessas de independência.",
+    "essential": ["Chinua Achebe — O Mundo se Despedaça", "Ngũgĩ wa Thiong'o — Um Grão de Trigo", "Tayeb Salih — Tempo de Migrar para o Norte"],
+    "extended": ["Pramoedya Ananta Toer — Buru Quartet", "Assia Djebar — Fantasia: An Algerian Cavalcade", "Abdulrazak Gurnah — Afterlives", "Amitav Ghosh — The Shadow Lines", "José Luandino Vieira — Luuanda", "Pepetela — Mayombe"]
+  },
+  "humanidades-digitais": {
+    "intro": "Ficção especulativa funciona aqui como laboratório para pensar arquivos, memória, automação, vigilância e produção algorítmica de conhecimento.",
+    "essential": ["Jorge Luis Borges — A Biblioteca de Babel", "George Orwell — 1984", "Ted Chiang — Histórias da Sua Vida e Outros Contos, seleções"],
+    "extended": ["William Gibson — Neuromancer", "Kazuo Ishiguro — Klara e o Sol", "Dave Eggers — O Círculo", "Italo Calvino — Se um Viajante numa Noite de Inverno"]
+  }
+}

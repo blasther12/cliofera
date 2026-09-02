@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cliofera-v4';
+const CACHE_NAME = 'cliofera-v5';
 const APP_SHELL = [
   './',
   './index.html',

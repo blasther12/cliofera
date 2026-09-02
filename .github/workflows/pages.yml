@@ -27,10 +27,18 @@ jobs:
       - name: Validate complete curriculum
         run: |
           node scripts/validate-content.mjs
+          node scripts/validate-review.mjs
           node --check docs/assets/app.js
+          node --check docs/assets/greece-enhancement.js
+          node --check docs/assets/curriculum-review.js
+          node --check docs/assets/theme.js
           python -m json.tool docs/data.json > /dev/null
           python -m json.tool docs/extra-courses.json > /dev/null
+          python -m json.tool docs/extra-courses-review.json > /dev/null
           python -m json.tool docs/literature.json > /dev/null
+          python -m json.tool docs/literature-review.json > /dev/null
+          python -m json.tool docs/media.json > /dev/null
+          python -m json.tool docs/timeline.json > /dev/null
           python -m json.tool docs/content.json > /dev/null
           python -m json.tool docs/content/year-1.json > /dev/null
           python -m json.tool docs/content/year-2.json > /dev/null
@@ -38,6 +46,9 @@ jobs:
           python -m json.tool docs/content/year-4.json > /dev/null
           python -m json.tool docs/content/extension-a.json > /dev/null
           python -m json.tool docs/content/extension-b.json > /dev/null
+          python -m json.tool docs/content/extension-c1.json > /dev/null
+          python -m json.tool docs/content/extension-c2.json > /dev/null
+          python -m json.tool docs/content/greece-expansion.json > /dev/null
 
       - name: Setup Pages
         uses: actions/configure-pages@v6

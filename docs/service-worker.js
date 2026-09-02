@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cliofera-v8';
+const CACHE_NAME = 'cliofera-v9';
 const APP_SHELL = [
   './',
   './index.html',
@@ -20,6 +20,7 @@ const APP_SHELL = [
   './content/extension-c1.json',
   './content/extension-c2.json',
   './content/greece-expansion.json',
+  './content/final-review.json',
   './manifest.webmanifest',
   './assets/styles.css',
   './assets/course-content.css',

@@ -24,6 +24,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v7
 
+      - name: Generate PWA icons
+        run: |
+          python -m pip install --disable-pip-version-check cairosvg
+          python scripts/generate-icons.py
+
       - name: Validate complete curriculum
         run: |
           node scripts/validate-content.mjs
@@ -40,6 +45,7 @@ jobs:
           python -m json.tool docs/literature-review.json > /dev/null
           python -m json.tool docs/media.json > /dev/null
           python -m json.tool docs/timeline.json > /dev/null
+          python -m json.tool docs/manifest.webmanifest > /dev/null
           python -m json.tool docs/content.json > /dev/null
           python -m json.tool docs/content/year-1.json > /dev/null
           python -m json.tool docs/content/year-2.json > /dev/null
@@ -50,6 +56,9 @@ jobs:
           python -m json.tool docs/content/extension-c1.json > /dev/null
           python -m json.tool docs/content/extension-c2.json > /dev/null
           python -m json.tool docs/content/greece-expansion.json > /dev/null
+          test -s docs/icons/apple-touch-icon-v2.png
+          test -s docs/icons/icon-192-v2.png
+          test -s docs/icons/icon-512-v2.png
 
       - name: Setup Pages
         uses: actions/configure-pages@v6

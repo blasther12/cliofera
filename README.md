@@ -2,6 +2,12 @@
 
 > Uma faculdade autodidata de História, sem diploma, mas com currículo, aulas, historiografia, fontes, literatura, cronologia, debates e produção de pesquisa.
 
+## Identidade
+
+**Cliofera** é o nome oficial do projeto e deve ser usado em toda interface, documentação, PWA, mensagens de console e materiais públicos.
+
+A marca visual combina dois elementos: um **C aberto**, representando interpretação histórica como processo nunca completamente encerrado, e uma **linha do tempo vertical com marcos**, representando longa duração, acontecimentos e conexões entre períodos.
+
 ## O que é
 
 A **Cliofera** é um projeto open source para estudar História de forma sistemática, com uma estrutura inspirada em graduações universitárias e ampliada para estudo independente.
@@ -127,6 +133,8 @@ A Cliofera possui uma aplicação em `docs/`, publicada via GitHub Pages e prepa
 Endereço atual:
 
 **https://blasther12.github.io/cliofera/**
+
+Ela também pode ser acessada pelo portal em **https://blasther12.github.io/**.
 
 ### iPhone / iPad
 

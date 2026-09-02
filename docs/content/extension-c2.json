@@ -1,0 +1,248 @@
+{
+  "historia-indigena-americas": {
+    "intro": "Povos indígenas não pertencem apenas ao passado anterior à conquista europeia. Esta disciplina acompanha sociedades indígenas como sujeitos históricos em longa duração, antes, durante e depois da colonização. O curso enfatiza diversidade política e linguística, alianças, diplomacia, adaptação, resistência, trabalho, territorialidade e produção de memória, evitando narrativas que tratam conquista como desaparecimento automático ou povos indígenas como grupos estáticos fora da História.",
+    "objectives": [
+      "Reconhecer a diversidade histórica das sociedades indígenas das Américas.",
+      "Explicar conquista e colonização como processos que envolveram alianças, conflitos e epidemias.",
+      "Analisar missões, fronteiras, trabalho e territorialidade a partir de múltiplas perspectivas.",
+      "Compreender políticas indigenistas dos Estados nacionais e seus efeitos.",
+      "Relacionar movimentos indígenas contemporâneos a processos históricos de longa duração."
+    ],
+    "modules": [
+      {
+        "title": "Diversidade indígena antes de 1492",
+        "explanation": ["As Américas abrigavam sociedades urbanas, aldeias, confederações, populações móveis, sistemas agrícolas intensivos e redes comerciais muito diferentes. Não existe uma experiência indígena única.", "Arqueologia, linguística histórica, tradição oral e documentação colonial permitem reconstruir parte dessa diversidade, mas cada tipo de fonte tem limites próprios."],
+        "concepts": ["diversidade", "territorialidade", "tradição oral", "arqueologia", "etnogênese"],
+        "reading": {"work": "Charles Mann — 1491", "focus": "Casos que desafiam a imagem de um continente vazio ou ecologicamente intocado.", "why": "É uma porta de entrada útil para perceber escala demográfica e diversidade, desde que comparada com literatura especializada."},
+        "questions": ["Por que 'indígena' é uma categoria ampla demais para explicar sociedades concretas?", "Que fontes permitem reconstruir histórias sem arquivos escritos locais extensos?"],
+        "exercise": "Escolha três sociedades de regiões distintas e compare organização política, subsistência e redes de troca."
+      },
+      {
+        "title": "Conquista, epidemias e alianças",
+        "explanation": ["Conquistas europeias não foram realizadas apenas por pequenos contingentes estrangeiros. Rivalidades e alianças indígenas, epidemias, tecnologias militares, violência e disputas internas tiveram peso diferente em cada região.", "A queda de Tenochtitlán, por exemplo, não pode ser explicada sem aliados indígenas de Cortés. Isso não transforma esses aliados em simples colaboradores: eles perseguiam objetivos próprios em um cenário novo e incerto."],
+        "concepts": ["conquista", "epidemia", "aliança", "agência", "guerra"],
+        "reading": {"work": "Matthew Restall — Seven Myths of the Spanish Conquest", "focus": "Crítica a mitos sobre superioridade europeia e passividade indígena.", "why": "Ajuda a reconstruir a conquista como processo multilateral e contingente."},
+        "questions": ["Como epidemias e alianças alteram narrativas heroicas de conquista?", "Por que aliança não significa submissão política automática?"],
+        "exercise": "Reconstrua a conquista do México em um mapa de atores, interesses, recursos e alianças."
+      },
+      {
+        "title": "Diplomacia, fronteiras e territorialidades",
+        "explanation": ["Durante séculos, colonizadores europeus negociaram com povos que mantinham força militar e controle territorial. Tratados, presentes, casamentos, comércio e missões compunham diplomacias de fronteira.", "Fronteiras coloniais não eram linhas fixas em mapas. Eram zonas de circulação e disputa onde identidades podiam ser reformuladas."],
+        "concepts": ["fronteira", "diplomacia", "tratado", "território", "mediação"],
+        "reading": {"work": "Richard White — The Middle Ground", "focus": "Construção de espaços de negociação entre povos indígenas e europeus na região dos Grandes Lagos.", "why": "Oferece conceito influente para pensar fronteiras como relações, não como linhas."},
+        "questions": ["Quando uma fronteira pode favorecer autonomia indígena?", "Como mediadores culturais ganham poder?"],
+        "exercise": "Compare dois tratados ou acordos coloniais e identifique conceitos diferentes de território e soberania."
+      },
+      {
+        "title": "Missões, trabalho e resistência",
+        "explanation": ["Missões religiosas tentaram reorganizar espaço, trabalho, família e crenças, mas nunca funcionaram apenas de cima para baixo. Comunidades indígenas negociaram, recusaram, reinterpretaram ou instrumentalizaram práticas missionárias.", "Formas de trabalho compulsório, escravização e recrutamento também variaram regionalmente. Resistência podia assumir guerra aberta, fuga, litígio, preservação ritual ou adaptação estratégica."],
+        "concepts": ["missão", "trabalho compulsório", "redução", "resistência", "apropriação"],
+        "reading": {"work": "John Monteiro — Negros da Terra", "focus": "Escravização indígena, trabalho e formação colonial em São Paulo.", "why": "Mostra que trabalho indígena foi central em regiões onde narrativas nacionais depois o apagaram."},
+        "questions": ["Por que resistência não deve ser reduzida a rebelião armada?", "Como conversão religiosa pode coexistir com agência indígena?"],
+        "exercise": "Analise um processo missionário identificando objetivos dos missionários e respostas indígenas documentadas."
+      },
+      {
+        "title": "Estados nacionais e políticas indigenistas",
+        "explanation": ["No século XIX e XX, novos Estados nacionais frequentemente imaginaram povos indígenas como obstáculos à ocupação territorial ou como populações destinadas à assimilação. Guerras, remoções, internatos e tutela acompanharam projetos de expansão.", "Ao mesmo tempo, legislação, tribunais, missões e órgãos estatais criaram arenas em que lideranças indígenas também negociaram direitos e reconhecimento."],
+        "concepts": ["indigenismo", "assimilação", "tutela", "remoção", "cidadania"],
+        "reading": {"work": "Manuela Carneiro da Cunha — História dos Índios no Brasil", "focus": "Séculos XIX e XX, legislação, território e políticas de Estado.", "why": "Conecta longa duração colonial à construção do Estado nacional brasileiro."},
+        "questions": ["Por que cidadania podia funcionar ao mesmo tempo como inclusão e instrumento de assimilação?", "Como expansão territorial nacional afetou direitos indígenas?"],
+        "exercise": "Compare uma política indigenista brasileira com uma dos Estados Unidos, Canadá ou Argentina."
+      },
+      {
+        "title": "Movimentos indígenas, direitos e memória contemporânea",
+        "explanation": ["Desde o final do século XX, organizações indígenas ampliaram presença política em disputas por terra, educação, patrimônio, língua e representação. Constituições e normas internacionais abriram espaços jurídicos, mas conflitos continuam.", "História oral, museus comunitários e produção intelectual indígena também questionam quem tem autoridade para narrar o passado."],
+        "concepts": ["movimento indígena", "demarcação", "autoria", "memória", "direitos coletivos"],
+        "reading": {"work": "Ailton Krenak — Ideias para Adiar o Fim do Mundo", "focus": "Crítica a concepções modernas de humanidade, natureza e progresso.", "why": "Introduz pensamento indígena contemporâneo como produção intelectual, não como apêndice etnográfico."},
+        "questions": ["Quem deve controlar acervos e narrativas sobre povos indígenas?", "Como memória histórica se conecta a disputas territoriais atuais?"],
+        "exercise": "Escolha uma organização indígena contemporânea e reconstrua a genealogia histórica de uma de suas reivindicações."
+      }
+    ],
+    "readingGuide": [
+      {"work": "Manuela Carneiro da Cunha — História dos Índios no Brasil", "role": "Referência brasileira", "how": "Leia por região e problema, anotando como fontes coloniais são reavaliadas.", "deliverable": "Mapa de temas e fontes para um estudo de caso brasileiro."},
+      {"work": "Matthew Restall — Seven Myths of the Spanish Conquest", "role": "Revisão historiográfica", "how": "Use como exercício de desmontagem de narrativas consolidadas.", "deliverable": "Texto curto corrigindo três mitos de conquista."},
+      {"work": "Richard White — The Middle Ground", "role": "Fronteiras", "how": "Observe como categorias políticas emergem da interação.", "deliverable": "Diagrama de uma fronteira como sistema de relações."}
+    ],
+    "finalProject": "Produza um ensaio ou dossiê de 2.000 a 3.000 palavras sobre um povo ou região indígena atravessando pelo menos dois períodos históricos, com fontes indígenas sempre que disponíveis e discussão explícita sobre os limites do arquivo colonial."
+  },
+  "escravidao-atlantica": {
+    "intro": "A escravidão atlântica conectou África, Europa e Américas por mais de três séculos e estruturou economias, Estados, famílias, culturas e hierarquias raciais. Esta disciplina parte de histórias africanas e do próprio tráfico, acompanha experiências de trabalho e vida cotidiana e termina com abolições e pós-abolição. O objetivo é evitar tanto uma história econômica sem pessoas quanto uma narrativa de vítimas sem agência, articulando coerção extrema, sobrevivência, resistência e construção de comunidades.",
+    "objectives": ["Explicar o tráfico transatlântico em escala africana, atlântica e americana.", "Distinguir escravidão atlântica de outras formas históricas de escravidão sem isolá-la delas.", "Analisar trabalho, família, religião e cultura sob coerção.", "Compreender revoltas, quilombos, fugas e abolicionismos em sua diversidade.", "Relacionar emancipação jurídica a problemas de raça, trabalho e cidadania no pós-abolição."],
+    "modules": [
+      {
+        "title": "Escravidões africanas e expansão atlântica",
+        "explanation": ["Sociedades africanas conheciam formas diversas de dependência e cativeiro antes do tráfico atlântico, mas a expansão europeia alterou escala, destinos, incentivos políticos e demanda por pessoas escravizadas.", "É fundamental evitar a ideia de que 'africanos venderam africanos' resolve o problema. Identidades políticas eram locais e regionais, e o comércio atlântico reorganizou guerras, Estados e mercados ao longo do tempo."],
+        "concepts": ["cativeiro", "diáspora", "Estado africano", "comércio atlântico", "guerra"],
+        "reading": {"work": "John Thornton — Africa and Africans in the Making of the Atlantic World", "focus": "Sociedades africanas, comércio e formação do Atlântico.", "why": "Coloca África como parte ativa da história atlântica sem minimizar coerção e demanda externa."},
+        "questions": ["Por que formas africanas anteriores de cativeiro não podem ser igualadas automaticamente à plantation americana?", "Como demanda atlântica alterou política interna africana?"],
+        "exercise": "Escolha uma região africana e reconstrua como o tráfico transformou relações políticas e econômicas entre 1500 e 1800."
+      },
+      {
+        "title": "Tráfico transatlântico e economia política",
+        "explanation": ["Navios negreiros integravam cadeias de crédito, seguros, mercadorias, portos e Estados. A travessia atlântica, ou Middle Passage, submeteu milhões de pessoas a violência, confinamento, fome e mortalidade.", "Bancos de dados como SlaveVoyages permitem estimar volumes e rotas, mas números devem ser combinados com testemunhos e estudos locais para não transformar pessoas em estatística abstrata."],
+        "concepts": ["Middle Passage", "SlaveVoyages", "porto", "crédito", "mortalidade"],
+        "reading": {"work": "David Eltis e David Richardson — Atlas of the Transatlantic Slave Trade", "focus": "Rotas, volumes, cronologia e mudança regional.", "why": "Ajuda a visualizar escala e transformação do tráfico sem perder diferenças temporais."},
+        "questions": ["O que séries quantitativas revelam e o que escondem?", "Como Estados e mercados privados se articularam no tráfico?"],
+        "exercise": "Use SlaveVoyages para comparar duas rotas em períodos distintos e escreva uma interpretação dos padrões observados."
+      },
+      {
+        "title": "Plantation, trabalho e vida cotidiana",
+        "explanation": ["Plantations de açúcar, algodão, café e outros produtos combinaram disciplina laboral, violência e especialização para mercados externos. Mas experiências variavam entre campo, cidade, mineração, serviço doméstico e trabalho de ganho.", "Registros de fazendas, anúncios de fuga, inventários, processos e relatos de viajantes permitem estudar alimentação, moradia, castigos, habilidades e estratégias de negociação cotidiana."],
+        "concepts": ["plantation", "trabalho", "disciplina", "ganho", "economia exportadora"],
+        "reading": {"work": "Sidney Mintz — Sweetness and Power", "focus": "Açúcar, consumo europeu e trabalho escravizado caribenho.", "why": "Conecta cotidiano do consumo à estrutura atlântica do trabalho coercitivo."},
+        "questions": ["Como diferentes regimes de trabalho produziam diferentes margens de autonomia?", "Por que consumo europeu precisa fazer parte da história da escravidão?"],
+        "exercise": "Analise um inventário ou anúncio de fuga e identifique informações sobre trabalho, habilidades e relações sociais."
+      },
+      {
+        "title": "Família, cultura, religião e resistência",
+        "explanation": ["Pessoas escravizadas construíram famílias, irmandades, redes religiosas, comunidades linguísticas e práticas culturais sob condições que frequentemente ameaçavam separá-las. Cultura não foi simples sobrevivência intacta da África nem criação totalmente nova: foi processo histórico de recomposição.", "Resistência incluía negociação, desaceleração do trabalho, fuga, manutenção de vínculos, religião e violência aberta. Nem toda sobrevivência era rebelião, mas agência existia mesmo sob coerção extrema."],
+        "concepts": ["família", "crioulização", "irmandade", "fuga", "agência"],
+        "reading": {"work": "Robert Slenes — Na Senzala, uma Flor", "focus": "Família escrava, cultura e experiência no Brasil sudeste.", "why": "Mostra como documentação demográfica e cultural pode reconstruir vínculos sob escravidão."},
+        "questions": ["Como famílias se formavam apesar da vulnerabilidade à venda?", "Quais são os riscos de romantizar resistência?"],
+        "exercise": "Compare duas formas de resistência e avalie objetivos, riscos e evidências disponíveis."
+      },
+      {
+        "title": "Revoltas, quilombos e abolicionismos",
+        "explanation": ["Palmares, Revolução Haitiana, Revolta dos Malês e inúmeras fugas coletivas mostram projetos políticos diferentes entre populações escravizadas e livres. Não existe um único modelo de rebelião atlântica.", "Abolicionismos reuniram pessoas escravizadas, libertos, jornalistas, juristas, religiosos, trabalhadores e políticos. A pressão por liberdade vinha de baixo e de dentro das instituições ao mesmo tempo."],
+        "concepts": ["quilombo", "Haiti", "Malês", "abolicionismo", "revolta"],
+        "reading": {"work": "João José Reis — Rebelião Escrava no Brasil", "focus": "Malês, religião, redes urbanas e repressão.", "why": "Demonstra como uma revolta pode ser reconstruída a partir de fontes policiais sem reproduzir automaticamente a visão policial."},
+        "questions": ["Como objetivos de Palmares, Haiti e Malês diferiam?", "A abolição foi concessão estatal ou conquista social?"],
+        "exercise": "Compare dois movimentos de liberdade quanto a atores, linguagem política, escala e resultados."
+      },
+      {
+        "title": "Emancipação, pós-abolição, raça e cidadania",
+        "explanation": ["Fim legal da escravidão não redistribuiu automaticamente terra, renda ou poder. Sociedades pós-emancipação criaram novas formas de controle laboral e racial enquanto libertos construíam famílias, associações, igrejas, escolas e movimentos políticos.", "A categoria raça ganhou novas linguagens científicas e jurídicas no século XIX e XX. Estudar pós-abolição impede que a narrativa termine no momento formal da liberdade."],
+        "concepts": ["emancipação", "pós-abolição", "racismo", "cidadania", "trabalho livre"],
+        "reading": {"work": "W. E. B. Du Bois — Black Reconstruction in America", "focus": "Emancipação, trabalho e democracia após a Guerra Civil dos EUA.", "why": "Clássico para pensar liberdade como transformação política incompleta e disputada."},
+        "questions": ["Por que liberdade jurídica não equivale a igualdade social?", "Como ex-escravizados construíram instituições próprias?"],
+        "exercise": "Compare pós-abolição no Brasil e nos Estados Unidos em trabalho, direitos políticos e violência racial."
+      }
+    ],
+    "readingGuide": [
+      {"work": "John Thornton — Africa and Africans in the Making of the Atlantic World", "role": "África e Atlântico", "how": "Use para manter sociedades africanas no centro da análise.", "deliverable": "Mapa de conexões entre uma região africana e dois espaços americanos."},
+      {"work": "SlaveVoyages e Atlas of the Transatlantic Slave Trade", "role": "Quantitativo", "how": "Cruze números com documentação narrativa e local.", "deliverable": "Nota metodológica sobre o que dados de viagens permitem afirmar."},
+      {"work": "João José Reis — Rebelião Escrava no Brasil", "role": "Microanálise", "how": "Observe crítica das fontes policiais e reconstrução de redes sociais.", "deliverable": "Fichamento sobre método e evidência."}
+    ],
+    "finalProject": "Produza um ensaio comparativo sobre uma dimensão da escravidão atlântica em dois espaços diferentes, articulando África e Américas e incluindo pelo menos uma fonte produzida por pessoa escravizada, liberta ou descendente quando disponível."
+  },
+  "descolonizacao-sul-global": {
+    "intro": "Depois de 1945, impérios europeus perderam grande parte de seus territórios formais, mas a descolonização não foi um processo único, pacífico nem completo. Índia, Indonésia, Vietnã, Argélia, Gana, Congo, Angola, Moçambique e muitos outros casos combinaram negociação, guerra, mobilização de massa e disputas internacionais. Esta disciplina coloca o chamado Terceiro Mundo como agente da história global e conecta independência, Guerra Fria, desenvolvimento, não alinhamento e debates pós-coloniais.",
+    "objectives": ["Comparar diferentes caminhos de independência na Ásia e África.", "Compreender nacionalismos anticoloniais como projetos políticos plurais.", "Analisar Bandung e não alinhamento sem tratá-los como simples neutralidade.", "Relacionar descolonização à Guerra Fria global e a guerras civis.", "Avaliar continuidades econômicas, fronteiriças e institucionais após a independência."],
+    "modules": [
+      {
+        "title": "Impérios no pós-1945 e crise colonial",
+        "explanation": ["A Segunda Guerra enfraqueceu potências europeias, ampliou mobilização política colonial e transformou linguagem internacional de soberania. Carta da ONU, anticolonialismo e retorno de veteranos criaram novas oportunidades e expectativas.", "Ao mesmo tempo, França, Reino Unido, Portugal, Países Baixos e Bélgica tentaram preservar influência por reformas, repressão ou guerras. Não havia consenso de que os impérios acabariam rapidamente."],
+        "concepts": ["império", "autodeterminação", "ONU", "nacionalismo", "colonialismo tardio"],
+        "reading": {"work": "Frederick Cooper — Colonialism in Question", "focus": "Problemas conceituais de império, cidadania e descolonização.", "why": "Ajuda a evitar uma narrativa automática de colônia para Estado-nação."},
+        "questions": ["Por que 1945 abre possibilidades sem determinar resultados?", "Que alternativas ao Estado-nação foram imaginadas?"],
+        "exercise": "Compare projetos constitucionais de duas colônias entre 1945 e a independência."
+      },
+      {
+        "title": "Índia, Partição e Sul da Ásia",
+        "explanation": ["A independência do Raj britânico em 1947 criou Índia e Paquistão em meio a migração de milhões e violência coletiva. Congresso e Liga Muçulmana não representavam as únicas forças políticas em disputa.", "A Partição mostra que independência e construção nacional podem produzir novas fronteiras e minorias. Seus efeitos continuam em memória, política e relações interestatais."],
+        "concepts": ["Partição", "Congresso", "Liga Muçulmana", "fronteira", "migração"],
+        "reading": {"work": "Yasmin Khan — The Great Partition", "focus": "Violência, deslocamento e decisões políticas de 1947.", "why": "Coloca experiência social ao lado da diplomacia de elite."},
+        "questions": ["A Partição era inevitável?", "Como fronteiras criam novas minorias?"],
+        "exercise": "Construa uma cronologia de decisões e mobilizações entre 1940 e 1948 destacando pontos de contingência."
+      },
+      {
+        "title": "Indochina, Indonésia e Sudeste Asiático",
+        "explanation": ["No Sudeste Asiático, ocupação japonesa durante a guerra desorganizou impérios coloniais e fortaleceu movimentos nacionalistas. Indonésia declarou independência em 1945 e enfrentou tentativa holandesa de reconquista.", "Na Indochina, luta contra a França conectou-se à Guerra Fria e posteriormente à intervenção dos Estados Unidos. Nacionalismo, comunismo e anticolonialismo se sobrepunham sem serem idênticos."],
+        "concepts": ["Indonésia", "Indochina", "Viet Minh", "guerra anticolonial", "Guerra Fria"],
+        "reading": {"work": "Christopher Goscha — Vietnam: A New History", "focus": "Nacionalismos vietnamitas, colonialismo e guerra.", "why": "Evita reduzir toda a história vietnamita ao conflito com os Estados Unidos."},
+        "questions": ["Como a ocupação japonesa alterou poder colonial europeu?", "Quando anticolonialismo e comunismo se reforçaram ou entraram em tensão?"],
+        "exercise": "Compare independência da Indonésia e do Vietnã quanto a guerra, diplomacia e apoio internacional."
+      },
+      {
+        "title": "África: independências e guerras de libertação",
+        "explanation": ["Gana tornou-se independente em 1957 e simbolizou caminhos relativamente negociados, enquanto Argélia, Angola, Moçambique e Guiné-Bissau passaram por guerras prolongadas. Congo independente entrou rapidamente em crise e intervenção internacional.", "Fronteiras coloniais, economias exportadoras e instituições administrativas foram herdadas em graus diferentes. Lideranças africanas também tentaram projetos panafricanos e federativos que muitas vezes fracassaram."],
+        "concepts": ["Gana", "Argélia", "Congo", "panafricanismo", "guerra de libertação"],
+        "reading": {"work": "Frederick Cooper — Africa Since 1940", "focus": "Descolonização, cidadania, trabalho e formação estatal.", "why": "Mostra alternativas políticas que existiam antes da consolidação de Estados nacionais."},
+        "questions": ["Por que algumas independências foram negociadas e outras militarizadas?", "Que problemas foram herdados das economias coloniais?"],
+        "exercise": "Compare Gana e Argélia ou Congo e Angola destacando caminho para independência e primeiros desafios estatais."
+      },
+      {
+        "title": "Bandung, não alinhamento e terceiro-mundismo",
+        "explanation": ["A Conferência de Bandung de 1955 reuniu Estados asiáticos e africanos para discutir soberania, colonialismo, cooperação e ordem internacional. Ela não criou um bloco homogêneo, mas ajudou a consolidar linguagem política afro-asiática.", "O Movimento dos Não Alinhados e projetos terceiro-mundistas buscavam margem de ação entre superpotências e defendiam reformas econômicas globais. Não alinhamento não significava neutralidade passiva."],
+        "concepts": ["Bandung", "não alinhamento", "Terceiro Mundo", "soberania", "cooperação Sul-Sul"],
+        "reading": {"work": "Vijay Prashad — The Darker Nations", "focus": "Bandung, terceiro-mundismo e projetos políticos do Sul.", "why": "Recoloca líderes e movimentos do Sul Global como produtores de ordem internacional."},
+        "questions": ["O que unia e o que separava os participantes de Bandung?", "Por que não alinhamento não equivale a ausência de alianças?"],
+        "exercise": "Analise os princípios de Bandung e identifique quais respondem diretamente à experiência colonial."
+      },
+      {
+        "title": "Pós-colonialismo, desenvolvimento e Sul Global",
+        "explanation": ["Independência política não eliminou dependência econômica, desigualdade interna ou influência estrangeira. Projetos de industrialização, reforma agrária, socialismo, economia mista e desenvolvimento foram testados em condições difíceis.", "Teorias pós-coloniais e decoloniais posteriormente questionaram como império continuava em conhecimento, cultura e hierarquias globais. É importante distinguir colonialismo formal, neocolonialismo e usos analíticos de colonialidade."],
+        "concepts": ["desenvolvimento", "neocolonialismo", "pós-colonialismo", "colonialidade", "Sul Global"],
+        "reading": {"work": "Frantz Fanon — Os Condenados da Terra", "focus": "Violência colonial, elites nacionais e desafios da independência.", "why": "Fonte intelectual e política contemporânea às lutas de descolonização."},
+        "questions": ["Quando independência altera relações econômicas e quando as preserva?", "Como usar o conceito de colonialidade sem apagar diferenças históricas?"],
+        "exercise": "Escolha um Estado pós-colonial e avalie um projeto de desenvolvimento em seus primeiros vinte anos de independência."
+      }
+    ],
+    "readingGuide": [
+      {"work": "Frederick Cooper — Africa Since 1940", "role": "África e cidadania", "how": "Observe alternativas políticas que não eram necessariamente Estados-nação soberanos.", "deliverable": "Mapa de projetos concorrentes de descolonização."},
+      {"work": "Vijay Prashad — The Darker Nations", "role": "Terceiro-mundismo", "how": "Leia Bandung e não alinhamento como projeto político positivo.", "deliverable": "Ensaio curto sobre agência internacional do Sul Global."},
+      {"work": "Frantz Fanon — Os Condenados da Terra", "role": "Fonte intelectual", "how": "Contextualize Argélia, violência e crítica às elites pós-coloniais.", "deliverable": "Análise de um capítulo em diálogo com um historiador posterior."}
+    ],
+    "finalProject": "Compare dois processos de descolonização de regiões diferentes e responda por que produziram trajetórias políticas distintas, articulando atores locais, impérios, Guerra Fria e estruturas econômicas."
+  },
+  "humanidades-digitais": {
+    "intro": "A pesquisa histórica contemporânea convive com milhões de páginas digitalizadas, bancos de dados, mapas, fotografias, redes sociais e documentos nascidos digitais. Humanidades Digitais não significam trocar interpretação por ferramentas. O objetivo é aprender quando OCR, programação, GIS, visualização, análise de redes e IA ajudam a formular perguntas e quando produzem falsas certezas, vieses de amostragem ou resultados difíceis de reproduzir.",
+    "objectives": ["Distinguir fonte digitalizada de fonte nascida digital e documentar proveniência.", "Construir pequenos conjuntos de dados reprodutíveis a partir de fontes históricas.", "Usar GIS, visualização e redes de forma exploratória e criticamente documentada.", "Compreender metadados, preservação e riscos de dependência de plataformas.", "Avaliar vieses e limites de OCR, modelos de linguagem e outros algoritmos aplicados à História."],
+    "modules": [
+      {
+        "title": "Fontes nascidas digitais e digitalizadas",
+        "explanation": ["Uma fotografia escaneada não é idêntica ao objeto físico original: resolução, recorte, ordem e metadados interferem no que vemos. Fontes nascidas digitais, como e-mails e sites, trazem outros problemas de formato, versão e preservação.", "Antes de analisar, o historiador deve registrar origem, transformação, licença e limitações do arquivo digital."],
+        "concepts": ["digitalização", "nascido digital", "proveniência", "metadados", "preservação"],
+        "reading": {"work": "Daniel J. Cohen e Roy Rosenzweig — Digital History", "focus": "Coleta, preservação e apresentação de materiais digitais.", "why": "Clássico introdutório para pensar mudanças de escala e acesso sem abandonar crítica documental."},
+        "questions": ["O que se perde quando um documento é digitalizado?", "Como versões de uma página web podem ser tratadas como fontes diferentes?"],
+        "exercise": "Documente a cadeia de proveniência de uma fonte digital desde instituição de origem até o arquivo que você baixou."
+      },
+      {
+        "title": "OCR, bancos de dados e limpeza de dados",
+        "explanation": ["OCR transforma imagem de texto em caracteres pesquisáveis, mas erra mais em fontes antigas, colunas, manchas e idiomas pouco suportados. Esses erros não são aleatórios e podem distorcer buscas quantitativas.", "Construir um banco histórico exige decisões sobre categorias, ausências, duplicatas e incerteza. Cada coluna é uma interpretação sobre o que será comparável."],
+        "concepts": ["OCR", "dataset", "normalização", "erro", "dados ausentes"],
+        "reading": {"work": "The Programming Historian — lições de OCR e dados tabulares", "focus": "Fluxo reprodutível de extração, limpeza e documentação.", "why": "Transforma princípios abstratos em prática verificável."},
+        "questions": ["Como erros de OCR podem criar viés histórico?", "Quando padronizar nomes apaga informação importante?"],
+        "exercise": "Crie uma amostra de 100 registros, estime taxa de erro do OCR e documente regras de limpeza."
+      },
+      {
+        "title": "GIS e história espacial",
+        "explanation": ["GIS permite associar dados a espaço e analisar distâncias, densidades, rotas e mudanças territoriais. Mas mapas históricos possuem escalas, projeções e incertezas que precisam ser preservadas.", "Geocodificar um lugar antigo em coordenada precisa pode ser enganoso quando a localização é aproximada ou quando o próprio conceito de fronteira era diferente."],
+        "concepts": ["GIS", "georreferenciamento", "camada", "escala", "incerteza espacial"],
+        "reading": {"work": "Ian Gregory e Paul Ell — Historical GIS", "focus": "Fundamentos e problemas de representação espacial histórica.", "why": "Ajuda a usar mapas como argumentos e não como decoração."},
+        "questions": ["Como representar incerteza espacial em um mapa?", "Uma fronteira histórica pode ser desenhada como linha exata?"],
+        "exercise": "Mapeie dez locais de um estudo histórico e atribua grau de confiança a cada geolocalização."
+      },
+      {
+        "title": "Redes, visualização e análise exploratória",
+        "explanation": ["Análise de redes pode modelar relações entre pessoas, instituições ou lugares. Métricas como centralidade ajudam a detectar padrões, mas dependem de como nós e conexões foram definidos.", "Visualizações são instrumentos de raciocínio. Um gráfico bonito pode ocultar dados ausentes, escalas inadequadas ou categorias frágeis."],
+        "concepts": ["rede", "nó", "aresta", "centralidade", "visualização"],
+        "reading": {"work": "Scott Weingart — textos introdutórios sobre network analysis for historians", "focus": "Construção de redes e limites interpretativos.", "why": "Enfatiza que modelagem é escolha historiográfica."},
+        "questions": ["Uma pessoa central no arquivo é necessariamente central na sociedade?", "Como ausência documental altera a forma de uma rede?"],
+        "exercise": "Construa uma pequena rede de correspondência e escreva três interpretações possíveis e duas limitações."
+      },
+      {
+        "title": "Acervos digitais, metadados e preservação",
+        "explanation": ["Bibliotecas e arquivos digitais dependem de padrões de metadados, identificadores, formatos e políticas de preservação. Um link quebrado pode destruir a reprodutibilidade de uma pesquisa se não houver cópia arquivada ou referência persistente.", "Também existem problemas de acesso desigual, direitos autorais, privacidade e exclusão de acervos sem recursos para digitalização."],
+        "concepts": ["metadados", "identificador persistente", "arquivo web", "formato", "acesso"],
+        "reading": {"work": "Diretrizes de preservação digital do Arquivo Nacional e Library of Congress", "focus": "Formatos, metadados e estratégias de preservação.", "why": "Conecta infraestrutura técnica à confiabilidade da pesquisa."},
+        "questions": ["Por que digitalizar não significa preservar para sempre?", "Que desigualdades aparecem em grandes coleções digitais?"],
+        "exercise": "Faça auditoria de preservação de um pequeno conjunto de fontes: formato, backup, metadados, licença e URL persistente."
+      },
+      {
+        "title": "IA, algoritmos, reprodutibilidade e ética",
+        "explanation": ["Modelos de linguagem e classificação podem acelerar busca, transcrição e organização, mas produzem erros plausíveis e refletem dados de treinamento e decisões de projeto. Eles não substituem verificação das fontes.", "Uma pesquisa digital robusta registra versões de ferramentas, parâmetros, transformações dos dados e critérios de validação. Reprodutibilidade não elimina interpretação, mas torna o caminho do argumento auditável."],
+        "concepts": ["IA", "modelo", "viés algorítmico", "reprodutibilidade", "auditoria"],
+        "reading": {"work": "Debates in the Digital Humanities — capítulos sobre crítica, dados e algoritmos", "focus": "Limites epistemológicos e sociais de métodos computacionais.", "why": "Impede que ferramenta seja confundida com método histórico."},
+        "questions": ["Como verificar uma transcrição ou classificação produzida por IA?", "Que partes de um fluxo de pesquisa precisam ser registradas para auditoria?"],
+        "exercise": "Use uma ferramenta de IA em uma tarefa pequena, crie amostra de validação manual e produza relatório de erros e riscos."
+      }
+    ],
+    "readingGuide": [
+      {"work": "Cohen e Rosenzweig — Digital History", "role": "Fundamentos", "how": "Leia como reflexão sobre coleta, preservação e comunicação digital.", "deliverable": "Checklist de proveniência para fontes digitais."},
+      {"work": "The Programming Historian", "role": "Prática", "how": "Escolha lições ligadas ao seu projeto e registre ambiente e passos.", "deliverable": "Notebook ou roteiro reprodutível de uma análise."},
+      {"work": "Debates in the Digital Humanities", "role": "Crítica", "how": "Compare entusiasmo metodológico com críticas sobre viés, poder e infraestrutura.", "deliverable": "Ensaio sobre limites de um método digital aplicado à História."}
+    ],
+    "finalProject": "Construa um pequeno projeto digital histórico reprodutível com fontes documentadas, dados ou mapas, análise interpretativa, página metodológica e seção explícita de limites, vieses e decisões tomadas."
+  }
+}

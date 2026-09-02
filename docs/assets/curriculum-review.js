@@ -15,6 +15,31 @@
     .replaceAll('"', '&quot;');
   const resolveCourseId = id => id === 'segunda-guerra' ? 'fascismo-segunda-guerra' : id;
 
+  const cleanCourseTitle = title => String(title || '')
+    .replace(/^Panorama da História (?:da|de|do|das|dos)?\s*/i, '')
+    .replace(/^História (?:da|de|do|das|dos)\s+/i, '')
+    .replace(/^Introdução (?:à|às|ao|aos)\s+/i, '')
+    .replace(/\s+[IVXLCDM]+$/i, '')
+    .replace(/[–—:]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+
+  const youtubeSearchTerms = course => {
+    const terms = [cleanCourseTitle(course.title), ...(course.modules || []).slice(0, 6)]
+      .map(term => String(term || '').replace(/^Introdução (?:a|à|ao|aos|às)\s+/i, '').trim())
+      .filter(Boolean);
+    const unique = [];
+    const seen = new Set();
+    for (const term of terms) {
+      const key = term.toLocaleLowerCase('pt-BR');
+      if (!seen.has(key)) {
+        seen.add(key);
+        unique.push(term);
+      }
+    }
+    return unique.join(' ');
+  };
+
   Promise.all([
     loadJson('./extra-courses-review.json', { courses: [] }),
     loadJson('./content/extension-c1.json'),
@@ -61,14 +86,17 @@
           const entry = state.media?.[course.id] || {};
           const images = entry.images || [];
           const videos = entry.videos || [];
-          const query = encodeURIComponent(`${course.title} história`);
-          const commons = `https://commons.wikimedia.org/w/index.php?search=${query}&title=Special:MediaSearch&type=image`;
-          const youtube = `https://www.youtube.com/results?search_query=${encodeURIComponent(course.title + ' história aula universidade')}`;
+          const imageQuery = encodeURIComponent(`${cleanCourseTitle(course.title)} ${(course.modules || []).slice(0, 4).join(' ')}`);
+          const commons = `https://commons.wikimedia.org/w/index.php?search=${imageQuery}&title=Special:MediaSearch&type=image`;
+          const youtubeTerms = youtubeSearchTerms(course);
+          const youtube = `https://www.youtube.com/results?search_query=${encodeURIComponent(youtubeTerms)}`;
 
           const imageCards = images.map(image => `<article class="media-card"><a href="${safe(image.sourceUrl)}" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="${safe(image.src)}" alt="${safe(image.title)}"></a><div class="media-card-body"><div class="eyebrow">Referência visual</div><h3>${safe(image.title)}</h3><p>${safe(image.caption)}</p><div class="media-meta">${safe(image.credit || '')}${image.license ? ` · ${safe(image.license)}` : ''}</div><div class="media-actions"><a class="media-link" href="${safe(image.sourceUrl)}" target="_blank" rel="noopener noreferrer">Fonte e licença ↗</a></div></div></article>`).join('');
           const videoItems = videos.map(video => `<div class="video-item"><div><strong>${safe(video.title)}</strong><small>${safe(video.creator || 'YouTube')}</small>${video.note ? `<p>${safe(video.note)}</p>` : ''}</div><a class="media-link" href="${safe(video.url)}" target="_blank" rel="noopener noreferrer">Assistir / localizar ↗</a></div>`).join('');
+          const videoEmpty = videos.length ? '' : '<p>Ainda não há uma seleção audiovisual curada para esta disciplina.</p>';
+          const youtubeLabel = videos.length ? 'Explorar mais vídeos sobre os temas ↗' : 'Explorar vídeos sobre os temas ↗';
 
-          return `<section class="media-section"><div class="rich-heading"><div><div class="eyebrow">Aprofundamento audiovisual</div><h2>Imagens, mapas e vídeos</h2></div><p>Use mídia como fonte ou apoio de orientação e verifique autoria, contexto e edição.</p></div>${images.length ? `<div class="media-grid">${imageCards}</div>` : ''}<div class="panel" style="margin-top:${images.length ? '16px' : '0'}"><div class="video-list">${videoItems || '<p>Nenhum vídeo específico foi curado ainda para esta disciplina.</p>'}</div><div class="media-actions"><a class="media-link" href="${commons}" target="_blank" rel="noopener noreferrer">Pesquisar imagens no Wikimedia Commons ↗</a><a class="media-link" href="${youtube}" target="_blank" rel="noopener noreferrer">Pesquisar aulas no YouTube ↗</a></div></div></section>`;
+          return `<section class="media-section"><div class="rich-heading"><div><div class="eyebrow">Aprofundamento audiovisual</div><h2>Imagens, mapas e vídeos</h2></div><p>Use mídia como fonte ou apoio de orientação e verifique autoria, contexto e edição.</p></div>${images.length ? `<div class="media-grid">${imageCards}</div>` : ''}<div class="panel" style="margin-top:${images.length ? '16px' : '0'}"><div class="video-list">${videoItems || videoEmpty}</div><div class="media-actions"><a class="media-link" href="${commons}" target="_blank" rel="noopener noreferrer">Pesquisar imagens pelos temas ↗</a><a class="media-link" href="${youtube}" target="_blank" rel="noopener noreferrer">${youtubeLabel}</a></div></div></section>`;
         }
 
         richCourseContent = function(course, detail) {

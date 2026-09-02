@@ -1,14 +1,15 @@
-const CACHE_NAME = 'lyceum-v2';
+const CACHE_NAME = 'lyceum-v3';
 const APP_SHELL = [
   './',
   './index.html',
   './data.json',
   './content.json',
+  './content/year-1.json',
   './manifest.webmanifest',
   './assets/styles.css',
   './assets/course-content.css',
+  './assets/course-content-v2.css',
   './assets/app.js',
-  './assets/course-content.js',
   './icons/icon-192.png',
   './icons/icon-512.png',
   './icons/apple-touch-icon.png'

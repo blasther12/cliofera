@@ -6,9 +6,11 @@
   color-scheme: dark;
   --bg: #0f1216;
   --paper: #171b21;
+  --paper-raised: #1c2128;
+  --paper-soft: #12171d;
   --ink: #ece8df;
   --muted: #aaa59b;
-  --line: #2d333b;
+  --line: #343b45;
   --accent: #e09a82;
   --accent-soft: #35231f;
   --dark: #090c10;
@@ -25,7 +27,11 @@
 
 :root[data-theme="dark"] .topbar {
   background: rgba(15,18,22,.90);
-  border-bottom-color: rgba(45,51,59,.9);
+  border-bottom-color: rgba(52,59,69,.9);
+}
+
+:root[data-theme="dark"] .menu-button {
+  color: var(--ink);
 }
 
 :root[data-theme="dark"] .lead,
@@ -40,6 +46,67 @@
 :root[data-theme="dark"] .media-card p,
 :root[data-theme="dark"] .timeline-event p {
   color: #c2bdb3;
+}
+
+/* Course progress checklist */
+:root[data-theme="dark"] .module-item {
+  background: var(--paper-soft);
+  border-color: var(--line);
+  color: var(--ink);
+}
+
+:root[data-theme="dark"] .module-item:hover {
+  background: var(--paper-raised);
+  border-color: #46505d;
+}
+
+:root[data-theme="dark"] .module-item label {
+  color: var(--ink);
+}
+
+:root[data-theme="dark"] .module-item.done {
+  background: #13181d;
+}
+
+:root[data-theme="dark"] .module-item.done label {
+  color: #817d76;
+}
+
+:root[data-theme="dark"] .module-item input[type="checkbox"],
+:root[data-theme="dark"] .complete-lesson input[type="checkbox"] {
+  accent-color: var(--accent);
+  background: transparent;
+}
+
+/* Secondary course content that had light-only hardcoded colors */
+:root[data-theme="dark"] .reading-list {
+  color: #c9c3b8;
+}
+
+:root[data-theme="dark"] .related-links a {
+  background: var(--paper-soft);
+  border: 1px solid var(--line);
+  color: var(--ink);
+}
+
+:root[data-theme="dark"] .related-links a:hover {
+  background: var(--paper-raised);
+}
+
+:root[data-theme="dark"] .quote-panel,
+:root[data-theme="dark"] .install-panel {
+  background: #201c17;
+  color: var(--ink);
+}
+
+:root[data-theme="dark"] .notes-area {
+  background: #101419;
+  color: var(--ink);
+  border-color: var(--line);
+}
+
+:root[data-theme="dark"] .mini-track {
+  background: #292e35;
 }
 
 :root[data-theme="dark"] .reading-callout {
@@ -63,7 +130,7 @@
   color: var(--ink);
 }
 
-:root[data-theme="dark"] input,
+:root[data-theme="dark"] input:not([type="checkbox"]):not([type="radio"]),
 :root[data-theme="dark"] textarea {
   background: #101419;
   color: var(--ink);
@@ -95,4 +162,8 @@
 
 @media (max-width: 760px) {
   .theme-toggle { width: 100%; margin-top: 4px; }
+
+  :root[data-theme="dark"] .module-item {
+    padding: 14px;
+  }
 }

@@ -56,6 +56,7 @@ jobs:
           python -m json.tool docs/content/extension-c1.json > /dev/null
           python -m json.tool docs/content/extension-c2.json > /dev/null
           python -m json.tool docs/content/greece-expansion.json > /dev/null
+          python -m json.tool docs/content/final-review.json > /dev/null
           test -s docs/icons/apple-touch-icon-v2.png
           test -s docs/icons/icon-192-v2.png
           test -s docs/icons/icon-512-v2.png

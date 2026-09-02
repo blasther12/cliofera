@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Cliofera — uma faculdade autodidata de História com currículo, fontes, historiografia, literatura e pesquisa." />
+  <meta name="description" content="Cliofera — uma faculdade autodidata de História com currículo, fontes, historiografia, literatura, cronologia e pesquisa." />
   <meta name="theme-color" content="#171611" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -11,10 +11,13 @@
   <title>Cliofera · Faculdade Livre de História</title>
   <link rel="manifest" href="./manifest.webmanifest" />
   <link rel="icon" type="image/png" sizes="32x32" href="./icons/icon-32.png" />
-  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png" />
+  <link rel="apple-touch-icon" href="./icons/apple-touch-icon" />
   <link rel="stylesheet" href="./assets/styles.css" />
   <link rel="stylesheet" href="./assets/course-content.css" />
   <link rel="stylesheet" href="./assets/course-content-v2.css" />
+  <link rel="stylesheet" href="./assets/theme.css" />
+  <link rel="stylesheet" href="./assets/media-timeline.css" />
+  <script src="./assets/theme.js"></script>
 </head>
 <body>
   <div class="shell">
@@ -27,8 +30,10 @@
       <nav id="topNav" class="topnav">
         <a href="#/">Painel</a>
         <a href="#/curriculo">Currículo</a>
+        <a href="#/timeline">Cronologia</a>
         <a href="#/debates">Grandes Debates</a>
         <a href="#/metodo">Método</a>
+        <button id="themeToggle" class="theme-toggle" type="button" aria-label="Alternar tema">☾ Escuro</button>
         <button id="installApp" class="nav-install" hidden>Instalar</button>
       </nav>
     </header>
@@ -48,6 +53,7 @@
     <nav class="mobile-tabbar" aria-label="Navegação móvel">
       <a href="#/" aria-label="Painel"><span>⌂</span><small>Painel</small></a>
       <a href="#/curriculo" aria-label="Currículo"><span>▦</span><small>Currículo</small></a>
+      <a href="#/timeline" aria-label="Cronologia"><span>⌛</span><small>Tempo</small></a>
       <a href="#/debates" aria-label="Debates"><span>◈</span><small>Debates</small></a>
       <a href="#/metodo" aria-label="Método"><span>✦</span><small>Método</small></a>
     </nav>
@@ -55,5 +61,6 @@
 
   <script src="./assets/app.js" defer></script>
   <script src="./assets/greece-enhancement.js" defer></script>
+  <script src="./assets/curriculum-review.js" defer></script>
 </body>
 </html>

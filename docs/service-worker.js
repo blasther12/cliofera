@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cliofera-v3';
+const CACHE_NAME = 'cliofera-v4';
 const APP_SHELL = [
   './',
   './index.html',
@@ -24,12 +24,14 @@ const APP_SHELL = [
   './assets/styles.css',
   './assets/course-content.css',
   './assets/course-content-v2.css',
+  './assets/brand.css',
   './assets/theme.css',
   './assets/media-timeline.css',
   './assets/app.js',
   './assets/theme.js',
   './assets/greece-enhancement.js',
   './assets/curriculum-review.js',
+  './icons/cliofera-mark.svg',
   './icons/icon-192.png',
   './icons/icon-512.png',
   './icons/apple-touch-icon.png'

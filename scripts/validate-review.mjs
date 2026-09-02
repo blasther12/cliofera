@@ -2,9 +2,10 @@ import { readFile } from 'node:fs/promises';
 
 const root = new URL('../docs/', import.meta.url);
 const readJson = async path => JSON.parse(await readFile(new URL(path, root), 'utf8'));
+const readText = async path => readFile(new URL(path, root), 'utf8');
 const resolveCourseId = id => id === 'segunda-guerra' ? 'fascismo-segunda-guerra' : id;
 
-const [base, extras, review, literature, literatureReview, timeline, media, finalReview, ...catalogs] = await Promise.all([
+const [base, extras, review, literature, literatureReview, timeline, media, finalReview, studyMap, assessments, studyToolsJs, studyToolsCss, indexHtml, ...catalogs] = await Promise.all([
   readJson('data.json'),
   readJson('extra-courses.json'),
   readJson('extra-courses-review.json'),
@@ -13,6 +14,11 @@ const [base, extras, review, literature, literatureReview, timeline, media, fina
   readJson('timeline.json'),
   readJson('media.json'),
   readJson('content/final-review.json'),
+  readJson('study-map.json'),
+  readJson('assessments.json'),
+  readText('assets/study-tools.js'),
+  readText('assets/study-tools.css'),
+  readText('index.html'),
   readJson('content.json'),
   readJson('content/year-1.json'),
   readJson('content/year-2.json'),
@@ -93,7 +99,7 @@ for (const course of courses) {
 
 const topicChecks = {
   'antiguidade-ii': ['minoic', 'micên', 'povos do mar', 'ilíada', 'odisseia'],
-  'antiguidade-i': ['hitita', 'assíria', 'bília hebraica'.replace('bília', 'bíblia')],
+  'antiguidade-i': ['hitita', 'assíria', 'bíblia hebraica'],
   'pre-historia': ['povoamento das américas', 'lapita', 'pacífico'],
   'africa-i': ['etiópia', 'grande zimbábue', 'kongo'],
   'mundo-islamico': ['sunismo', 'mameluco', 'otomano', 'safávida'],
@@ -124,13 +130,65 @@ for (const event of timeline.events || []) {
 
 for (const [courseId, entry] of Object.entries(media)) {
   if (!ids.has(courseId)) errors.push(`mídia associada a disciplina inexistente: ${courseId}`);
-  for (const image of entry.images || []) {
-    if (!image.src || !image.sourceUrl) errors.push(`${courseId}: imagem sem src/sourceUrl`);
-  }
-  for (const video of entry.videos || []) {
-    if (!video.url || !video.title) errors.push(`${courseId}: vídeo sem título/url`);
+  for (const image of entry.images || []) if (!image.src || !image.sourceUrl) errors.push(`${courseId}: imagem sem src/sourceUrl`);
+  for (const video of entry.videos || []) if (!video.url || !video.title) errors.push(`${courseId}: vídeo sem título/url`);
+}
+
+// Caminhos, relações e metadados editoriais.
+if (!Array.isArray(studyMap.paths) || studyMap.paths.length < 6) errors.push('caminhos de estudo insuficientes');
+for (const path of studyMap.paths || []) {
+  if (!path.id || !path.title || !path.description) errors.push('caminho sem metadados básicos');
+  if (!Array.isArray(path.courses) || path.courses.length < 5) errors.push(`caminho ${path.id}: curto demais`);
+  for (const id of path.courses || []) if (!ids.has(id)) errors.push(`caminho ${path.id}: disciplina inexistente ${id}`);
+}
+
+for (const relationName of ['prerequisites', 'related']) {
+  for (const [sourceId, targets] of Object.entries(studyMap[relationName] || {})) {
+    if (!ids.has(sourceId)) errors.push(`${relationName}: origem inexistente ${sourceId}`);
+    for (const target of targets || []) {
+      if (!ids.has(target)) errors.push(`${relationName}: destino inexistente ${target}`);
+      if (target === sourceId) errors.push(`${relationName}: auto-relação em ${sourceId}`);
+    }
   }
 }
+
+const defaultEditorial = studyMap.defaultEditorial || {};
+if (!['draft', 'reviewed', 'verified'].includes(defaultEditorial.status)) errors.push('defaultEditorial.status inválido');
+if (!/^\d{4}-\d{2}-\d{2}$/.test(defaultEditorial.lastReviewed || '')) errors.push('defaultEditorial.lastReviewed inválido');
+if (!Number.isInteger(defaultEditorial.reviewEveryDays) || defaultEditorial.reviewEveryDays <= 0) errors.push('defaultEditorial.reviewEveryDays inválido');
+for (const [id, meta] of Object.entries(studyMap.editorial || {})) {
+  if (!ids.has(id)) errors.push(`editorial associado a disciplina inexistente: ${id}`);
+  if (!['draft', 'reviewed', 'verified'].includes(meta.status)) errors.push(`${id}: status editorial inválido`);
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(meta.lastReviewed || '')) errors.push(`${id}: lastReviewed inválido`);
+}
+
+const sourceTitles = new Set((studyMap.sourceCollections || []).map(source => source.title));
+if (sourceTitles.size < 6) errors.push('coleções de fontes insuficientes');
+for (const source of studyMap.sourceCollections || []) {
+  if (!source.url?.startsWith('https://') || !source.scope) errors.push(`coleção de fonte incompleta: ${source.title}`);
+}
+for (const [courseId, titles] of Object.entries(studyMap.courseSources || {})) {
+  if (!ids.has(courseId)) errors.push(`courseSources: disciplina inexistente ${courseId}`);
+  for (const title of titles || []) if (!sourceTitles.has(title)) errors.push(`${courseId}: coleção de fonte inexistente ${title}`);
+}
+
+// Avaliações por semestre e rubrica.
+if (!Array.isArray(assessments.rubric) || assessments.rubric.length < 5) errors.push('rubrica de avaliação insuficiente');
+const rubricWeight = (assessments.rubric || []).reduce((sum, item) => sum + Number(item.weight || 0), 0);
+if (rubricWeight !== 100) errors.push(`pesos da rubrica somam ${rubricWeight}, esperado 100`);
+if (!Array.isArray(assessments.semesters) || assessments.semesters.length !== 8) errors.push('esperadas 8 avaliações semestrais');
+for (const item of assessments.semesters || []) {
+  if (!item.prompt || item.prompt.length < 80) errors.push(`semestre ${item.semester}: prompt superficial`);
+  if (!Array.isArray(item.deliverables) || item.deliverables.length < 4) errors.push(`semestre ${item.semester}: entregáveis insuficientes`);
+}
+
+for (const marker of ['Caminhos de estudo', 'Mapa de relações', 'Busca transversal', 'Caderno do historiador', 'Situo o contexto', 'Analiso fontes', 'Comparo interpretações', 'Avaliações']) {
+  if (!studyToolsJs.includes(marker)) errors.push(`study-tools.js incompleto: ${marker}`);
+}
+for (const marker of ['.path-grid', '.study-map-node', '.history-search-results', '.historian-mastery', '.assessment-grid', '.rubric-grid']) {
+  if (!studyToolsCss.includes(marker)) errors.push(`study-tools.css incompleto: ${marker}`);
+}
+for (const asset of ['./assets/study-tools.js', './assets/study-tools.css']) if (!indexHtml.includes(asset)) errors.push(`index.html não carrega ${asset}`);
 
 const lessonCount = courses.reduce((total, course) => total + (content[course.id]?.modules?.length || 0), 0);
 console.log(`Currículo após revisão: ${courses.length} disciplinas`);
@@ -138,6 +196,9 @@ console.log(`Aulas após revisão final: ${lessonCount}`);
 console.log(`Cronologia mestra: ${timeline.events?.length || 0} marcos`);
 console.log(`Eixos transversais: ${timeline.axes?.length || 0}`);
 console.log(`Disciplinas com mídia curada: ${Object.keys(media).length}`);
+console.log(`Caminhos de estudo: ${studyMap.paths?.length || 0}`);
+console.log(`Coleções de fontes: ${studyMap.sourceCollections?.length || 0}`);
+console.log(`Avaliações semestrais: ${assessments.semesters?.length || 0}`);
 console.log(`Lacunas estruturais cobertas: ${requiredGaps.length}`);
 console.log(`Disciplinas aprofundadas na revisão final: ${Object.keys(finalReview || {}).length}`);
 
@@ -147,4 +208,4 @@ if (errors.length) {
   process.exit(1);
 }
 
-console.log('\nRevisão curricular, cronologia, mídia e aprofundamento final válidos.');
+console.log('\nRevisão curricular, relações, avaliações, fontes, mídia e aprofundamento final válidos.');

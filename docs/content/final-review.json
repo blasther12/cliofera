@@ -1,0 +1,351 @@
+{
+  "pre-historia": {
+    "mode": "append",
+    "objectives": ["Relacionar dispersões humanas de longa distância às histórias das Américas e do Pacífico sem recorrer a modelos de povoamento excessivamente simples."],
+    "modules": [
+      {
+        "title": "Povoamento das Américas e adaptações continentais",
+        "explanation": ["O povoamento das Américas não pode ser reduzido a uma única marcha linear pelo corredor de Bering. Evidências arqueológicas, genéticas e paleoambientais sustentam múltiplas rotas, ritmos e adaptações, enquanto datas e modelos continuam em debate.", "Do Ártico às florestas tropicais e aos Andes, grupos humanos desenvolveram tecnologias e formas de mobilidade muito diferentes. O ponto histórico é compreender diversidade e incerteza documental, não procurar um único instante fundador."],
+        "concepts": ["Beringia", "povoamento", "arqueologia americana", "paleoambiente", "mobilidade"],
+        "reading": {"work": "David J. Meltzer — First Peoples in a New World", "focus": "Modelos arqueológicos para o povoamento americano e revisão das antigas certezas sobre Clovis.", "why": "Mostra como novas evidências transformam cronologias e hipóteses sem produzir uma narrativa definitiva."},
+        "questions": ["Por que a hipótese Clovis-first perdeu força?", "Como genética, arqueologia e paleoambiente podem discordar entre si?"],
+        "exercise": "Compare dois sítios usados no debate sobre o povoamento das Américas e registre datação, tipo de evidência e principais controvérsias."
+      },
+      {
+        "title": "Austronésios, Lapita e povoamento do Pacífico",
+        "explanation": ["A expansão austronésia conectou Taiwan, Sudeste Asiático insular, Melanésia e vastas áreas do Pacífico por navegação oceânica, agricultura e redes de parentesco. A cultura material Lapita é uma das principais pistas arqueológicas desse processo.", "O povoamento de ilhas remotas exige abandonar a imagem de sociedades pré-modernas passivas diante do oceano. Conhecimento astronômico, leitura de ventos, correntes, aves e ondas tornaram o Pacífico uma rede de caminhos, não um vazio entre continentes."],
+        "concepts": ["austronésios", "Lapita", "navegação", "Polinésia", "migração marítima"],
+        "reading": {"work": "Patrick Vinton Kirch — On the Road of the Winds", "focus": "Arqueologia da expansão austronésia e formação das sociedades insulares do Pacífico.", "why": "Integra ambiente, navegação, cultura material e organização social em uma história oceânica de longa duração."},
+        "questions": ["Que tipos de evidência permitem reconstruir migrações oceânicas?", "Por que mapas continentais podem distorcer a história do Pacífico?"],
+        "exercise": "Construa um mapa de etapas da expansão austronésia e associe a cada etapa pelo menos um tipo de evidência arqueológica ou linguística."
+      }
+    ],
+    "readingGuide": [
+      {"work": "Patrick Vinton Kirch — On the Road of the Winds", "role": "História do Pacífico", "how": "Leia relacionando arqueologia, ambiente e mobilidade marítima.", "deliverable": "Mapa comentado das dispersões austronésias e das evidências utilizadas para reconstruí-las."}
+    ]
+  },
+  "antiguidade-i": {
+    "mode": "append",
+    "objectives": ["Compreender o Oriente Próximo antigo como sistema internacional conectado, incluindo Anatólia, Assíria, Babilônia, Israel e Judá."],
+    "modules": [
+      {
+        "title": "Anatólia, hititas e o sistema internacional da Idade do Bronze",
+        "explanation": ["No segundo milênio a.C., Egito, Hatti, Babilônia, Mitanni e outros reinos participaram de um sistema diplomático conectado por casamentos dinásticos, presentes, guerras e correspondência. As cartas de Amarna mostram governantes negociando status quase como membros de uma mesma elite internacional.", "O Império Hitita, centrado na Anatólia, foi ator decisivo desse mundo. Tratados, arquivos e confrontos como Qadesh permitem estudar diplomacia e guerra antes do colapso das redes palaciais por volta de 1200 a.C."],
+        "concepts": ["hititas", "Amarna", "diplomacia", "Qadesh", "Idade do Bronze Tardia"],
+        "reading": {"work": "Amanda H. Podany — Brotherhood of Kings", "focus": "Diplomacia, presentes e relações entre cortes do Oriente Próximo na Idade do Bronze.", "why": "Substitui a imagem de civilizações isoladas por uma história internacional conectada."},
+        "questions": ["O que as cartas diplomáticas revelam que monumentos reais normalmente escondem?", "Como relações pessoais entre reis funcionavam como instrumentos políticos?"],
+        "exercise": "Analise duas cartas de Amarna e identifique linguagem de parentesco, interesses materiais e hierarquias diplomáticas."
+      },
+      {
+        "title": "Assíria, Babilônia e os impérios do primeiro milênio a.C.",
+        "explanation": ["O Império Neoassírio desenvolveu formas intensas de tributação, deportação, comunicação e guerra para governar territórios extensos. Relevos palacianos celebram violência e conquista, mas também devem ser lidos como programas de representação do poder.", "Após a queda assíria, a Babilônia neobabilônica tornou-se potência regional antes da conquista persa. Comparar os dois casos permite estudar continuidades administrativas e mudanças na geopolítica do Oriente Próximo."],
+        "concepts": ["Neoassírio", "deportação", "tributo", "Babilônia", "propaganda imperial"],
+        "reading": {"work": "Karen Radner — Ancient Assyria: A Very Short Introduction", "focus": "Administração, comunicação, guerra e diversidade do império assírio.", "why": "Ajuda a separar a retórica brutal dos reis das práticas concretas de governo imperial."},
+        "questions": ["Por que deportações podiam ser instrumento administrativo além de punição?", "Como imagens de guerra moldam nossa percepção moderna da Assíria?"],
+        "exercise": "Compare um relevo assírio com um documento administrativo e identifique diferenças entre representação e prática de governo."
+      },
+      {
+        "title": "Israel, Judá e a Bíblia Hebraica como fonte histórica",
+        "explanation": ["A história de Israel e Judá exige confronto entre arqueologia, inscrições externas e textos bíblicos redigidos e editados em momentos diferentes. Narrativas religiosas preservam memórias e projetos políticos, mas não podem ser usadas como transcrição literal de acontecimentos antigos.", "Debates sobre monarquia unificada, reformas religiosas, conquistas assírias, exílio babilônico e retorno persa mostram como evidências incompletas produzem interpretações concorrentes. O método importa tanto quanto a cronologia."],
+        "concepts": ["Israel", "Judá", "Bíblia Hebraica", "arqueologia bíblica", "exílio"],
+        "reading": {"work": "Lester L. Grabbe — Ancient Israel: What Do We Know and How Do We Know It?", "focus": "Relação entre textos bíblicos, inscrições, arqueologia e reconstrução histórica.", "why": "Oferece método equilibrado para um campo em que tradição religiosa e investigação histórica frequentemente se confundem."},
+        "questions": ["Como distinguir memória religiosa, composição literária e evidência histórica?", "O que inscrições de povos vizinhos acrescentam à documentação bíblica?"],
+        "exercise": "Escolha um episódio bíblico com documentação arqueológica ou epigráfica relacionada e produza uma matriz distinguindo fonte, data, gênero e grau de inferência."
+      }
+    ],
+    "readingGuide": [
+      {"work": "Amanda H. Podany — Brotherhood of Kings", "role": "Conexões do Bronze Tardio", "how": "Leia as cartas como fontes de relações internacionais e também como performances de status.", "deliverable": "Ensaio curto sobre diplomacia e interdependência antes de 1200 a.C."},
+      {"work": "Lester L. Grabbe — Ancient Israel: What Do We Know and How Do We Know It?", "role": "Crítica de fontes", "how": "Registre, em cada estudo de caso, quais afirmações dependem de texto, arqueologia ou inferência.", "deliverable": "Quadro de evidências sobre um problema da história de Israel ou Judá."}
+    ]
+  },
+  "africa-i": {
+    "mode": "append",
+    "objectives": ["Ampliar a comparação para Chifre da África, África Austral e África centro-ocidental, evitando reduzir a história africana ao Sahel e ao tráfico atlântico."],
+    "modules": [
+      {
+        "title": "Etiópia cristã e o Chifre da África",
+        "explanation": ["Após Axum, formações políticas das terras altas etíopes mantiveram tradições cristãs, redes com o Mar Vermelho e relações variáveis com comunidades muçulmanas. A dinastia salomônica construiu legitimidade por genealogias, religião e guerra.", "O Chifre da África conecta interior africano, Mar Vermelho, Península Arábica e Oceano Índico. Essa posição torna inadequada qualquer narrativa que separe rigidamente África de Oriente Médio."],
+        "concepts": ["Etiópia", "cristianismo etíope", "Mar Vermelho", "dinastia salomônica", "Chifre da África"],
+        "reading": {"work": "Taddesse Tamrat — Church and State in Ethiopia, 1270–1527", "focus": "Relações entre monarquia, Igreja e expansão territorial etíope.", "why": "Mostra uma tradição estatal africana de longa duração em diálogo com redes regionais próprias."},
+        "questions": ["Como religião e genealogia sustentavam legitimidade política?", "Por que o Chifre da África precisa ser estudado como zona de conexão?"],
+        "exercise": "Monte um mapa das conexões entre Etiópia, Mar Vermelho, Egito, Arábia e Oceano Índico em um período escolhido."
+      },
+      {
+        "title": "Grande Zimbábue e a África Austral",
+        "explanation": ["Grande Zimbábue foi um importante centro político e comercial entre os séculos XI e XV, conectado a produção de ouro, gado e redes do Oceano Índico. Sua arquitetura de pedra tornou-se alvo de interpretações coloniais que recusavam autoria africana.", "A história das interpretações do sítio é tão reveladora quanto o próprio assentamento: arqueologia foi usada para sustentar racismo colonial e depois para desmontá-lo por meio de evidências materiais."],
+        "concepts": ["Grande Zimbábue", "ouro", "Oceano Índico", "arqueologia colonial", "África Austral"],
+        "reading": {"work": "Innocent Pikirayi — The Zimbabwe Culture", "focus": "Formação política, comércio e arqueologia das sociedades associadas a Grande Zimbábue.", "why": "Integra evidência material e crítica às interpretações coloniais do passado africano."},
+        "questions": ["Por que colonizadores resistiram à ideia de autoria africana do sítio?", "Que evidências conectam Grande Zimbábue ao comércio do Índico?"],
+        "exercise": "Compare uma interpretação colonial antiga de Grande Zimbábue com uma síntese arqueológica contemporânea e identifique pressupostos e evidências."
+      },
+      {
+        "title": "Kongo e formações políticas da África centro-ocidental",
+        "explanation": ["O Reino do Kongo possuía instituições políticas, tributação e redes regionais antes do contato intenso com portugueses no final do século XV. A conversão de elites ao cristianismo criou novas linguagens políticas sem apagar práticas locais.", "Cartas de governantes kongoleses permitem observar diplomacia africana, disputas pelo tráfico de escravizados e apropriações seletivas de instituições europeias. O contato atlântico deve ser estudado como negociação assimétrica, não como simples chegada unilateral da Europa."],
+        "concepts": ["Kongo", "diplomacia atlântica", "cristianização", "África centro-ocidental", "tráfico"],
+        "reading": {"work": "John K. Thornton — The Kingdom of Kongo", "focus": "Instituições kongolesas, cristianização e relações atlânticas.", "why": "Recoloca atores centro-africanos no centro da formação do Atlântico moderno."},
+        "questions": ["Como elites kongolesas reinterpretaram o cristianismo?", "Que limites aparecem na diplomacia do Kongo diante da expansão do tráfico?"],
+        "exercise": "Analise uma carta de Afonso I do Kongo e identifique objetivos diplomáticos, linguagem política e conflitos em torno do tráfico."
+      }
+    ],
+    "readingGuide": [
+      {"work": "Innocent Pikirayi — The Zimbabwe Culture", "role": "África Austral", "how": "Leia combinando arquitetura, economia regional e história da própria arqueologia.", "deliverable": "Estudo de caso sobre como colonialismo interferiu na interpretação arqueológica."}
+    ]
+  },
+  "mundo-islamico": {
+    "mode": "append",
+    "objectives": ["Distinguir diversidade religiosa e política interna do mundo islâmico e acompanhar suas grandes formações imperiais até a primeira modernidade."],
+    "modules": [
+      {
+        "title": "Sunismo, xiismo, sufismo e diversidade do Islã",
+        "explanation": ["Desde os primeiros séculos, comunidades muçulmanas divergiram sobre autoridade, direito, teologia e práticas religiosas. Sunismo e xiismo abrangem tradições internas variadas, e o sufismo desenvolveu múltiplas formas de espiritualidade e organização social.", "Essas categorias não podem ser projetadas como blocos eternamente homogêneos. Mudanças políticas, instituições de ensino, redes de estudiosos e ordens sufis transformaram fronteiras religiosas ao longo do tempo."],
+        "concepts": ["sunismo", "xiismo", "sufismo", "ulemás", "madhhab"],
+        "reading": {"work": "Marshall G. S. Hodgson — The Venture of Islam", "focus": "Formação de tradições religiosas e diversidade social dentro das sociedades islâmicas.", "why": "Evita tratar o Islã como unidade cultural imóvel e conecta religião a instituições históricas."},
+        "questions": ["Por que diferenças religiosas não podem ser explicadas apenas por doutrina?", "Como redes de ensino e peregrinação criavam comunidades transregionais?"],
+        "exercise": "Escolha duas tradições ou instituições islâmicas e compare autoridade, circulação de conhecimento e relação com poder político."
+      },
+      {
+        "title": "Seljúcidas, mamelucos e a recomposição do Oriente Médio medieval",
+        "explanation": ["A fragmentação política do califado abássida não significou colapso da civilização islâmica. Dinastias turcas, persas e árabes reorganizaram poder, enquanto Bagdá, Cairo, Damasco e outras cidades continuaram articulando comércio e produção intelectual.", "Seljúcidas e mamelucos mostram como instituições militares, escravidão de elite, patronagem religiosa e legitimidade califal podiam combinar-se de maneiras distintas."],
+        "concepts": ["seljúcidas", "mamelucos", "sultanato", "iqta", "Cairo"],
+        "reading": {"work": "Hugh Kennedy — The Prophet and the Age of the Caliphates", "focus": "Transformações políticas após o auge abássida e surgimento de novas dinastias.", "why": "Ajuda a substituir a ideia de declínio contínuo por uma história de recomposição institucional."},
+        "questions": ["Por que fragmentação política não equivale a declínio cultural?", "Como elites militares podiam transformar-se em dinastias governantes?"],
+        "exercise": "Compare a estrutura política abássida tardia com uma formação seljúcida ou mameluca."
+      },
+      {
+        "title": "Otomanos e safávidas na primeira modernidade",
+        "explanation": ["Entre os séculos XV e XVIII, impérios otomano e safávida reorganizaram vastas áreas do Mediterrâneo, Bálcãs, Anatólia, Cáucaso e Irã. Armas de fogo, fiscalidade, comércio e identidades religiosas participaram de sua consolidação.", "A rivalidade otomano-safávida contribuiu para institucionalizar fronteiras confessionais, mas nenhum dos impérios foi culturalmente uniforme. Cristãos, judeus, sunitas, xiitas e outras comunidades viveram sob arranjos jurídicos e políticos variáveis."],
+        "concepts": ["Império Otomano", "Safávidas", "janízaros", "xiismo duodecimano", "Mediterrâneo"],
+        "reading": {"work": "Caroline Finkel — Osman's Dream", "focus": "Formação e transformação do Império Otomano em contexto mediterrânico e eurasiático.", "why": "Integra guerra, administração, religião e sociedade sem reduzir o império a rival externo da Europa."},
+        "questions": ["Como os otomanos governavam populações religiosamente diversas?", "Por que a rivalidade safávida-otomana não deve ser lida apenas como conflito religioso?"],
+        "exercise": "Compare um mapa otomano do século XVI com redes comerciais mediterrânicas e indique zonas de sobreposição política e econômica."
+      }
+    ],
+    "readingGuide": [
+      {"work": "Caroline Finkel — Osman's Dream", "role": "Primeira modernidade islâmica", "how": "Leia o Império Otomano como formação interna da história mediterrânica, não como apêndice das guerras europeias.", "deliverable": "Ensaio sobre governo da diversidade no império otomano."}
+    ]
+  },
+  "historia-ciencia": {
+    "mode": "append",
+    "objectives": ["Relacionar ciência a medicina, império, raça, gênero e instituições, evitando uma narrativa exclusivamente interna de descobertas."],
+    "modules": [
+      {
+        "title": "Medicina, epidemias e saúde pública",
+        "explanation": ["Conhecimentos médicos mudam em interação com hospitais, Estados, guerras, cidades e epidemias. Teorias sobre doença influenciam políticas de quarentena, saneamento, vacinação e organização profissional.", "A história da medicina também evidencia desigualdade: acesso a cuidados, experimentação, mortalidade e exposição a riscos variam segundo classe, raça, gênero, território e relações coloniais."],
+        "concepts": ["medicina", "epidemia", "saúde pública", "vacinação", "saneamento"],
+        "reading": {"work": "Charles Rosenberg — Explaining Epidemics", "focus": "Epidemias como acontecimentos biológicos e sociais, incluindo respostas institucionais e narrativas públicas.", "why": "Mostra por que doença não pode ser separada das estruturas sociais que moldam exposição e resposta."},
+        "questions": ["Como teorias médicas afetam políticas públicas?", "Por que a mesma epidemia produz impactos sociais diferentes entre grupos?"],
+        "exercise": "Compare duas epidemias históricas observando conhecimento médico, medidas estatais, comunicação pública e desigualdades."
+      },
+      {
+        "title": "Ciência, império, raça e eugenia",
+        "explanation": ["Ciência moderna foi produzida em redes imperiais de coleta, classificação e circulação de pessoas, plantas, animais e dados. Naturalistas, médicos e administradores coloniais participaram de projetos científicos inseparáveis de relações de poder.", "Nos séculos XIX e XX, teorias racialistas e eugênicas mobilizaram linguagem científica para hierarquizar populações e orientar políticas. Estudá-las exige entender como instituições validam conhecimentos e como consensos científicos podem mudar."],
+        "concepts": ["racialismo científico", "eugenia", "império", "classificação", "ética científica"],
+        "reading": {"work": "Nancy Stepan — The Hour of Eugenics", "focus": "Circulação e adaptação da eugenia na América Latina.", "why": "Demonstra que ideias científicas são apropriadas de modos distintos em contextos nacionais e políticos."},
+        "questions": ["Como autoridade científica pode legitimar políticas sociais?", "Por que eugenia não foi fenômeno restrito à Alemanha nazista?"],
+        "exercise": "Analise um documento eugênico identificando categorias, pressupostos científicos, objetivos políticos e grupos afetados."
+      }
+    ],
+    "readingGuide": [
+      {"work": "Nancy Stepan — The Hour of Eugenics", "role": "Ciência e poder", "how": "Compare recepção da eugenia em países latino-americanos e evite tratá-la como doutrina única.", "deliverable": "Estudo comparativo sobre ciência, Estado e hierarquias sociais."}
+    ]
+  },
+  "seculo-xix": {
+    "mode": "append",
+    "modules": [
+      {
+        "title": "Império Russo, Europa Oriental e a questão das nacionalidades",
+        "explanation": ["O século XIX europeu não se resume a França, Grã-Bretanha, Itália e Alemanha. O Império Russo, os Habsburgos, os Bálcãs e o enfraquecimento otomano organizaram milhões de pessoas por estruturas imperiais multiétnicas.", "Nacionalismos polonês, húngaro, sérvio, tcheco e outros surgiram em relações específicas com impérios e elites locais. A ideia de que toda nacionalidade caminhava naturalmente para um Estado-nação projeta sobre o passado resultados posteriores."],
+        "concepts": ["Império Russo", "Habsburgos", "nacionalidades", "Bálcãs", "Estado-nação"],
+        "reading": {"work": "Dominic Lieven — Empire: The Russian Empire and Its Rivals", "focus": "Comparação entre impérios russo, otomano e habsburgo e problemas de governo multiétnico.", "why": "Descentra a narrativa nacional e mostra persistência das formas imperiais no século XIX."},
+        "questions": ["Por que impérios continuaram politicamente viáveis durante o século XIX?", "Como nacionalismo podia coexistir com identidades imperiais?"],
+        "exercise": "Compare dois movimentos nacionais em impérios diferentes e identifique bases sociais, objetivos e respostas estatais."
+      },
+      {
+        "title": "Migrações globais e colonialismo de povoamento",
+        "explanation": ["Dezenas de milhões de pessoas migraram no século XIX e início do XX, voluntária ou coercitivamente. Europeus, chineses, indianos e outros grupos atravessaram oceanos como colonos, trabalhadores contratados, comerciantes e refugiados.", "Em territórios como Estados Unidos, Canadá, Austrália, Nova Zelândia, África do Sul e partes da América Latina, expansão de colonos transformou terra e soberania indígena. Colonialismo de povoamento precisa ser estudado junto a migração, propriedade e violência de fronteira."],
+        "concepts": ["migração", "indentured labour", "colonialismo de povoamento", "fronteira", "diáspora"],
+        "reading": {"work": "Jürgen Osterhammel — The Transformation of the World", "focus": "Migrações, impérios e conexões globais do século XIX.", "why": "Permite colocar industrialização e nacionalismo dentro de transformações planetárias simultâneas."},
+        "questions": ["Como distinguir migração de colonização?", "Que relações existem entre expansão de colonos e expropriação indígena?"],
+        "exercise": "Escolha uma corrente migratória do século XIX e reconstrua origem, destino, regime de trabalho e impacto sobre populações locais."
+      }
+    ],
+    "readingGuide": [
+      {"work": "Jürgen Osterhammel — The Transformation of the World", "role": "Síntese global", "how": "Use capítulos temáticos para comparar processos que ocorriam simultaneamente em continentes diferentes.", "deliverable": "Mapa de conexões globais para o século XIX."}
+    ]
+  },
+  "historiografia-ii": {
+    "mode": "append",
+    "objectives": ["Reconhecer contribuições feministas, negras, indígenas e decoloniais para problemas de arquivo, experiência, poder e produção do conhecimento histórico."],
+    "modules": [
+      {
+        "title": "História das mulheres e historiografia feminista",
+        "explanation": ["A história das mulheres começou recuperando sujeitos apagados de narrativas políticas tradicionais, mas rapidamente passou a questionar as próprias categorias usadas pelos historiadores. Gênero tornou-se ferramenta para analisar poder, trabalho, família, cidadania e linguagem.", "O debate feminista também mostrou que 'mulheres' não formam grupo homogêneo. Classe, raça, sexualidade, colonialismo e nacionalidade transformam experiências e exigem análise interseccional e situada."],
+        "concepts": ["história das mulheres", "gênero", "interseccionalidade", "arquivo", "experiência"],
+        "reading": {"work": "Joan W. Scott — Gender: A Useful Category of Historical Analysis", "focus": "Como gênero funciona como relação de poder e categoria analítica, não apenas como tema adicional.", "why": "É texto decisivo para compreender mudança de uma história das mulheres para uma crítica das categorias históricas."},
+        "questions": ["Qual a diferença entre adicionar mulheres à narrativa e usar gênero como categoria de análise?", "Como o arquivo pode produzir invisibilidade de gênero?"],
+        "exercise": "Escolha um tema já estudado e reformule uma pergunta de pesquisa usando gênero como categoria analítica."
+      },
+      {
+        "title": "História negra, escravidão e Atlântico Negro",
+        "explanation": ["Historiadores e intelectuais negros produziram interpretações fundamentais sobre escravidão, emancipação, cidadania e capitalismo muito antes da consolidação desses temas na universidade. W. E. B. Du Bois é exemplo central dessa tradição.", "A história atlântica negra desloca fronteiras nacionais e acompanha circulação de pessoas, ideias, religiões e movimentos políticos. Ela também obriga a discutir como arquivos escravistas registram pessoas a partir da linguagem de proprietários e Estados."],
+        "concepts": ["história negra", "diáspora", "Atlântico Negro", "emancipação", "arquivo escravista"],
+        "reading": {"work": "W. E. B. Du Bois — Black Reconstruction in America", "focus": "Reinterpretação da Reconstrução norte-americana a partir de trabalho, raça e ação política negra.", "why": "Demonstra como posição social e perguntas historiográficas podem transformar radicalmente uma narrativa consolidada."},
+        "questions": ["Como Du Bois alterou a interpretação da Reconstrução?", "Que problemas surgem quando a maioria das fontes sobre escravidão foi produzida por instituições escravistas?"],
+        "exercise": "Compare uma interpretação historiográfica antiga e uma revisão posterior de um processo de pós-emancipação."
+      },
+      {
+        "title": "Historiografias indígenas e crítica decolonial",
+        "explanation": ["Histórias indígenas questionam a tendência de tratar povos originários apenas como objetos de políticas coloniais. Autoria indígena, tradição oral, territorialidade e protocolos comunitários podem alterar pergunta, fonte e forma de apresentação da pesquisa.", "Perspectivas decoloniais e pós-coloniais não são intercambiáveis, mas compartilham preocupação com hierarquias de conhecimento criadas por impérios e universidades. O desafio é usá-las como ferramentas críticas sem transformá-las em rótulos automáticos."],
+        "concepts": ["autoria indígena", "decolonialidade", "território", "oralidade", "epistemologia"],
+        "reading": {"work": "Linda Tuhiwai Smith — Decolonizing Methodologies", "focus": "Pesquisa, colonialismo e protocolos para produção de conhecimento com povos indígenas.", "why": "Torna explícita a dimensão ética e política de métodos considerados neutros em tradições acadêmicas ocidentais."},
+        "questions": ["Quem tem autoridade para interpretar e divulgar determinado conhecimento?", "Como métodos de pesquisa podem reproduzir relações coloniais?"],
+        "exercise": "Revise um projeto hipotético sobre uma comunidade indígena e proponha mudanças em autoria, consentimento, fontes e devolução dos resultados."
+      }
+    ],
+    "readingGuide": [
+      {"work": "W. E. B. Du Bois — Black Reconstruction in America", "role": "Revisão historiográfica", "how": "Compare a tese de Du Bois com narrativas anteriores sobre Reconstrução e identifique mudança de sujeitos e causalidade.", "deliverable": "Ensaio sobre como uma revisão historiográfica altera o objeto estudado."},
+      {"work": "Linda Tuhiwai Smith — Decolonizing Methodologies", "role": "Crítica epistemológica", "how": "Leia distinguindo crítica ao colonialismo da pesquisa de protocolos concretos de trabalho.", "deliverable": "Checklist ético para pesquisa histórica com comunidades vivas."}
+    ]
+  },
+  "primeira-guerra": {
+    "mode": "append",
+    "modules": [
+      {
+        "title": "Impérios coloniais, Oriente Médio e guerra global",
+        "explanation": ["A Primeira Guerra foi mundial não apenas porque potências europeias possuíam colônias. Soldados e trabalhadores da Índia, África, Caribe, Sudeste Asiático e domínios britânicos participaram diretamente do conflito e sustentaram economias de guerra.", "No Oriente Médio, a guerra contra o Império Otomano envolveu campanhas militares, fome, deslocamentos, genocídio armênio e novas promessas imperiais. Fronteiras e mandatos do pós-guerra precisam ser estudados dentro dessa experiência regional complexa."],
+        "concepts": ["guerra global", "Império Otomano", "tropas coloniais", "mandatos", "genocídio armênio"],
+        "reading": {"work": "Eugene Rogan — The Fall of the Ottomans", "focus": "Frentes otomanas e consequências da guerra no Oriente Médio.", "why": "Corrige uma narrativa centrada exclusivamente nas trincheiras da Frente Ocidental."},
+        "questions": ["O que torna a guerra de 1914–1918 verdadeiramente global?", "Como o colapso otomano se relaciona ao desenho político do Oriente Médio posterior?"],
+        "exercise": "Escolha uma frente fora da Europa ocidental e reconstrua combatentes, objetivos, logística e consequências locais."
+      }
+    ],
+    "readingGuide": [
+      {"work": "Eugene Rogan — The Fall of the Ottomans", "role": "Dimensão global", "how": "Leia em paralelo à cronologia europeia e registre eventos simultâneos no Oriente Médio.", "deliverable": "Mapa comparativo das frentes da Primeira Guerra."}
+    ]
+  },
+  "fascismo-segunda-guerra": {
+    "mode": "append",
+    "modules": [
+      {
+        "title": "China, imperialismo japonês e a guerra na Ásia desde 1931",
+        "explanation": ["Uma cronologia global da Segunda Guerra não precisa começar em setembro de 1939. A ocupação japonesa da Manchúria em 1931 e a guerra em grande escala contra a China a partir de 1937 fazem parte da escalada imperial que culminou no conflito do Pacífico.", "A guerra sino-japonesa produziu massacres, deslocamentos e destruição massiva, ao mesmo tempo em que transformou nacionalistas e comunistas chineses. Integrar essa história evita tratar a Ásia apenas como frente aberta depois de Pearl Harbor."],
+        "concepts": ["Manchúria", "Segunda Guerra Sino-Japonesa", "imperialismo japonês", "Nanjing", "guerra do Pacífico"],
+        "reading": {"work": "Rana Mitter — Forgotten Ally", "focus": "Experiência chinesa na guerra contra o Japão e seu lugar na Segunda Guerra Mundial.", "why": "Reequilibra a narrativa global ao incluir um dos principais teatros do conflito antes de 1941."},
+        "questions": ["Por que 1937 pode ser um marco alternativo para uma cronologia global da guerra?", "Como a guerra contra o Japão alterou a política chinesa?"],
+        "exercise": "Monte duas cronologias da Segunda Guerra, uma iniciando em 1939 e outra em 1931/1937, e explique o que muda na interpretação."
+      }
+    ],
+    "readingGuide": [
+      {"work": "Rana Mitter — Forgotten Ally", "role": "Guerra na Ásia", "how": "Use para inserir a China na cronologia global do conflito e comparar experiências civis.", "deliverable": "Síntese sobre por que a guerra asiática não deve ser apenas apêndice de Pearl Harbor."}
+    ]
+  },
+  "brasil-iii": {
+    "mode": "append",
+    "objectives": ["Estudar a Nova República e o tempo presente distinguindo análise histórica, memória política, documentação contemporânea e julgamentos partidários."],
+    "modules": [
+      {
+        "title": "Nova República: estabilização, reformas e políticas sociais, 1989–2013",
+        "explanation": ["Depois da Constituição de 1988, o Brasil enfrentou hiperinflação, reformas institucionais, abertura econômica, estabilização monetária e ampliação de políticas sociais. Diferentes governos combinaram continuidades e mudanças em relações entre Estado, mercado e cidadania.", "Uma abordagem histórica deve comparar indicadores, legislação, debates parlamentares, imprensa e experiências sociais sem reduzir o período a biografias presidenciais. Democracia, desigualdade e expansão de direitos formam eixos mais duradouros."],
+        "concepts": ["Nova República", "Plano Real", "políticas sociais", "democracia", "desigualdade"],
+        "reading": {"work": "Lilia M. Schwarcz e Heloisa M. Starling — Brasil: Uma Biografia", "focus": "Capítulos finais sobre redemocratização, estabilização e transformações sociais.", "why": "Oferece síntese que permite conectar eventos políticos a processos sociais de longa duração."},
+        "questions": ["Que continuidades atravessam governos ideologicamente diferentes?", "Quais indicadores ajudam a avaliar mudanças sociais sem depender apenas de discursos políticos?"],
+        "exercise": "Escolha uma política pública entre 1989 e 2013 e compare legislação, dados de implementação, debate público e avaliação historiográfica ou das ciências sociais."
+      },
+      {
+        "title": "História do Tempo Presente: 2013 ao século XXI",
+        "explanation": ["Estudar acontecimentos muito recentes exige cautela adicional: arquivos ainda estão em formação, testemunhas participam do debate público e interpretações mudam rapidamente. Protestos, crises econômicas, conflitos institucionais, redes sociais e polarização precisam ser analisados por fontes diversas.", "História do Tempo Presente não significa evitar temas controversos. Significa explicitar recorte, evidências e limites, distinguir fatos documentados de interpretações e apresentar controvérsias acadêmicas sem transformar a aula em defesa partidária."],
+        "concepts": ["tempo presente", "polarização", "redes sociais", "crise institucional", "memória"],
+        "reading": {"work": "Carlos Fico — História do Brasil Contemporâneo", "focus": "Método e contextualização para estudar passado recente brasileiro.", "why": "Ajuda a construir distância analítica quando fontes e disputas políticas ainda estão abertas."},
+        "questions": ["Que problemas metodológicos aparecem ao estudar acontecimentos dos quais ainda participamos?", "Como separar cronologia factual de interpretação política?"],
+        "exercise": "Construa um dossiê de um acontecimento pós-2013 usando uma fonte institucional, uma base de dados, imprensa de linhas editoriais diferentes e produção acadêmica; separe consenso factual e interpretação."
+      }
+    ],
+    "readingGuide": [
+      {"work": "Carlos Fico — História do Brasil Contemporâneo", "role": "História do Tempo Presente", "how": "Leia procurando procedimentos para lidar com fontes abundantes, memória e controvérsia política.", "deliverable": "Protocolo de análise para um tema brasileiro posterior a 1988."}
+    ]
+  },
+  "global-contemporanea": {
+    "mode": "append",
+    "objectives": ["Explicar transformações posteriores a 1970 e 1991 sem tratar globalização, neoliberalismo, digitalização ou crise climática como processos inevitáveis."],
+    "modules": [
+      {
+        "title": "Neoliberalismo, financeirização e reestruturação produtiva",
+        "explanation": ["A partir dos anos 1970, crises econômicas e disputas políticas favoreceram reformas de liberalização financeira, privatização, enfraquecimento de determinadas proteções trabalhistas e reorganização das cadeias produtivas. O termo neoliberalismo reúne projetos distintos e precisa ser usado com precisão.", "A expansão de finanças globais e cadeias transnacionais alterou relações entre empresas, Estados e trabalho. Esses processos foram negociados de maneiras diferentes em Europa, Américas, África e Ásia, portanto não formam uma única receita universal."],
+        "concepts": ["neoliberalismo", "financeirização", "cadeias globais", "desindustrialização", "trabalho"],
+        "reading": {"work": "Quinn Slobodian — Globalists", "focus": "Projetos intelectuais e institucionais para construir mercados internacionais protegidos de determinadas decisões nacionais.", "why": "Historiza o neoliberalismo em vez de tratá-lo como simples sinônimo de capitalismo contemporâneo."},
+        "questions": ["Por que neoliberalismo precisa ser definido historicamente?", "Como cadeias globais alteraram a geografia do trabalho industrial?"],
+        "exercise": "Escolha um setor econômico e trace mudanças geográficas de produção, emprego e propriedade desde os anos 1970."
+      },
+      {
+        "title": "11 de Setembro, Guerra ao Terror e reconfiguração do Oriente Médio",
+        "explanation": ["Os atentados de 11 de setembro de 2001 reorganizaram prioridades de segurança dos Estados Unidos e de aliados, contribuindo para guerras no Afeganistão e Iraque, expansão de vigilância e novos debates sobre terrorismo e direito internacional.", "Esses acontecimentos precisam ser conectados à história anterior do Oriente Médio, à Guerra Fria, às políticas regionais e a atores locais. Explicações que reduzem conflitos a religião ou a um choque civilizacional escondem processos políticos concretos."],
+        "concepts": ["11 de Setembro", "Guerra ao Terror", "Afeganistão", "Iraque", "segurança"],
+        "reading": {"work": "Fawaz A. Gerges — The Rise and Fall of Al-Qaeda", "focus": "Formação, estratégia e contexto político da Al-Qaeda e do jihadismo transnacional.", "why": "Ajuda a substituir explicações culturalistas por história política e organizacional."},
+        "questions": ["Como 11 de Setembro transformou políticas de segurança além das zonas de guerra?", "Que processos anteriores são necessários para compreender o jihadismo transnacional?"],
+        "exercise": "Monte uma cronologia 1979–2011 conectando Afeganistão, Guerra do Golfo, Al-Qaeda, 11 de Setembro e guerras posteriores, indicando onde existem disputas interpretativas."
+      },
+      {
+        "title": "Crise de 2008, plataformas digitais e nova economia política",
+        "explanation": ["A crise financeira de 2008 expôs riscos acumulados em mercados de crédito e instituições financeiras interdependentes. Respostas estatais, austeridade, desemprego e desigualdade tiveram efeitos políticos diversos em diferentes países.", "Na mesma década, plataformas digitais ampliaram poder econômico baseado em dados, publicidade, redes e infraestrutura. A internet deixou de ser apenas tecnologia de comunicação e tornou-se parte central da organização de trabalho, consumo e esfera pública."],
+        "concepts": ["crise de 2008", "plataformas", "dados", "austeridade", "economia digital"],
+        "reading": {"work": "Adam Tooze — Crashed", "focus": "Dimensão transatlântica e global da crise de 2008 e de suas respostas políticas.", "why": "Mostra como finanças, bancos centrais e política internacional se conectaram durante a crise."},
+        "questions": ["Por que uma crise originada em mercados financeiros norte-americanos teve efeitos globais?", "Como plataformas digitais alteram relações entre mercado e esfera pública?"],
+        "exercise": "Compare efeitos da crise de 2008 em dois países e relacione respostas econômicas a consequências políticas posteriores."
+      },
+      {
+        "title": "Crise climática, Antropoceno e história planetária",
+        "explanation": ["Mudanças climáticas antropogênicas desafiam escalas tradicionais da História porque conectam industrialização, energia fóssil, impérios, consumo e sistemas terrestres. O conceito de Antropoceno procura nomear essa transformação, mas sua periodização e implicações são debatidas.", "Uma história planetária não deve dissolver desigualdades em uma humanidade abstrata. Responsabilidades históricas, vulnerabilidade e capacidade de adaptação variam profundamente entre regiões, classes e sociedades."],
+        "concepts": ["mudanças climáticas", "Antropoceno", "energia fóssil", "responsabilidade histórica", "história planetária"],
+        "reading": {"work": "Dipesh Chakrabarty — The Climate of History: Four Theses", "focus": "Problema de combinar história do capitalismo, desigualdade e agência humana com escalas planetárias.", "why": "É texto-chave para entender como a crise climática pressiona categorias historiográficas modernas."},
+        "questions": ["O conceito de Antropoceno distribui responsabilidade de forma adequada?", "Como historiadores podem trabalhar simultaneamente com escalas humanas e planetárias?"],
+        "exercise": "Escolha um processo histórico ligado a energia fóssil e conecte inovação, economia, política, emissões e distribuição desigual de impactos."
+      }
+    ],
+    "readingGuide": [
+      {"work": "Adam Tooze — Crashed", "role": "Século XXI", "how": "Leia seguindo fluxos financeiros entre países e respostas políticas à crise de 2008.", "deliverable": "Diagrama causal da crise e de dois efeitos políticos posteriores."},
+      {"work": "Dipesh Chakrabarty — The Climate of History: Four Theses", "role": "História planetária", "how": "Separe as teses do autor e teste seus limites diante de desigualdades históricas.", "deliverable": "Ensaio sobre escala histórica e crise climática."}
+    ]
+  },
+  "metodologia-pesquisa": {
+    "mode": "append",
+    "objectives": ["Selecionar métodos de pesquisa adequados a fontes orais, quantitativas, comparativas e digitais e explicitar decisões analíticas e éticas."],
+    "modules": [
+      {
+        "title": "História oral, entrevista e memória",
+        "explanation": ["História oral não transforma lembranças em acesso direto ao passado. Entrevistas são produzidas no presente por interação entre entrevistador e narrador, carregando memória, esquecimento, linguagem e expectativas sociais.", "A força da fonte oral está também em como pessoas atribuem sentido à experiência. Consentimento, guarda, anonimização, direito de retirada e devolução do material fazem parte do método, não são burocracia externa."],
+        "concepts": ["história oral", "memória", "entrevista", "consentimento", "testemunho"],
+        "reading": {"work": "Alessandro Portelli — The Death of Luigi Trastulli and Other Stories", "focus": "Diferenças entre factualidade, memória e significado em fontes orais.", "why": "Mostra por que uma lembrança factualmente imprecisa ainda pode ser historicamente significativa."},
+        "questions": ["O que uma memória incorreta pode revelar?", "Como a presença do entrevistador participa da produção da fonte?"],
+        "exercise": "Elabore roteiro de entrevista com termo de consentimento, plano de armazenamento e estratégia de confronto com outras fontes."
+      },
+      {
+        "title": "História quantitativa, demografia e séries históricas",
+        "explanation": ["Censos, preços, salários, registros paroquiais, eleições e bancos de dados permitem estudar padrões impossíveis de perceber em poucos documentos. Quantificação amplia escala, mas depende de categorias históricas produzidas por instituições específicas.", "Séries precisam de crítica documental: mudanças de moeda, território, definição de ocupação, raça ou causa de morte podem quebrar comparabilidade. Estatística não elimina interpretação; torna pressupostos mensuráveis e discutíveis."],
+        "concepts": ["série histórica", "demografia", "amostragem", "categoria", "comparabilidade"],
+        "reading": {"work": "Pat Hudson — History by Numbers", "focus": "Uso crítico de quantificação, estatística e séries em pesquisa histórica.", "why": "Introduz ferramentas sem confundir precisão matemática com qualidade da fonte."},
+        "questions": ["Quando duas séries aparentemente iguais deixam de ser comparáveis?", "Como categorias administrativas moldam resultados quantitativos?"],
+        "exercise": "Escolha uma série histórica pública, documente origem e mudanças metodológicas e produza uma visualização com três limitações explícitas."
+      },
+      {
+        "title": "Comparação, história conectada e transnacional",
+        "explanation": ["Comparar casos permite observar diferenças e mecanismos, mas pode impor unidades artificiais e ignorar conexões entre os próprios casos. História conectada pergunta como pessoas, objetos e conceitos circularam entre espaços que a pesquisa separou.", "História transnacional investiga processos que atravessam fronteiras sem pressupor que o Estado-nação seja a unidade natural de análise. A escolha entre comparação e conexão depende do problema, não de moda historiográfica."],
+        "concepts": ["comparação", "história conectada", "transnacional", "escala", "circulação"],
+        "reading": {"work": "Sanjay Subrahmanyam — Connected Histories", "focus": "Conexões entre histórias regionais e crítica a compartimentos historiográficos isolados.", "why": "Oferece método especialmente útil para impérios, comércio e circulação de ideias."},
+        "questions": ["Quando comparar obscurece relações causais entre os casos?", "Como escolher escala sem assumir fronteiras nacionais como naturais?"],
+        "exercise": "Reescreva a mesma pergunta de pesquisa em versão nacional, comparativa e conectada e descreva que fontes mudariam em cada desenho."
+      },
+      {
+        "title": "Ética, transparência, reprodutibilidade e uso de IA",
+        "explanation": ["Pesquisa histórica precisa registrar decisões sobre seleção, transcrição, tradução, tratamento de dados e uso de ferramentas. Transparência não significa que toda interpretação seja reproduzível como experimento, mas permite que outros compreendam como o argumento foi construído.", "Ferramentas de IA podem ajudar a organizar, buscar, resumir ou programar, porém podem inventar referências, reproduzir vieses e ocultar transformações aplicadas às fontes. Nenhuma saída automatizada substitui conferência no documento, citação verificável e responsabilidade autoral."],
+        "concepts": ["ética", "reprodutibilidade", "proveniência", "IA", "responsabilidade autoral"],
+        "reading": {"work": "The Programming Historian — lições sobre dados, documentação e reprodutibilidade", "focus": "Procedimentos que deixam etapas de pesquisa explícitas e auditáveis.", "why": "Conecta método histórico a práticas digitais sem transformar ferramenta em autoridade epistemológica."},
+        "questions": ["O que deve ser documentado quando IA participa de uma pesquisa?", "Como preservar rastreabilidade entre uma afirmação e sua fonte?"],
+        "exercise": "Crie um protocolo de uso responsável de IA para a monografia final incluindo tarefas permitidas, verificações obrigatórias e registro de proveniência."
+      }
+    ],
+    "readingGuide": [
+      {"work": "Alessandro Portelli — The Death of Luigi Trastulli and Other Stories", "role": "História oral", "how": "Leia distinguindo precisão factual, memória e produção de significado.", "deliverable": "Plano comentado de entrevista histórica."},
+      {"work": "Pat Hudson — History by Numbers", "role": "Métodos quantitativos", "how": "Aplique cada técnica a uma série histórica real e registre limitações da fonte.", "deliverable": "Pequeno caderno de dados com gráfico e crítica documental."}
+    ]
+  }
+}

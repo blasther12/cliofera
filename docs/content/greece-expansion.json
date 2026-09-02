@@ -1,0 +1,224 @@
+{
+  "antiguidade-ii": {
+    "intro": "Grécia Antiga e Mundo Egeu acompanha a formação histórica do mundo grego desde as sociedades minoica e micênica da Idade do Bronze até o período helenístico. A disciplina começa antes da pólis porque Atenas, Esparta e a tradição clássica só fazem sentido quando colocadas sobre as camadas anteriores do Egeu. O colapso da Idade do Bronze, os chamados Povos do Mar, a transformação dos palácios micênicos, a transmissão oral que desembocou na Ilíada e na Odisseia e a chamada Idade das Trevas formam uma ponte decisiva entre o mundo palacial e a Grécia arcaica. Os poemas homéricos serão lidos ao mesmo tempo como literatura extraordinária, memória cultural e fonte problemática: preservam elementos de épocas diferentes e não devem ser usados como descrição transparente da Guerra de Troia ou da sociedade micênica.",
+    "objectives": [
+      "Distinguir as sociedades minoica, micênica, pós-palacial, arcaica, clássica e helenística.",
+      "Explicar o colapso da Idade do Bronze como problema multicausal, evitando atribuí-lo automaticamente aos chamados Povos do Mar.",
+      "Compreender o que as fontes egípcias querem dizer quando representam grupos hoje reunidos sob o rótulo moderno Povos do Mar.",
+      "Ler Ilíada e Odisseia como poesia oral e memória histórica, separando tradição épica de evidência arqueológica.",
+      "Relacionar o período pós-palacial, a chamada Idade das Trevas e a formação das pólis.",
+      "Comparar Atenas e Esparta sem tratá-las como modelos de toda a Grécia.",
+      "Analisar democracia, cidadania, escravidão, guerra e império no mundo grego.",
+      "Compreender Alexandre e os reinos helenísticos como transformação do Mediterrâneo oriental, não como simples expansão de uma cultura grega uniforme."
+    ],
+    "modules": [
+      {
+        "title": "Minoicos, Creta e o primeiro mundo palacial do Egeu",
+        "explanation": [
+          "Entre o terceiro e o segundo milênios a.C., Creta desenvolveu centros palaciais como Cnossos, Festos e Mália, conectados por redes marítimas ao Egito, ao Levante, às Cíclades e à Grécia continental. O termo 'minoico' é moderno e deriva do rei mítico Minos; ele não representa necessariamente uma identidade política unificada usada pelas próprias populações da época.",
+          "A escrita Linear A permanece em grande parte não decifrada. Por isso, a arqueologia, os palácios, a cerâmica, os selos e os contextos funerários são essenciais. O estudo do mundo minoico também é uma boa introdução para discutir o risco de reconstruir sociedades antigas a partir de imagens posteriores como o mito do Minotauro."
+        ],
+        "concepts": ["Minoicos", "Cnossos", "Linear A", "palácio", "redes egeias", "arqueologia"],
+        "reading": {
+          "work": "Oliver Dickinson — The Aegean Bronze Age",
+          "focus": "Creta palacial, redes de troca e problemas de interpretação arqueológica.",
+          "why": "Fornece base para estudar o Egeu da Idade do Bronze antes das narrativas homéricas."
+        },
+        "questions": ["O que podemos saber de uma sociedade cuja escrita ainda não conseguimos ler plenamente?", "Até que ponto o mito de Minos ajuda ou atrapalha o estudo da Creta da Idade do Bronze?"],
+        "exercise": "Compare um palácio minoico com um palácio micênico observando arquitetura, defesa, armazenamento e documentação."
+      },
+      {
+        "title": "Micênicos, Linear B e o mundo dos palácios",
+        "explanation": [
+          "Entre aproximadamente 1600 e 1200 a.C., centros como Micenas, Pilos, Tirinto e Tebas organizaram sociedades palaciais na Grécia continental. As tabuinhas em Linear B, decifradas no século XX, registram uma forma antiga de grego e revelam administração, redistribuição, terras, ofícios e cultos.",
+          "Os arquivos de Linear B são documentos administrativos, não crônicas heroicas. Eles confirmam que falantes de grego habitavam os palácios micênicos, mas não narram Aquiles, Odisseu ou a Guerra de Troia. Essa diferença é fundamental para comparar arqueologia, escrita administrativa e tradição épica."
+        ],
+        "concepts": ["Micênicos", "Linear B", "wanax", "palácio", "redistribuição", "Micenas"],
+        "reading": {
+          "work": "John Chadwick — The Mycenaean World",
+          "focus": "Linear B, administração palacial e sociedade micênica.",
+          "why": "Mostra o que realmente sabemos a partir da documentação micênica e ajuda a evitar projetar Homero diretamente sobre o século XIII a.C."
+        },
+        "questions": ["O que as tabuinhas de Linear B revelam e o que elas não conseguem revelar?", "Por que um arquivo administrativo é diferente de uma epopeia como fonte histórica?"],
+        "exercise": "Monte uma tabela com três colunas: evidência de Linear B, evidência arqueológica e tradição homérica. Registre convergências e tensões."
+      },
+      {
+        "title": "Colapso da Idade do Bronze e os chamados Povos do Mar",
+        "explanation": [
+          "Entre o fim do século XIII e o século XII a.C., vários sistemas palaciais e impérios do Mediterrâneo oriental sofreram destruições, abandono, fragmentação política ou profunda transformação. O Império Hitita desapareceu, centros micênicos perderam sua organização palacial e redes diplomáticas e comerciais foram reconfiguradas. Egito sobreviveu, mas enfrentou fortes pressões.",
+          "Fontes egípcias de Merneptá e sobretudo de Ramsés III, em Medinet Habu, mencionam e representam grupos que a historiografia moderna passou a reunir sob o nome 'Povos do Mar', entre eles Peleset, Tjeker, Shekelesh, Denyen e Weshesh. O rótulo não indica um único povo nem uma coalizão cuja origem conhecemos com segurança. As próprias inscrições são monumentos de vitória real e precisam ser lidas também como propaganda.",
+          "Hoje o colapso costuma ser estudado como fenômeno multicausal. Guerra, movimentos populacionais, disputas internas, rupturas comerciais, instabilidade política, terremotos e pressões climáticas aparecem em diferentes modelos. Os chamados Povos do Mar podem ter participado dessas transformações, mas tratá-los como causa única simplifica um processo regional longo e desigual."
+        ],
+        "concepts": ["colapso da Idade do Bronze", "Povos do Mar", "Ramsés III", "Medinet Habu", "Peleset", "multicausalidade", "sistemas palaciais"],
+        "reading": {
+          "work": "Eric H. Cline — 1177 B.C.: The Year Civilization Collapsed",
+          "focus": "A rede internacional da Idade do Bronze e as hipóteses concorrentes para sua desestruturação.",
+          "why": "É uma porta de entrada acessível para enxergar o colapso como problema sistêmico, e não como uma invasão simples."
+        },
+        "questions": ["Quem eram os Povos do Mar e por que a própria pergunta precisa ser tratada com cautela?", "Quais evidências seriam necessárias para defender uma causa principal do colapso?", "Como propaganda real egípcia pode ser usada como fonte sem ser tomada literalmente?"],
+        "exercise": "Construa um quadro de evidências para cinco hipóteses do colapso da Idade do Bronze e atribua a cada uma: evidências favoráveis, limites e regiões em que parece explicar melhor ou pior o processo."
+      },
+      {
+        "title": "Do mundo pós-palacial à chamada Idade das Trevas",
+        "explanation": [
+          "Depois da queda dos palácios micênicos, a escrita administrativa Linear B desapareceu e várias regiões passaram por redução de população, mudanças de assentamento e reorganização das redes econômicas. A expressão 'Idade das Trevas' é tradicional, mas pode induzir à ideia de completo vazio cultural.",
+          "Entre aproximadamente 1100 e 800 a.C., novas formas de comunidade, práticas funerárias, tecnologias do ferro e redes mediterrânicas prepararam o terreno para transformações do período arcaico. Não houve uma simples espera até o 'renascimento' grego: esse período teve sua própria dinâmica social e política."
+        ],
+        "concepts": ["pós-palacial", "Idade das Trevas", "ferro", "migração", "continuidade", "ruptura"],
+        "reading": {
+          "work": "Oliver Dickinson — The Aegean from Bronze Age to Iron Age",
+          "focus": "Transformações regionais entre o fim dos palácios e a emergência da Grécia arcaica.",
+          "why": "Ajuda a substituir a imagem de colapso absoluto por uma análise de continuidades e reorganizações."
+        },
+        "questions": ["Por que 'Idade das Trevas' pode ser um termo problemático?", "Que continuidades sobreviveram ao desaparecimento dos palácios?"],
+        "exercise": "Monte uma linha do tempo entre 1250 e 750 a.C. marcando desaparecimentos, continuidades e novas instituições."
+      },
+      {
+        "title": "Homero, Ilíada, Odisseia e a memória do passado",
+        "explanation": [
+          "A Ilíada e a Odisseia chegaram à forma conhecida dentro de uma longa tradição de poesia oral, provavelmente no fim do século VIII ou início do VII a.C., muitos séculos depois do mundo palacial micênico. As epopeias preservam elementos antigos, mas também instituições, objetos, valores e práticas de períodos posteriores. Elas são camadas de memória, não fotografias do século XIII a.C.",
+          "A Ilíada não conta toda a Guerra de Troia: concentra-se em um curto episódio do último ano do conflito e na ira de Aquiles. A Odisseia acompanha o retorno de Odisseu e explora hospitalidade, identidade, família, autoridade e viagem. Ler os poemas historicamente exige perguntar o que pode vir da tradição do Bronze, o que pertence ao mundo arcaico e o que é elaboração poética.",
+          "A arqueologia de Troia mostra ocupações e destruições em diferentes momentos, mas não permite provar os acontecimentos narrados por Homero nem identificar personagens épicos como indivíduos históricos. A pergunta mais produtiva não é apenas 'a Guerra de Troia aconteceu?', mas como uma tradição sobre um passado heroico foi formada, preservada e usada pelos gregos posteriores."
+        ],
+        "concepts": ["Homero", "Ilíada", "Odisseia", "oralidade", "Guerra de Troia", "memória cultural", "épica"],
+        "reading": {
+          "work": "Homero — Ilíada e Odisseia",
+          "focus": "Na Ilíada, honra, guerra, autoridade e mortalidade; na Odisseia, hospitalidade, retorno, identidade e organização doméstica. Sempre anote quando o texto parece falar de um mundo heroico e quando revela preocupações do período arcaico.",
+          "why": "São textos centrais para compreender a cultura grega e, ao mesmo tempo, um laboratório perfeito para aprender a diferença entre literatura, memória e fonte histórica."
+        },
+        "questions": ["Que tipo de passado os poemas constroem?", "Por que não podemos usar Homero como relato literal da sociedade micênica?", "O que a hospitalidade na Odisseia revela sobre ordem social e reciprocidade?"],
+        "exercise": "Escolha um canto da Ilíada ou da Odisseia e separe três camadas: informação potencialmente histórica, construção literária e memória cultural. Justifique cada classificação."
+      },
+      {
+        "title": "Grécia arcaica e formação das pólis",
+        "explanation": [
+          "Entre os séculos VIII e VI a.C., comunidades gregas desenvolveram formas políticas variadas, intensificaram contatos mediterrânicos, fundaram assentamentos no Mediterrâneo e no Mar Negro e adotaram o alfabeto grego a partir de modelos fenícios. A pólis tornou-se uma forma importante de organização, mas nunca existiu uma pólis grega padrão.",
+          "Conflitos por terra, dívida, status e participação política produziram reformas, tiranias e mudanças institucionais. Hesíodo, poesia lírica, arqueologia e leis ajudam a enxergar um mundo muito mais diverso do que uma narrativa centrada apenas em Atenas."
+        ],
+        "concepts": ["pólis", "alfabeto", "colonização", "aristocracia", "tirania", "Hesíodo"],
+        "reading": {
+          "work": "Robin Osborne — Greece in the Making, 1200–479 BC",
+          "focus": "Formação das comunidades políticas, colonização, cultura material e redes mediterrânicas.",
+          "why": "Conecta diretamente o período pós-palacial ao surgimento da Grécia arcaica e das pólis."
+        },
+        "questions": ["Por que a pólis não surgiu de uma única causa?", "O que mudou com a adoção do alfabeto?"],
+        "exercise": "Compare Atenas, Corinto e uma comunidade colonial em instituições, economia e relações mediterrânicas."
+      },
+      {
+        "title": "Atenas, democracia, império e exclusões",
+        "explanation": [
+          "A democracia ateniense resultou de conflitos e reformas associadas a Sólon, Clístenes e transformações posteriores. Cidadãos homens participavam de assembleias, tribunais e magistraturas, mas mulheres, escravizados e metecos estavam excluídos da cidadania política plena.",
+          "Atenas também construiu um império marítimo a partir da Liga de Delos. A coexistência entre democracia interna e dominação externa é central para estudar as tensões do sistema ateniense."
+        ],
+        "concepts": ["democracia direta", "ecclesia", "ostracismo", "meteco", "escravidão", "Liga de Delos"],
+        "reading": {
+          "work": "M. H. Hansen — The Athenian Democracy in the Age of Demosthenes",
+          "focus": "Instituições, participação e funcionamento concreto da democracia.",
+          "why": "Permite sair de uma visão abstrata de democracia e estudar quem participava, como participava e quem era excluído."
+        },
+        "questions": ["Em que sentido Atenas era democrática?", "Como democracia e escravidão coexistiam?", "Como império e cidadania se relacionavam?"],
+        "exercise": "Construa um diagrama das instituições atenienses e marque quem podia e quem não podia participar de cada uma."
+      },
+      {
+        "title": "Esparta, hilotas e o problema do mito espartano",
+        "explanation": [
+          "Esparta combinava dupla realeza, gerúsia, éforos e assembleia. Sua organização dependia do trabalho e da coerção sobre os hilotas, enquanto os esparciatas constituíam uma minoria cidadã militarizada.",
+          "Grande parte do que sabemos foi escrita por autores de fora de Esparta, alguns deles fascinados por suas instituições. Por isso, existe um 'miragem espartana': uma tradição que transforma uma sociedade histórica complexa em modelo atemporal de disciplina militar."
+        ],
+        "concepts": ["hilotas", "éforos", "gerúsia", "agoge", "esparciatas", "miragem espartana"],
+        "reading": {
+          "work": "Paul Cartledge — Sparta and Lakonia",
+          "focus": "Estrutura social, instituições e problemas das fontes.",
+          "why": "Ajuda a separar Esparta histórica das imagens produzidas por admiradores antigos e modernos."
+        },
+        "questions": ["Como os hilotas moldaram a organização política espartana?", "Por que Esparta gerou tantos mitos posteriores?"],
+        "exercise": "Escolha cinco afirmações populares sobre Esparta e classifique-as como bem documentadas, debatidas ou principalmente míticas."
+      },
+      {
+        "title": "Guerras Persas e Guerra do Peloponeso",
+        "explanation": [
+          "As guerras entre cidades gregas e o Império Aquemênida foram episódios de uma história de contatos, conflitos e alianças entre o Egeu e a Ásia ocidental. A oposição simples entre 'liberdade grega' e 'despotismo persa' deriva em grande parte da tradição literária grega e precisa ser interrogada.",
+          "Décadas depois, Atenas, Esparta e seus aliados entraram na Guerra do Peloponeso. Tucídides transformou o conflito em investigação sobre poder, medo, império, decisão e causalidade. Estudar Heródoto e Tucídides em sequência permite observar duas formas muito diferentes de escrita histórica."
+        ],
+        "concepts": ["Aquemênidas", "Maratona", "Salamina", "Liga de Delos", "Guerra do Peloponeso", "Heródoto", "Tucídides"],
+        "reading": {
+          "work": "Heródoto — Histórias; Tucídides — História da Guerra do Peloponeso",
+          "focus": "Em Heródoto, causalidade e diferenças culturais; em Tucídides, Livro I, Melos e expedição à Sicília.",
+          "why": "As duas obras são indispensáveis para estudar tanto os conflitos quanto o nascimento de tradições distintas de investigação histórica."
+        },
+        "questions": ["As guerras persas criaram uma identidade grega comum ou apenas alianças temporárias?", "Qual a diferença entre causa declarada e causa profunda em Tucídides?"],
+        "exercise": "Compare como Heródoto e Tucídides constroem causas, personagens e discursos em um quadro de duas páginas."
+      },
+      {
+        "title": "Alexandre e o mundo helenístico",
+        "explanation": [
+          "As campanhas de Alexandre derrubaram o Império Aquemênida e conectaram politicamente regiões do Egito à Ásia Central. Após sua morte, generais e dinastias formaram reinos como o Ptolemaico e o Selêucida.",
+          "O mundo helenístico intensificou circulação de pessoas, moedas, línguas, cultos e conhecimentos. 'Helenização' não deve significar apagamento simples de culturas locais: práticas gregas, egípcias, persas, judaicas e outras foram negociadas e combinadas de maneiras diferentes conforme região e grupo social."
+        ],
+        "concepts": ["Alexandre", "diádocos", "Ptolemeus", "Selêucidas", "helenismo", "hibridização"],
+        "reading": {
+          "work": "Peter Green — Alexander to Actium",
+          "focus": "Formação dos reinos helenísticos, cultura, política e transformações pós-Alexandre.",
+          "why": "Oferece um panorama amplo para acompanhar a passagem do mundo das pólis para monarquias territoriais de grande escala."
+        },
+        "questions": ["O que realmente significa helenização?", "As conquistas de Alexandre foram ruptura ou apropriação de estruturas imperiais persas?"],
+        "exercise": "Escolha Egito ptolomaico ou Império Selêucida e mostre como instituições e culturas locais interagiram com elites de língua grega."
+      }
+    ],
+    "readingGuide": [
+      {
+        "priority": "Essencial",
+        "work": "Homero — Ilíada",
+        "role": "Poesia épica e memória cultural",
+        "how": "Leia primeiro os cantos I, VI, IX, XVI, XVIII, XXII e XXIV; depois expanda para a obra completa. Marque honra, reciprocidade, autoridade, guerra, morte e relações entre humanos e deuses. Não use o poema como descrição literal da sociedade micênica.",
+        "deliverable": "Fichamento separando mundo narrado, possíveis ecos antigos e valores do contexto de composição."
+      },
+      {
+        "priority": "Essencial",
+        "work": "Homero — Odisseia",
+        "role": "Poesia épica, mobilidade e ordem social",
+        "how": "Observe hospitalidade, casa, identidade, escravidão, viagem, gênero e autoridade. Compare o mundo social do poema com o que sabemos arqueologicamente do Egeu pós-palacial e arcaico.",
+        "deliverable": "Ensaio curto: o que a hospitalidade revela sobre poder e pertencimento na Odisseia?"
+      },
+      {
+        "priority": "Essencial",
+        "work": "Eric H. Cline — 1177 B.C.: The Year Civilization Collapsed",
+        "role": "Colapso da Idade do Bronze",
+        "how": "Faça uma ficha para cada hipótese causal e anote em quais regiões ela parece ter maior capacidade explicativa.",
+        "deliverable": "Matriz multicausal do colapso, incluindo guerra, migração, comércio, política, clima e terremotos."
+      },
+      {
+        "priority": "Aprofundamento",
+        "work": "Oliver Dickinson — The Aegean from Bronze Age to Iron Age",
+        "role": "Ponte arqueológica",
+        "how": "Use para acompanhar o período entre os palácios micênicos e a formação da Grécia arcaica sem transformar séculos inteiros em um vazio.",
+        "deliverable": "Linha do tempo comentada de 1300 a 700 a.C."
+      },
+      {
+        "priority": "Essencial",
+        "work": "Hesíodo — Teogonia e Trabalhos e Dias",
+        "role": "Sociedade, religião e poesia arcaica",
+        "how": "Compare o universo heroico de Homero com o mundo do trabalho, justiça e conflito social em Hesíodo.",
+        "deliverable": "Quadro comparativo Homero/Hesíodo sobre autoridade, deuses, trabalho e justiça."
+      },
+      {
+        "priority": "Essencial",
+        "work": "Heródoto — Histórias; Tucídides — História da Guerra do Peloponeso",
+        "role": "Fontes e história política",
+        "how": "Leia como investigação histórica e também como textos construídos. Anote fontes declaradas, discursos, causas e critérios de credibilidade.",
+        "deliverable": "Comparação das formas de escrever História em Heródoto e Tucídides."
+      }
+    ],
+    "finalProject": {
+      "title": "Do palácio ao poema, do poema à pólis",
+      "prompt": "Escreva entre 2.500 e 3.500 palavras explicando como o mundo egeu mudou entre aproximadamente 1300 e 700 a.C. O texto deve integrar arqueologia micênica, colapso da Idade do Bronze, os chamados Povos do Mar, período pós-palacial e tradição homérica. Inclua uma seção específica sobre o que a Ilíada e a Odisseia podem e não podem demonstrar historicamente.",
+      "criteria": [
+        "Distinguir evidência arqueológica, inscrições egípcias e tradição literária.",
+        "Evitar explicar o colapso por uma causa única.",
+        "Usar Ilíada e Odisseia como fontes contextualizadas.",
+        "Apresentar ao menos duas interpretações historiográficas concorrentes.",
+        "Construir cronologia coerente entre Bronze Final, pós-palacial e período arcaico."
+      ]
+    }
+  }
+}

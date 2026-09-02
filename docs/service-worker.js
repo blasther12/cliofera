@@ -1,19 +1,22 @@
-const CACHE_NAME = 'lyceum-v5';
+const CACHE_NAME = 'cliofera-v1';
 const APP_SHELL = [
   './',
   './index.html',
   './data.json',
+  './extra-courses.json',
+  './literature.json',
   './content.json',
   './content/year-1.json',
   './content/year-2.json',
   './content/year-3.json',
   './content/year-4.json',
+  './content/extension-a.json',
+  './content/extension-b.json',
   './manifest.webmanifest',
   './assets/styles.css',
   './assets/course-content.css',
   './assets/course-content-v2.css',
   './assets/app.js',
-  './assets/content-sync.js',
   './icons/icon-192.png',
   './icons/icon-512.png',
   './icons/apple-touch-icon.png'

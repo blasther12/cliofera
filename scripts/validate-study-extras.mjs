@@ -25,10 +25,10 @@ for(const entry of entries){
   if(!Array.isArray(entry.courses)||!entry.courses.length)errors.push(`${entry.id}: sem disciplinas associadas`);
 }
 
-for(const marker of ['lesson-meta-item','lesson-meta-prereq','study-map.json','course-reading','explanation.after(meta)']){
+for(const marker of ['lesson-meta-item','lesson-meta-prereq','study-map.json','course-reading','lesson-opening','opening.after(meta)','matchMedia']){
   if(!lessonMetaJs.includes(marker))errors.push(`lesson-meta.js incompleto: ${marker}`);
 }
-for(const marker of ['.lesson-meta','.lesson-meta-prereq','.course-reading .mobile-tabbar']){
+for(const marker of ['.lesson-meta','.lesson-meta-prereq','.lesson-opening','.course-reading .mobile-tabbar','.course-reading .lesson-card']){
   if(!lessonMetaCss.includes(marker))errors.push(`lesson-meta.css incompleto: ${marker}`);
 }
 for(const marker of ['Bibliografia estruturada','Edição/leitura','Por que usar','bibliography.json'])if(!bibliographyJs.includes(marker))errors.push(`bibliography-tools.js incompleto: ${marker}`);
@@ -36,4 +36,4 @@ for(const asset of ['./assets/lesson-meta.js','./assets/lesson-meta.css','./asse
 
 console.log(`Referências estruturadas: ${entries.length}`);
 if(errors.length){console.error('Falhas nos extras de estudo:');for(const error of errors)console.error(`- ${error}`);process.exit(1)}
-console.log('Bibliografia estruturada e metadados de leitura por aula válidos.');
+console.log('Bibliografia estruturada e fluxo de leitura por aula válidos.');

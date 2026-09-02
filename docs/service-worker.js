@@ -1,10 +1,11 @@
-const CACHE_NAME = 'cliofera-v1';
+const CACHE_NAME = 'cliofera-v2';
 const APP_SHELL = [
   './',
   './index.html',
   './data.json',
   './extra-courses.json',
   './literature.json',
+  './literature-greece.json',
   './content.json',
   './content/year-1.json',
   './content/year-2.json',
@@ -12,11 +13,13 @@ const APP_SHELL = [
   './content/year-4.json',
   './content/extension-a.json',
   './content/extension-b.json',
+  './content/greece-expansion.json',
   './manifest.webmanifest',
   './assets/styles.css',
   './assets/course-content.css',
   './assets/course-content-v2.css',
   './assets/app.js',
+  './assets/greece-enhancement.js',
   './icons/icon-192.png',
   './icons/icon-512.png',
   './icons/apple-touch-icon.png'

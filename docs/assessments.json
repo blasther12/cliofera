@@ -1,0 +1,59 @@
+{
+  "rubric": [
+    {"id":"problema","title":"Problema e recorte","weight":20,"description":"Formula uma pergunta histórica clara, delimitada no tempo/espaço e intelectualmente relevante."},
+    {"id":"fontes","title":"Uso de fontes","weight":25,"description":"Contextualiza fontes, distingue natureza documental, autoria, público, silêncios e limites."},
+    {"id":"historiografia","title":"Diálogo historiográfico","weight":20,"description":"Compara interpretações e não usa autores apenas como autoridade decorativa."},
+    {"id":"argumento","title":"Argumentação","weight":25,"description":"Sustenta uma tese com evidências, considera contrapontos e evita anacronismos."},
+    {"id":"forma","title":"Forma e referências","weight":10,"description":"Texto organizado, referências consistentes e linguagem histórica precisa."}
+  ],
+  "semesters": [
+    {
+      "semester": 1,
+      "title": "Dossiê de crítica de fontes",
+      "prompt": "Escolha duas fontes de naturezas diferentes sobre uma sociedade estudada no semestre e produza um dossiê de 1500 a 2500 palavras comparando autoria, contexto, finalidade, evidências e silêncios.",
+      "deliverables": ["ficha de cada fonte", "contextualização", "comparação crítica", "bibliografia mínima de 3 obras"]
+    },
+    {
+      "semester": 2,
+      "title": "Ensaio de interpretação sobre o mundo antigo",
+      "prompt": "Formule uma pergunta sobre Grécia, Roma ou cidadania/poder e compare pelo menos duas interpretações historiográficas em 2500 a 3500 palavras.",
+      "deliverables": ["problema histórico", "tese", "2 interpretações divergentes", "2 fontes primárias ou excertos", "conclusão provisória"]
+    },
+    {
+      "semester": 3,
+      "title": "Histórias simultâneas do Mediterrâneo e da Afro-Eurásia",
+      "prompt": "Construa um estudo comparativo que coloque duas regiões contemporâneas em relação, evitando narrativas em capítulos isolados.",
+      "deliverables": ["linha do tempo comparada", "mapa ou esquema de conexões", "ensaio de 3000 palavras", "mínimo de 5 referências"]
+    },
+    {
+      "semester": 4,
+      "title": "Conquista, circulação e conhecimento",
+      "prompt": "Analise um processo de expansão, colonialismo, circulação cultural ou transformação científica a partir de agentes de lados diferentes do encontro histórico.",
+      "deliverables": ["corpus de fontes", "análise de assimetria de poder", "comparação de perspectivas", "ensaio de 3000 a 4000 palavras"]
+    },
+    {
+      "semester": 5,
+      "title": "Revoluções, trabalho e capitalismo",
+      "prompt": "Escolha um debate sobre Revoluções Atlânticas, industrialização ou capitalismo e responda a uma questão causal com evidência social e econômica.",
+      "deliverables": ["pergunta causal", "dados ou fontes sociais", "debate historiográfico", "ensaio de 3500 a 4500 palavras"]
+    },
+    {
+      "semester": 6,
+      "title": "Ideologias e experiência histórica",
+      "prompt": "Compare duas tradições políticas ou interpretações sobre socialismo, nacionalismo, liberalismo ou transformação social, distinguindo teoria, prática e memória posterior.",
+      "deliverables": ["fontes doutrinárias", "historiografia", "experiência histórica", "contrapontos", "ensaio de 4000 palavras"]
+    },
+    {
+      "semester": 7,
+      "title": "Guerra, autoritarismo, memória e direitos",
+      "prompt": "Produza um estudo sobre guerra, violência de Estado, ditadura, genocídio ou memória pública usando fontes contemporâneas e testemunhos com crítica documental explícita.",
+      "deliverables": ["corpus de fontes", "questão ética/metodológica", "historiografia", "ensaio de 4000 a 5000 palavras"]
+    },
+    {
+      "semester": 8,
+      "title": "Projeto de pesquisa para o Trabalho Final",
+      "prompt": "Entregue um projeto de pesquisa completo que possa se transformar na monografia final da Cliofera.",
+      "deliverables": ["tema e problema", "hipótese ou questões", "estado da questão", "corpus documental", "metodologia", "cronograma", "bibliografia comentada"]
+    }
+  ]
+}

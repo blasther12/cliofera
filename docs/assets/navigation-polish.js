@@ -30,6 +30,6 @@
   });
 
   addEventListener('resize', () => {
-    if (innerWidth > 1180) closeMenu();
+    if (innerWidth > 1320) closeMenu();
   });
 })();

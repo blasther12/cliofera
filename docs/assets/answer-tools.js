@@ -12,9 +12,21 @@
 
   function setMode(body, mode) {
     body.dataset.qaMode = mode;
-    body.querySelectorAll(':scope > .lesson-tab-content').forEach(node => { node.hidden = mode !== 'content'; });
-    body.querySelector(':scope > .lesson-questions-panel')?.toggleAttribute('hidden', mode !== 'questions');
-    body.querySelector(':scope > .lesson-answers-panel')?.toggleAttribute('hidden', mode !== 'answers');
+    [...body.children].forEach(node => {
+      if (node.classList.contains('lesson-tabs')) {
+        node.hidden = false;
+        return;
+      }
+      if (node.classList.contains('lesson-questions-panel')) {
+        node.hidden = mode !== 'questions';
+        return;
+      }
+      if (node.classList.contains('lesson-answers-panel')) {
+        node.hidden = mode !== 'answers';
+        return;
+      }
+      node.hidden = mode !== 'content';
+    });
     body.querySelectorAll(':scope > .lesson-tabs button').forEach(button => {
       const active = button.dataset.mode === mode;
       button.classList.toggle('active', active);
@@ -25,26 +37,28 @@
   function questionsPanel(courseId, lessonIndex, entry) {
     const saved = read();
     return `<section class="lesson-questions-panel" hidden>
-      <div class="qa-intro"><div class="eyebrow">Antes de conferir</div><h3>Escreva com suas palavras</h3><p>Não precisa parecer resposta de prova. Tente formular a ideia central e explicar por quê.</p></div>
+      <div class="qa-intro"><div class="eyebrow">Perguntas</div><h3>Pense antes de conferir</h3><p>Responda com suas palavras. O objetivo é organizar o raciocínio, não escrever uma resposta de prova.</p></div>
       <div class="qa-list">${entry.answers.map((item, questionIndex) => {
         const id = answerId(courseId, lessonIndex, questionIndex);
-        return `<article class="qa-question"><div class="qa-number">${questionIndex + 1}</div><div><h4>${esc(item.question)}</h4><textarea data-answer-id="${esc(id)}" placeholder="Escreva sua resposta antes de conferir a resposta comentada…">${esc(saved[id] || '')}</textarea><small class="qa-save-state">Salvo neste dispositivo</small></div></article>`;
+        const own = saved[id] || '';
+        return `<article class="qa-question"><div class="qa-number">${questionIndex + 1}</div><div class="qa-question-main"><h4>${esc(item.question)}</h4><textarea data-answer-id="${esc(id)}" placeholder="Sua resposta…">${esc(own)}</textarea><small class="qa-save-state">${own.trim() ? 'Resposta salva neste dispositivo' : ''}</small></div></article>`;
       }).join('')}</div>
+      <div class="qa-panel-actions"><span>As respostas são salvas automaticamente neste dispositivo.</span><button type="button" class="qa-check-answers">Conferir respostas comentadas →</button></div>
     </section>`;
   }
 
   function answersPanel(courseId, lessonIndex, entry) {
     const saved = read();
     return `<section class="lesson-answers-panel" hidden>
-      <div class="qa-intro"><div class="eyebrow">Respostas comentadas</div><h3>Compare raciocínios, não frases</h3><p>Estas são respostas-modelo construídas a partir do conteúdo da aula. Em questões interpretativas, outras respostas podem ser defensáveis se forem bem argumentadas e sustentadas por evidências.</p></div>
-      <div class="qa-list">${entry.answers.map((item, questionIndex) => {
+      <div class="qa-intro"><div class="eyebrow">Respostas comentadas</div><h3>Compare raciocínios, não frases</h3><p>Estas são respostas possíveis construídas a partir da aula. Em História, outra resposta pode ser defensável quando usa contexto e evidências de forma consistente.</p></div>
+      <div class="qa-list qa-answer-list">${entry.answers.map((item, questionIndex) => {
         const id = answerId(courseId, lessonIndex, questionIndex);
         const own = saved[id];
         return `<article class="qa-answer-card">
           <div class="qa-number">${questionIndex + 1}</div>
           <div class="qa-answer-main">
             <h4>${esc(item.question)}</h4>
-            <div class="qa-own-answer"><strong>Sua resposta</strong><p>${own ? esc(own) : '<em>Você ainda não registrou uma resposta para comparar.</em>'}</p></div>
+            <div class="qa-own-answer"><strong>Sua resposta</strong><p>${own ? esc(own) : '<em>Você ainda não registrou uma resposta.</em>'}</p></div>
             <details open><summary>Resposta possível</summary><p>${esc(item.shortAnswer)}</p></details>
             ${item.commentary && item.commentary !== item.shortAnswer ? `<details><summary>Entenda o raciocínio</summary><p>${esc(item.commentary)}</p></details>` : ''}
             ${item.keyPoints?.length ? `<div class="qa-keypoints"><strong>Pontos importantes</strong><div>${item.keyPoints.map(point => `<span>${esc(point)}</span>`).join('')}</div></div>` : ''}
@@ -57,44 +71,56 @@
   }
 
   function installLessonTabs() {
-    const [, courseId] = route();
-    if (!courseId || route()[0] !== 'course') return;
+    const parts = route();
+    const courseId = parts[0] === 'course' ? parts[1] : null;
+    if (!courseId) return;
     const entries = answerKey.courses?.[courseId] || {};
+
     document.querySelectorAll('.lesson-card').forEach((card, lessonIndex) => {
       const body = card.querySelector('.lesson-body');
       const entry = entries[String(lessonIndex)];
-      if (!body || !entry?.answers?.length || body.dataset.answersInstalled === 'true') return;
-      body.dataset.answersInstalled = 'true';
+      if (!body || !entry?.answers?.length) return;
 
-      [...body.children].forEach(child => {
-        if (child.matches('.lesson-section') && /perguntas|confira se/i.test(child.textContent || '')) child.hidden = true;
-        else child.classList.add('lesson-tab-content');
-      });
-
-      const tabs = document.createElement('div');
-      tabs.className = 'lesson-tabs';
-      tabs.setAttribute('role', 'tablist');
-      tabs.innerHTML = '<button type="button" class="active" data-mode="content" role="tab" aria-selected="true">Conteúdo</button><button type="button" data-mode="questions" role="tab" aria-selected="false">Perguntas</button><button type="button" data-mode="answers" role="tab" aria-selected="false">Respostas comentadas</button>';
-      body.prepend(tabs);
-      body.insertAdjacentHTML('beforeend', questionsPanel(courseId, lessonIndex, entry));
-      body.insertAdjacentHTML('beforeend', answersPanel(courseId, lessonIndex, entry));
-
-      tabs.addEventListener('click', event => {
-        const button = event.target.closest('button[data-mode]');
-        if (!button) return;
-        setMode(body, button.dataset.mode);
-        body.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      });
-
-      body.querySelectorAll('textarea[data-answer-id]').forEach(textarea => {
-        textarea.addEventListener('input', () => {
-          const data = read();
-          data[textarea.dataset.answerId] = textarea.value;
-          write(data);
-          const status = textarea.parentElement.querySelector('.qa-save-state');
-          if (status) status.textContent = textarea.value.trim() ? 'Resposta salva neste dispositivo' : 'Resposta vazia';
+      if (body.dataset.answersInstalled !== 'true') {
+        body.dataset.answersInstalled = 'true';
+        body.querySelectorAll(':scope > .lesson-section').forEach(section => {
+          if (/perguntas|confira se/i.test(section.textContent || '')) section.remove();
         });
-      });
+
+        const tabs = document.createElement('div');
+        tabs.className = 'lesson-tabs';
+        tabs.setAttribute('role', 'tablist');
+        tabs.innerHTML = '<button type="button" class="active" data-mode="content" role="tab" aria-selected="true">Conteúdo</button><button type="button" data-mode="questions" role="tab" aria-selected="false">Perguntas</button><button type="button" data-mode="answers" role="tab" aria-selected="false">Respostas</button>';
+        body.prepend(tabs);
+        body.insertAdjacentHTML('beforeend', questionsPanel(courseId, lessonIndex, entry));
+        body.insertAdjacentHTML('beforeend', answersPanel(courseId, lessonIndex, entry));
+
+        tabs.addEventListener('click', event => {
+          const button = event.target.closest('button[data-mode]');
+          if (!button) return;
+          setMode(body, button.dataset.mode);
+          card.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+
+        body.querySelector('.qa-check-answers')?.addEventListener('click', () => {
+          setMode(body, 'answers');
+          card.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+
+        body.querySelectorAll('textarea[data-answer-id]').forEach(textarea => {
+          textarea.addEventListener('input', () => {
+            const data = read();
+            const value = textarea.value;
+            if (value.trim()) data[textarea.dataset.answerId] = value;
+            else delete data[textarea.dataset.answerId];
+            write(data);
+            const status = textarea.parentElement.querySelector('.qa-save-state');
+            if (status) status.textContent = value.trim() ? 'Resposta salva neste dispositivo' : '';
+          });
+        });
+      }
+
+      setMode(body, body.dataset.qaMode || 'content');
     });
   }
 

@@ -52,6 +52,7 @@ jobs:
           node --check docs/assets/readability.js
           node --check docs/assets/answer-tools.js
           node --check docs/assets/theme.js
+          node --check docs/assets/ecosystem.js
           python -m json.tool docs/data.json > /dev/null
           python -m json.tool docs/extra-courses.json > /dev/null
           python -m json.tool docs/extra-courses-review.json > /dev/null
@@ -82,10 +83,20 @@ jobs:
           test -s docs/assets/pedagogy.css
           test -s docs/assets/course-guide.css
           test -s docs/assets/answer-tools.css
+          test -s docs/assets/ecosystem.css
           test -s docs/answers.json
+          test -s docs/404.html
+          test -s docs/robots.txt
+          test -s docs/sitemap.xml
           test -s docs/icons/apple-touch-icon-v2.png
           test -s docs/icons/icon-192-v2.png
           test -s docs/icons/icon-512-v2.png
+
+      - name: Validate ecosystem contract
+        uses: blasther12/blasther12.github.io/.github/actions/validate-ecosystem@main
+        with:
+          site-dir: ./docs
+          entry: index.html
 
       - name: Setup Pages
         uses: actions/configure-pages@v6

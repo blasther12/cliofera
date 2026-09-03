@@ -54,6 +54,7 @@
   async function renderTimeline(){
     const app=$('#app');
     if(!app||route()[0]!=='timeline'||$('.timeline-page',app)||timelineRendering)return;
+    let failed=false;
     timelineRendering=true;
     app.innerHTML='<div class="empty" data-timeline-loading>Carregando cronologia…</div>';
     try{
@@ -65,10 +66,11 @@
       bindTimelineSearch();
       scrollTo(0,0);
     }catch(error){
+      failed=true;
       if(route()[0]==='timeline')app.innerHTML=`<div class="empty"><h2>Não foi possível carregar a cronologia</h2><p>${esc(error.message)}</p><a href="#/curriculo">Voltar ao currículo</a></div>`;
     }finally{
       timelineRendering=false;
-      if(route()[0]==='timeline'&&!$('.timeline-page',app)&&!$('[data-timeline-loading]',app))setTimeout(renderTimeline,0);
+      if(!failed&&route()[0]==='timeline'&&!$('.timeline-page',app)&&!$('[data-timeline-loading]',app))setTimeout(renderTimeline,0);
     }
   }
 

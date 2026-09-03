@@ -1,0 +1,326 @@
+{
+  "introducao-historia": {
+    "plain": "Esta disciplina ensina como historiadores transformam vestígios do passado em argumentos. Você vai aprender por que uma fonte nunca fala sozinha, por que memória e História não são a mesma coisa e como diferentes perguntas produzem interpretações diferentes.",
+    "questions": ["Como sabemos algo sobre o passado?", "O que torna uma explicação histórica convincente?", "Como evitar anacronismo e certezas fáceis?"],
+    "watch": ["Distinguir fato documentado de interpretação.", "Observar quem produziu cada fonte e com qual finalidade.", "Separar memória, testemunho e reconstrução histórica."],
+    "connection": "É a base metodológica de todo o currículo. Tudo o que vem depois depende de saber formular perguntas, criticar fontes e sustentar argumentos."
+  },
+  "pre-historia": {
+    "plain": "A maior parte da experiência humana aconteceu antes da escrita. O curso acompanha evolução humana, caça e coleta, domesticação, aldeias, cidades e formação de Estados sem tratar essas mudanças como uma escada inevitável de progresso.",
+    "questions": ["Como reconstruir sociedades sem textos escritos?", "Agricultura melhorou necessariamente a vida humana?", "Por que cidades e Estados surgiram de maneiras diferentes?"],
+    "watch": ["Evitar a ideia de evolução linear.", "Comparar regiões e cronologias diferentes.", "Usar arqueologia, genética e cultura material como evidências complementares."],
+    "connection": "Prepara o terreno para Antiguidade, Arqueologia e História Ambiental ao mostrar como ambiente, tecnologia e organização social se transformam em longa duração."
+  },
+  "antiguidade-i": {
+    "plain": "Aqui você entra no Oriente Próximo antigo e no Egito para entender como cidades, reinos e impérios organizaram poder, religião, escrita, guerra e tributação. Mesopotâmia, Egito, Levante e Pérsia aparecem como sociedades conectadas, não como caixas separadas.",
+    "questions": ["Como escrita e administração ampliaram o poder político?", "Como impérios governaram populações diferentes?", "O que muda quando comparamos fontes internas e relatos de adversários?"],
+    "watch": ["Mesopotâmia não é uma civilização única.", "Religião e política não funcionavam como esferas separadas.", "Fontes reais e monumentais precisam ser comparadas a documentos cotidianos."],
+    "connection": "Conecta Pré-História, Arqueologia e Grécia. O colapso da Idade do Bronze e as redes do Mediterrâneo oriental ajudam a explicar o mundo em que as sociedades gregas posteriores surgiram."
+  },
+  "arqueologia-cultura-material": {
+    "plain": "Nem toda pergunta histórica pode ser respondida com textos. Esta disciplina mostra como objetos, construções, moedas, inscrições, camadas de solo e paisagens podem revelar trabalho, comércio, consumo, religião e poder.",
+    "questions": ["O que um objeto pode revelar que um texto não revela?", "Por que contexto arqueológico importa mais que um objeto isolado?", "Como datação, estratigrafia e inscrição se combinam?"],
+    "watch": ["Objeto fora de contexto perde grande parte de seu valor histórico.", "Ausência de evidência não é automaticamente evidência de ausência.", "Escavação também envolve ética, patrimônio e disputa por posse de acervos."],
+    "connection": "É uma ferramenta transversal para Pré-História, Antiguidade, Medieval, História da Arte, patrimônio e qualquer tema em que cultura material seja parte central da evidência."
+  },
+  "escrita-academica": {
+    "plain": "O objetivo não é escrever de forma difícil, mas argumentar com clareza. Você vai aprender a ler ativamente, fichar, resumir sem distorcer, construir tese, usar evidências e organizar um ensaio histórico.",
+    "questions": ["Qual é a diferença entre tema e problema de pesquisa?", "Como uma tese se sustenta com evidências?", "Como citar sem transformar o texto numa colagem de autores?"],
+    "watch": ["Frase complicada não é sinônimo de profundidade.", "Resumo precisa separar argumento do autor e sua própria avaliação.", "Toda citação deve cumprir uma função no argumento."],
+    "connection": "Acompanha todas as disciplinas. Fichamentos, resenhas, ensaios e o Trabalho Final dependem dessas habilidades."
+  },
+  "antiguidade-ii": {
+    "plain": "A Grécia antiga não começa com Atenas. O curso parte do mundo minoico e micênico, atravessa o colapso da Idade do Bronze, Homero e a formação das pólis, e só então chega a Atenas, Esparta, guerras e mundo helenístico.",
+    "questions": ["Como o mundo palacial micênico se relaciona com a Grécia posterior?", "O que Ilíada e Odisseia podem ou não dizer sobre o passado?", "Por que pólis diferentes produziram instituições tão distintas?"],
+    "watch": ["Homero não é uma crônica literal da Guerra de Troia.", "Atenas não representa toda a experiência grega.", "Democracia ateniense coexistiu com exclusões sociais e com um império marítimo."],
+    "connection": "Dialoga diretamente com Antiguidade I, Roma, Filosofia Política e os debates sobre cidadania, guerra, império e memória."
+  },
+  "roma": {
+    "plain": "Roma passou de comunidade urbana a potência mediterrânica e depois a império territorial gigantesco. A disciplina acompanha como instituições, guerra, escravidão, cidadania, economia e religião mudaram ao longo de muitos séculos.",
+    "questions": ["Como a República expandiu sem permanecer politicamente igual?", "Por que a crise republicana produziu novas formas de poder?", "O que realmente significa falar em queda do Império Romano?"],
+    "watch": ["República não significa democracia moderna.", "Império Romano mudou muito entre Augusto e o século V.", "A chamada queda foi um processo desigual de transformação regional."],
+    "connection": "É ponte entre Antiguidade e os mundos medieval e bizantino. Também fundamenta debates sobre cidadania, império, cristianização e transformação institucional."
+  },
+  "historiografia-i": {
+    "plain": "Esta disciplina estuda como a própria escrita da História mudou. Em vez de perguntar apenas o que aconteceu, você passa a perguntar por que historiadores de épocas diferentes fizeram perguntas diferentes e usaram métodos distintos.",
+    "questions": ["O que muda quando muda a ideia de evidência histórica?", "Como historicismo, marxismo e Annales explicam mudança de maneiras diferentes?", "Por que nenhuma escola deve ser tratada como receita universal?"],
+    "watch": ["Escolas historiográficas não são blocos homogêneos.", "Método e contexto intelectual estão relacionados.", "Discordância historiográfica pode nascer de perguntas e fontes diferentes, não apenas de erro."],
+    "connection": "Prepara Historiografia II e melhora a leitura de todas as bibliografias do curso, porque você passa a identificar pressupostos e escolhas interpretativas."
+  },
+  "filosofia-politica": {
+    "plain": "A disciplina apresenta ideias sobre poder, autoridade, liberdade, propriedade, cidadania e Estado. O objetivo não é decorar filósofos, mas entender os problemas políticos aos quais cada autor tentou responder.",
+    "questions": ["Por que obedecer a uma autoridade?", "O que significa ser livre dentro de uma sociedade política?", "Como propriedade, soberania e cidadania foram justificadas historicamente?"],
+    "watch": ["Ler cada autor no contexto de seu problema histórico.", "Não transformar conceitos do século XVII ou XVIII em slogans atuais.", "Comparar respostas diferentes para o mesmo problema político."],
+    "connection": "Ajuda a compreender Revoluções Atlânticas, liberalismo, nacionalismo, socialismo, direitos humanos e formação dos Estados modernos."
+  },
+  "sociologia": {
+    "plain": "A Sociologia fornece conceitos para pensar classes, instituições, autoridade, desigualdade e mudança social. Para o historiador, esses conceitos funcionam como ferramentas de pergunta, não como respostas prontas.",
+    "questions": ["Como estruturas sociais limitam e permitem ações individuais?", "Como classe, status, raça e instituições moldam oportunidades?", "Como explicar mudanças que levam décadas ou gerações?"],
+    "watch": ["Não aplicar conceitos sociológicos fora de contexto mecanicamente.", "Distinguir modelo analítico de realidade histórica.", "Comparar Marx, Durkheim e Weber pelos problemas que cada um prioriza."],
+    "connection": "Aparece novamente em História Social, Capitalismo, Socialismo, Gênero, Brasil e História Contemporânea."
+  },
+  "antropologia": {
+    "plain": "A Antropologia ajuda a olhar costumes, parentesco, religião, troca e poder sem tomar nossa própria sociedade como padrão. Para a História, isso amplia a capacidade de interpretar sociedades com categorias diferentes das atuais.",
+    "questions": ["Como entender uma prática sem julgá-la primeiro pelos nossos costumes?", "O que parentesco, ritual e mito organizam socialmente?", "Como combinar arquivo histórico e sensibilidade etnográfica?"],
+    "watch": ["Relativismo não significa ausência de crítica.", "Categorias nativas precisam ser levadas a sério.", "Etnografia e fonte histórica respondem a perguntas diferentes."],
+    "connection": "É particularmente útil em História Indígena, África, religião, gênero, alimentação e cultura."
+  },
+  "medieval": {
+    "plain": "A Idade Média europeia foi um período de quase mil anos, com enormes diferenças regionais. O curso acompanha reinos pós-romanos, poder aristocrático, Igreja, campesinato, cidades, comércio, cruzadas e crises sem tratar o período como simples intervalo entre Roma e Renascimento.",
+    "questions": ["Como o poder se reorganizou depois do Império Romano ocidental?", "O que historiadores querem dizer quando usam feudalismo?", "Como cidades, comércio e Igreja mudaram o mundo medieval?"],
+    "watch": ["Feudalismo é conceito debatido, não uma descrição automática de toda a Europa.", "Igreja medieval também foi instituição política, econômica e cultural.", "O período medieval inclui crescimento, inovação e urbanização, não apenas crise."],
+    "connection": "Relaciona Roma, Bizâncio, Mundo Islâmico, História Econômica, Cruzadas e formação dos Estados modernos."
+  },
+  "bizancio-mediterraneo-oriental": {
+    "plain": "O Império Bizantino era, para seus habitantes, o próprio Império Romano. A disciplina acompanha a continuidade romana no Oriente, Constantinopla, Justiniano, cristianismo oriental, disputas iconoclastas, guerras, cruzadas e a longa transformação até 1453.",
+    "questions": ["Em que sentido Bizâncio continuou sendo romano?", "Como religião e política se entrelaçaram no império?", "Como Bizâncio interagiu com povos eslavos, muçulmanos e cruzados?"],
+    "watch": ["Evitar tratar Bizâncio como apêndice exótico da Europa medieval.", "Distinguir ruptura política de continuidade institucional.", "A queda de Constantinopla é ponto final político, não desaparecimento cultural imediato."],
+    "connection": "Preenche a ponte entre Roma, Medieval e Mundo Islâmico e ajuda a compreender Cruzadas, Ortodoxia e Mediterrâneo oriental."
+  },
+  "mundo-islamico": {
+    "plain": "A disciplina começa na Arábia do século VII e acompanha a formação do Islã, expansão política, califados, redes comerciais, produção intelectual e diferentes impérios. O mundo islâmico nunca foi politicamente ou culturalmente uniforme.",
+    "questions": ["Como uma nova comunidade religiosa se transformou em poder político amplo?", "Por que sunismo e xiismo se formaram?", "Como comércio e circulação intelectual conectaram regiões muito distantes?"],
+    "watch": ["Islã, árabe e muçulmano não são sinônimos.", "Califados e impérios foram diferentes entre si.", "Ciência e cultura precisam ser estudadas em instituições e redes concretas."],
+    "connection": "Dialoga com Medieval, Bizâncio, África, Índia, Ásia, Cruzadas e expansão mediterrânica."
+  },
+  "africa-i": {
+    "plain": "A África possui histórias regionais muito anteriores ao tráfico atlântico. O curso acompanha Núbia, Axum, Sahel, África Ocidental, costa suaíli e grandes redes de comércio para desmontar a ideia de um continente sem história própria antes da colonização europeia.",
+    "questions": ["Como comércio transaariano e oceânico conectou sociedades africanas?", "Como Estados como Mali e Songhai organizaram poder e riqueza?", "Quais limites surgem quando as fontes escritas vêm de viajantes externos?"],
+    "watch": ["África não deve ser tratada como unidade cultural homogênea.", "Oralidade é fonte histórica, não ausência de História.", "Comércio e Islã transformaram regiões de maneiras diferentes."],
+    "connection": "É indispensável para Escravidão Atlântica, Brasil, mundo islâmico, colonialismo e descolonização."
+  },
+  "china-leste-asiatico": {
+    "plain": "A história chinesa combina longos períodos imperiais, mudanças dinásticas, transformações econômicas e relações intensas com povos vizinhos. O curso também situa Japão e Coreia para evitar estudar o Leste Asiático apenas a partir da chegada europeia.",
+    "questions": ["Como impérios chineses administraram territórios e elites por tantos séculos?", "Por que o período Song é central para economia e tecnologia?", "Como imperialismo e revoluções alteraram o Leste Asiático moderno?"],
+    "watch": ["Dinastia não significa sociedade imóvel.", "Confucionismo mudou conforme contexto e instituição.", "China, Japão e Coreia tiveram relações próprias antes do imperialismo ocidental."],
+    "connection": "Aprofunda o Panorama da Ásia e conversa com História Econômica, impérios, imperialismo, guerras mundiais e Guerra Fria."
+  },
+  "historia-asia": {
+    "plain": "Este é o mapa panorâmico da Ásia. Ele conecta China, Índia, Japão, Sudeste Asiático, rotas terrestres e marítimas para que você perceba simultaneidades antes de entrar nos cursos regionais mais detalhados.",
+    "questions": ["Quais redes conectavam a Ásia antes da expansão europeia?", "Como religiões e mercadorias circularam entre regiões?", "Por que colonialismo teve efeitos tão diferentes em cada sociedade?"],
+    "watch": ["Não tratar Ásia como uma única civilização.", "Evitar cronologia organizada apenas por contato com a Europa.", "Comparar impérios, portos, rotas e formas distintas de Estado."],
+    "connection": "Serve de ponte para China, Índia, Mundo Islâmico, colonialismo, descolonização e história global."
+  },
+  "economica-i": {
+    "plain": "A disciplina pergunta como pessoas produziram, trocaram, armazenaram e financiaram bens em sociedades diferentes. O foco está em instituições econômicas concretas, e não em presumir que mercados modernos sempre existiram da mesma forma.",
+    "questions": ["Como propriedade e trabalho variaram historicamente?", "Qual papel moeda, crédito e comércio de longa distância tiveram?", "Quando faz sentido falar em transição para capitalismo?"],
+    "watch": ["Mercado não é sinônimo de capitalismo.", "Economia está ligada a política, família, religião e coerção.", "Debates de origem do capitalismo dependem da definição usada."],
+    "connection": "Prepara Revolução Industrial, Capitalismo, colonialismo, escravidão e História Econômica contemporânea."
+  },
+  "moderna": {
+    "plain": "História Moderna acompanha transformações entre os séculos XV e XVIII: Renascimento, Reformas religiosas, expansão de Estados, ciência, guerras e mudanças econômicas. O objetivo é entender processos sobrepostos, não uma marcha simples rumo à modernidade.",
+    "questions": ["Como religião e política se reorganizaram após a Reforma?", "O que realmente mudou com a centralização monárquica?", "Como ciência, comércio e expansão imperial se conectaram?"],
+    "watch": ["Renascimento não começou do zero nem atingiu toda a Europa igualmente.", "Absolutismo tinha limites institucionais e sociais.", "Revolução Científica foi processo plural e longo."],
+    "connection": "Liga Medieval a Revoluções Atlânticas, colonialismo, ciência e formação dos Estados modernos."
+  },
+  "india-sul-asia": {
+    "plain": "O Sul da Ásia abriga uma história de urbanização antiga, tradições religiosas, impérios, sultanatos, redes comerciais e domínio colonial. O curso evita reduzir a Índia a castas, religião ou colonização britânica.",
+    "questions": ["Como diferentes formas de poder se organizaram no subcontinente?", "Como hinduísmo, budismo, islamismo e outras tradições mudaram historicamente?", "Como colonialismo e nacionalismo levaram à independência e Partição?"],
+    "watch": ["Casta não é sistema imóvel ou idêntico em todas as regiões.", "Índia nunca foi politicamente uniforme por toda sua história.", "Partição de 1947 precisa ser estudada como processo político e humano, não apenas fronteira no mapa."],
+    "connection": "Aprofunda História da Ásia e conecta mundo islâmico, comércio oceânico, colonialismo e descolonização."
+  },
+  "america-pre-colombiana": {
+    "plain": "Antes de 1492, as Américas já possuíam cidades, impérios, aldeias, redes comerciais, agricultura intensiva e sociedades de enorme diversidade. O curso abandona a ideia de um continente vazio ou parado esperando a chegada europeia.",
+    "questions": ["Como sociedades americanas se adaptaram a ambientes muito diferentes?", "Como funcionavam poderes maia, mexica e inca?", "O que arqueologia revela sobre Amazônia e povos do atual Brasil?"],
+    "watch": ["Pré-colombiano é uma referência cronológica europeia, não identidade indígena.", "Maias, mexicas e incas não representam toda a diversidade americana.", "Paisagens amazônicas também foram historicamente transformadas por populações humanas."],
+    "connection": "É base para História Indígena, Brasil, colonialismo, escravidão e História Ambiental."
+  },
+  "colonialismo": {
+    "plain": "A expansão europeia criou impérios marítimos e coloniais, mas conquista nunca foi um processo unilateral e simples. Navegação, guerra, alianças indígenas, escravidão, doenças, comércio e disputa entre impérios formaram novos mundos atlânticos e oceânicos.",
+    "questions": ["Por que pequenos grupos europeus conseguiram conquistar alguns grandes Estados?", "Como alianças locais mudaram processos de conquista?", "Como colonialismo reorganizou trabalho, terra e circulação de espécies?"],
+    "watch": ["Conquista não significa substituição imediata de sociedades locais.", "Epidemias atuaram junto com guerra e ruptura social.", "Colonialismo variou muito entre regiões e impérios."],
+    "connection": "Conecta América Pré-Colombiana, África, escravidão, Brasil, História Ambiental e capitalismo mercantil."
+  },
+  "america-latina": {
+    "plain": "A América Latina moderna foi formada por independências, guerras civis, escravidão, disputas por terra, cidadania limitada, exportações, revoluções e regimes autoritários. O curso compara países sem presumir que todos seguiram o mesmo caminho.",
+    "questions": ["Por que independência política não resolveu desigualdades coloniais?", "Como raça, terra e cidadania moldaram os novos Estados?", "Por que revoluções e ditaduras marcaram diferentes momentos do século XX?"],
+    "watch": ["Evitar explicar toda a região por um único modelo.", "Distinguir populismo como conceito histórico de uso cotidiano.", "Considerar povos indígenas e afrodescendentes como agentes políticos."],
+    "connection": "Amplia Revoluções Atlânticas, colonialismo, Guerra Fria, socialismo e comparação com História do Brasil."
+  },
+  "historia-arte": {
+    "plain": "Imagens também são fontes históricas. O curso ensina a perguntar quem produziu uma obra, para quem, em qual espaço, com qual técnica e quais convenções visuais, em vez de olhar apenas para beleza ou estilo.",
+    "questions": ["Como uma imagem constrói poder ou identidade?", "Quem financiou e controlou sua circulação?", "O que muda quando fotografia e cinema entram no repertório histórico?"],
+    "watch": ["Imagem não é janela transparente para o passado.", "Estilo precisa ser ligado a patronagem, técnica e público.", "Obras coloniais devem ser lidas também pelas relações de poder que as produziram."],
+    "connection": "Atravessa Antiguidade, Medieval, Renascimento, colonialismo, nacionalismo, propaganda e cultura visual contemporânea."
+  },
+  "afro-indigena": {
+    "plain": "A disciplina coloca histórias africanas, afro-brasileiras e indígenas no centro da formação do Brasil, não como apêndices. Ela acompanha diáspora, escravidão, território, pós-abolição, políticas indigenistas e disputas de memória.",
+    "questions": ["Como resistência pode assumir formas além de revolta aberta?", "O que mudou e o que permaneceu depois da abolição?", "Como território e cidadania aparecem nas lutas indígenas e negras?"],
+    "watch": ["Evitar tratar africanos e indígenas apenas como vítimas passivas.", "Distinguir escravidão de pós-abolição.", "Considerar produção intelectual negra e indígena como fonte e interpretação."],
+    "connection": "Articula África, História Indígena, escravidão atlântica, Brasil e debates contemporâneos sobre memória e cidadania."
+  },
+  "historia-ciencia": {
+    "plain": "Ciência tem história. Ideias científicas dependem de instrumentos, instituições, financiamento, redes de comunicação e critérios de prova que também mudam no tempo.",
+    "questions": ["Como uma comunidade decide o que conta como conhecimento confiável?", "Qual papel universidades, academias, laboratórios e Estados tiveram?", "Como ciência também participou de imperialismo, medicina e racialismo?"],
+    "watch": ["Evitar narrativas de gênios isolados.", "Distinguir conhecimento disponível na época de julgamento posterior.", "Observar usos sociais e políticos da autoridade científica."],
+    "connection": "Conecta Moderna, Revolução Industrial, imperialismo, saúde pública, eugenia e Humanidades Digitais."
+  },
+  "brasil-i": {
+    "plain": "O primeiro curso de Brasil começa antes da chegada portuguesa e acompanha colonização, escravidão, açúcar, mineração, revoltas, transferência da corte e independência. O eixo central é entender como diferentes grupos disputaram terra, trabalho e autoridade.",
+    "questions": ["Como povos indígenas reagiram e negociaram diante da colonização?", "Como escravidão estruturou economia e sociedade?", "Por que a independência preservou tantas estruturas anteriores?"],
+    "watch": ["Brasil não começou em 1500.", "Colonização não foi projeto executado sem resistência ou negociação.", "Independência foi processo, não apenas o 7 de Setembro."],
+    "connection": "Dialoga com América Pré-Colombiana, escravidão atlântica, colonialismo, História Indígena e Brasil II."
+  },
+  "revolucoes-atlanticas": {
+    "plain": "Entre o fim do século XVIII e início do XIX, revoluções transformaram ideias de soberania, cidadania e direitos. Estados Unidos, França, Haiti e independências latino-americanas compartilharam linguagens políticas, mas produziram resultados muito diferentes.",
+    "questions": ["Quem foi incluído e excluído das novas ideias de cidadania?", "Por que a Revolução Haitiana muda a leitura do período?", "Como guerra e império influenciaram as revoluções?"],
+    "watch": ["Iluminismo não leva automaticamente à revolução.", "Direitos universais coexistiram com escravidão e colonialismo.", "Cada revolução teve atores e conflitos sociais próprios."],
+    "connection": "Prepara liberalismo, nacionalismo, abolição, Brasil independente e direitos humanos."
+  },
+  "revolucao-industrial": {
+    "plain": "Industrialização mudou como energia, máquinas, trabalho e capital eram combinados. O curso não se limita a invenções: acompanha fábrica, cidades, famílias trabalhadoras, disciplina do tempo e impactos sociais.",
+    "questions": ["Por que a industrialização começou com força na Grã-Bretanha?", "Como fábrica mudou relações de trabalho?", "A qualidade de vida melhorou ou piorou para trabalhadores no início do processo?"],
+    "watch": ["Máquina a vapor sozinha não explica industrialização.", "Mudança foi desigual entre regiões e setores.", "Estatísticas de renda precisam ser comparadas a saúde, moradia, jornada e consumo."],
+    "connection": "É central para Capitalismo, Socialismo, História Econômica, urbanização e História Ambiental."
+  },
+  "capitalismo": {
+    "plain": "O curso investiga como relações capitalistas se formaram e expandiram. Em vez de assumir uma origem óbvia, compara comércio, propriedade agrária, trabalho assalariado, industrialização, finanças e expansão global.",
+    "questions": ["Quando faz sentido dizer que capitalismo começou?", "Qual a relação entre mercados e relações de propriedade?", "Como capitalismo se expandiu junto com impérios e trabalho coercitivo?"],
+    "watch": ["Comércio antigo não é automaticamente capitalismo.", "Autores usam definições diferentes e por isso datam a origem de modo diferente.", "Trabalho livre e trabalho coercitivo coexistiram em economias capitalistas."],
+    "connection": "Dialoga com História Econômica, Revolução Industrial, escravidão, imperialismo e Socialismo."
+  },
+  "historia-indigena-americas": {
+    "plain": "Povos indígenas continuam fazendo História depois de 1492. A disciplina acompanha alianças, guerras, missões, comércio, fronteiras, políticas estatais, movimentos contemporâneos e disputas territoriais.",
+    "questions": ["Como indígenas atuaram diplomaticamente entre impérios e Estados?", "Como epidemias e colonização alteraram sem apagar sociedades locais?", "Como direitos territoriais se tornaram questão contemporânea?"],
+    "watch": ["Não encerrar história indígena no momento da conquista.", "Evitar usar resistência apenas como sinônimo de guerra.", "Trabalhar com fontes coloniais reconhecendo seus filtros."],
+    "connection": "Aprofunda América Pré-Colombiana e se conecta a Brasil, colonialismo, direitos humanos e história ambiental."
+  },
+  "escravidao-atlantica": {
+    "plain": "A escravidão atlântica foi um sistema econômico, político e social que deslocou milhões de africanos e estruturou sociedades nas Américas. O curso acompanha tráfico, trabalho, família, cultura, resistência, abolições e as desigualdades que continuaram depois da emancipação.",
+    "questions": ["Como o tráfico se integrou a economias atlânticas?", "Como pessoas escravizadas construíram família, religião e estratégias de liberdade?", "Por que abolição jurídica não produziu igualdade social?"],
+    "watch": ["Não reduzir pessoas escravizadas a força de trabalho anônima.", "Abolicionismos tiveram interesses e estratégias diferentes.", "Pós-abolição precisa ser estudado como campo próprio."],
+    "connection": "É indispensável para África, colonialismo, Brasil, capitalismo, raça e cidadania."
+  },
+  "historia-parana": {
+    "plain": "A história do Paraná e de Curitiba conecta povos indígenas, litoral, tropeirismo, erva-mate, madeira, imigração, colonização, trabalho e urbanização. O objetivo é perceber como processos globais aparecem em escala regional.",
+    "questions": ["Como caminhos e economias regionais conectaram Paraná ao Sul e Sudeste?", "Como imigração e colonização alteraram terra e trabalho?", "Como Curitiba construiu imagens de modernidade e identidade?"],
+    "watch": ["Não apagar presença indígena ao narrar colonização.", "Evitar transformar imigração em história apenas de sucesso.", "Comparar memória oficial e conflitos sociais locais."],
+    "connection": "Funciona como laboratório de história regional e conecta Brasil, imigração, trabalho, urbanização e memória."
+  },
+  "historia-alimentacao": {
+    "plain": "Comida é uma porta de entrada para economia, ambiente, religião, gênero, classe e identidade. O curso acompanha domesticação, circulação de produtos, açúcar, café, industrialização e formação de cozinhas nacionais.",
+    "questions": ["Como um alimento ganha significado social?", "Como impérios e escravidão transformaram dietas?", "O que cozinha revela sobre classe, gênero e identidade?"],
+    "watch": ["Receita culinária também é fonte histórica.", "Gostos mudam e são socialmente aprendidos.", "Produtos cotidianos podem esconder cadeias de coerção e comércio global."],
+    "connection": "Cruza História Ambiental, colonialismo, escravidão, capitalismo, gênero e cultura."
+  },
+  "brasil-ii": {
+    "plain": "Brasil II acompanha o Império e a Primeira República, com atenção a escravidão, cidadania, guerras, abolição e construção do Estado. A pergunta central é como uma monarquia escravista se transformou em república sem eliminar antigas desigualdades.",
+    "questions": ["Como o Estado imperial foi construído depois da independência?", "Como escravidão moldou política e sociedade até 1888?", "O que realmente mudou com a República em 1889?"],
+    "watch": ["Abolição não pode ser narrada apenas por decisões de elites.", "Guerra do Paraguai exige comparação de historiografias nacionais.", "República não significou cidadania universal imediata."],
+    "connection": "Continua Brasil I e prepara Brasil III, pós-abolição, racismo, trabalho e política republicana."
+  },
+  "socialismo": {
+    "plain": "Socialismo não é uma única doutrina. A disciplina acompanha uma família de tradições que discutiram propriedade, trabalho, igualdade, Estado, democracia e revolução, desde socialistas utópicos e Marx até experiências do século XX e correntes contemporâneas.",
+    "questions": ["Reforma ou revolução?", "Qual deve ser o papel do Estado numa transformação socialista?", "Como diferentes experiências históricas modificaram as teorias originais?"],
+    "watch": ["Não usar socialismo, marxismo, comunismo e stalinismo como sinônimos.", "Separar textos teóricos de regimes históricos concretos.", "Comparar críticas internas e externas às experiências socialistas."],
+    "connection": "Nasce dos problemas da industrialização e reaparece em Revolução Russa, Guerra Fria, descolonização, América Latina e política contemporânea."
+  },
+  "seculo-xix": {
+    "plain": "O século XIX foi marcado por liberalismo, nacionalismo, revoltas, industrialização e imperialismo, mas também por permanências de impérios dinásticos e desigualdades. O curso acompanha como novas ideias políticas se transformaram em movimentos e Estados.",
+    "questions": ["Como liberalismo e nacionalismo mudaram depois de 1815?", "Por que 1848 foi tão amplo e tão diverso?", "Como nacionalismo e imperialismo se relacionaram no fim do século?"],
+    "watch": ["Nacionalismo não foi força inevitável ou sempre popular.", "Europa Oriental e impérios multinacionais precisam entrar na narrativa.", "Imperialismo também dependeu de finanças, tecnologia e ideologias raciais."],
+    "connection": "Liga Revoluções Atlânticas à Primeira Guerra e conversa com Socialismo, Capitalismo e imperialismo global."
+  },
+  "historiografia-ii": {
+    "plain": "Agora a historiografia fica mais plural. A disciplina compara história social, micro-história, cultura, gênero, história negra, pós-colonialismo, história global e conectada para mostrar como novas perguntas alteraram sujeitos e escalas de análise.",
+    "questions": ["O que ganhamos e perdemos ao mudar de escala?", "Como gênero, raça e colonialismo mudaram problemas históricos?", "Como escrever história global sem recentralizar a Europa?"],
+    "watch": ["Abordagem nova não invalida automaticamente métodos anteriores.", "Escala micro pode iluminar estruturas maiores.", "Pós-colonial e decolonial não são termos intercambiáveis sem contexto."],
+    "connection": "Serve como caixa de ferramentas para as disciplinas avançadas e para o Trabalho Final."
+  },
+  "historia-genero": {
+    "plain": "A disciplina mostra como relações entre mulheres, homens, família, trabalho, corpo e sexualidade mudaram historicamente. Gênero funciona como categoria de análise para perguntar como diferenças são transformadas em hierarquias e expectativas sociais.",
+    "questions": ["Por que mulheres aparecem menos em certos arquivos?", "Como trabalho e família distribuíram poder de forma desigual?", "Como gênero se cruza com raça, classe e sexualidade?"],
+    "watch": ["Não tratar mulheres como grupo homogêneo.", "Biologia não explica automaticamente papéis sociais.", "Feminismos tiveram agendas e sujeitos históricos diferentes."],
+    "connection": "Atravessa praticamente todo o currículo e dialoga com trabalho, cidadania, movimentos sociais e história cultural."
+  },
+  "america-anglo-saxonica": {
+    "plain": "O curso acompanha colonização britânica, independência, escravidão, expansão territorial, Guerra Civil, industrialização e transformação dos Estados Unidos em potência global. O eixo é a tensão contínua entre liberdade proclamada e exclusões reais.",
+    "questions": ["Como escravidão se relacionou à expansão territorial?", "Por que a Guerra Civil transformou a União?", "Como imigração, industrialização e império mudaram os Estados Unidos?"],
+    "watch": ["Não tomar o excepcionalismo americano como explicação.", "Reconstrução é parte central da história da Guerra Civil.", "Povos indígenas e fronteira devem ser tratados como história de conquista e negociação, não cenário vazio."],
+    "connection": "Relaciona Revoluções Atlânticas, escravidão, imperialismo, guerras mundiais e Guerra Fria."
+  },
+  "brasil-iii": {
+    "plain": "Brasil III acompanha o século XX e início do XXI: Vargas, democracia de 1946, golpe de 1964, ditadura, redemocratização e Nova República. O objetivo é compreender instituições e conflitos sem transformar história recente em torcida política.",
+    "questions": ["Como Estado e trabalho foram reorganizados na Era Vargas?", "Por que a democracia de 1946 entrou em crise?", "Como estudar passado recente com atores vivos e memórias conflitantes?"],
+    "watch": ["Distinguir memória política de análise histórica.", "Golpe, ditadura e repressão precisam ser documentados com fontes diversas.", "História do tempo presente exige atenção redobrada a linguagem e evidência."],
+    "connection": "Continua Brasil II e conecta Guerra Fria, direitos humanos, economia, memória e História do Tempo Presente."
+  },
+  "primeira-guerra": {
+    "plain": "A Primeira Guerra foi mais que trincheiras na França. Ela envolveu impérios, colônias, frentes no Leste e Oriente Médio, mobilização econômica, propaganda e milhões de civis, e transformou profundamente o mapa político da Europa e do Oriente Médio.",
+    "questions": ["Por que a crise de 1914 se transformou em guerra geral?", "Como guerra industrial mudou experiência de soldados e civis?", "Como o conflito destruiu ou enfraqueceu impérios?"],
+    "watch": ["Evitar procurar uma única causa da guerra.", "Incluir tropas coloniais e frentes fora da Europa Ocidental.", "Versalhes precisa ser analisado como negociação e conjunto de tratados, não apenas punição simples."],
+    "connection": "É ponte entre imperialismo do século XIX, Revolução Russa, fascismo, reorganização do Oriente Médio e Segunda Guerra."
+  },
+  "revolucao-russa-urss": {
+    "plain": "A disciplina acompanha crise do czarismo, revoluções de 1905 e 1917, guerra civil, NEP, formação da URSS e transformações políticas e econômicas posteriores. O objetivo é separar acontecimentos, projetos revolucionários e interpretações historiográficas.",
+    "questions": ["Por que o regime czarista entrou em colapso em 1917?", "Outubro foi revolução, golpe ou algo que exige categorias mais precisas?", "Como guerra civil e construção estatal alteraram o projeto bolchevique?"],
+    "watch": ["Fevereiro e Outubro são processos diferentes.", "Bolcheviques não eram todo o movimento socialista russo.", "Debates sobre continuidade entre Lenin e Stalin exigem periodização e evidências."],
+    "connection": "Aprofunda Socialismo, Primeira Guerra e prepara Stalinismo, Guerra Fria e debates sobre colapso da URSS."
+  },
+  "fascismo-segunda-guerra": {
+    "plain": "A disciplina estuda fascismo e nazismo como movimentos históricos específicos e acompanha a Segunda Guerra em escala global, incluindo Europa, Ásia e genocídio. O foco é entender como democracias entram em crise, como ditaduras mobilizam sociedades e como guerra radicaliza violência.",
+    "questions": ["O que distingue fascismo de outras formas de autoritarismo?", "Como o nazismo transformou racismo em política de Estado e genocídio?", "Por que a guerra na Ásia precisa começar antes de 1939 em algumas cronologias?"],
+    "watch": ["Não banalizar o conceito de fascismo.", "Holocausto não pode ser reduzido a efeito colateral da guerra.", "Segunda Guerra foi conflito realmente global, com frentes e ocupações muito diferentes."],
+    "connection": "Liga crise do entreguerras, imperialismo, Holocausto, direitos humanos, descolonização e Guerra Fria."
+  },
+  "arquivos-acervos": {
+    "plain": "Arquivos não são depósitos neutros onde todo o passado espera ser descoberto. Documentos foram produzidos, classificados, preservados e descartados por instituições e pessoas, e essas escolhas moldam o que podemos pesquisar.",
+    "questions": ["Quem produziu e organizou um conjunto documental?", "O que foi preservado e o que se perdeu?", "Como acesso, privacidade e digitalização alteram a pesquisa?"],
+    "watch": ["Respeitar proveniência e contexto documental.", "Silêncio de arquivo pode resultar de poder e seleção.", "Preservação digital exige metadados e planejamento, não apenas escaneamento."],
+    "connection": "É ferramenta profissional e metodológica para pesquisa, História Pública e Humanidades Digitais."
+  },
+  "patrimonio-museus": {
+    "plain": "Patrimônio e museus transformam escolhas sobre o passado em experiências públicas. Esta disciplina pergunta quem decide o que merece ser preservado, como exposições constroem narrativas e por que monumentos podem se tornar focos de conflito.",
+    "questions": ["Quem escolhe o que vira patrimônio?", "Como uma exposição organiza uma interpretação histórica?", "O que fazer quando memória pública é disputada?"],
+    "watch": ["Preservação nunca é completamente neutra.", "Museu não é apenas coleção de objetos.", "Participação das comunidades afetadas muda decisões de representação."],
+    "connection": "Conecta memória, arquivos, arte, direitos humanos e História Pública."
+  },
+  "guerra-fria": {
+    "plain": "A Guerra Fria foi uma disputa global entre projetos de poder liderados por Estados Unidos e União Soviética, mas não se resume a dois blocos. Revoluções, descolonização, guerras locais, movimentos sociais e escolhas de países do Sul Global tiveram dinâmica própria.",
+    "questions": ["Como dissuasão nuclear mudou estratégia internacional?", "Por que conflitos locais não podem ser explicados apenas por EUA versus URSS?", "Quais fatores internos e externos contribuíram para o fim da URSS?"],
+    "watch": ["Evitar reduzir todo conflito do período a marionetes das superpotências.", "China, Cuba, Vietnã, África e Oriente Médio tiveram agendas próprias.", "O fim da Guerra Fria não foi previsto como inevitável."],
+    "connection": "Integra Revolução Russa, descolonização, Brasil contemporâneo, América Latina, China e história global."
+  },
+  "descolonizacao-sul-global": {
+    "plain": "Depois de 1945, impérios europeus perderam territórios, mas independência não significou começar do zero. Novos Estados herdaram fronteiras, economias dependentes e conflitos enquanto tentavam construir projetos nacionais e internacionais próprios.",
+    "questions": ["Por que alguns processos de independência foram negociados e outros viraram guerras?", "O que Bandung e não alinhamento tentavam construir?", "Como colonialismo continuou influenciando economia e fronteiras depois da independência?"],
+    "watch": ["Não tratar novos países apenas como palco da Guerra Fria.", "Terceiro Mundo foi também projeto político histórico.", "Descolonização política e econômica não aconteceram no mesmo ritmo."],
+    "connection": "Aprofunda Guerra Fria, África, Índia, Ásia, direitos humanos e história global contemporânea."
+  },
+  "global-contemporanea": {
+    "plain": "A disciplina organiza o mundo depois de 1945 e especialmente depois de 1991: globalização produtiva e financeira, neoliberalismo, internet, guerras, crise de 2008, plataformas digitais e mudança climática.",
+    "questions": ["O que realmente mudou depois de 1991?", "Como cadeias globais de produção redistribuíram trabalho e poder?", "Como tecnologia digital e crise climática alteram a experiência histórica contemporânea?"],
+    "watch": ["Globalização não é processo sem conflitos ou reversões.", "Neoliberalismo possui trajetórias nacionais diferentes.", "História muito recente exige separar acontecimento, memória e interpretação ainda em disputa."],
+    "connection": "É o fechamento cronológico da grade e se apoia em Guerra Fria, descolonização, economia, ambiente e História do Tempo Presente."
+  },
+  "direitos-humanos": {
+    "plain": "Direitos humanos não surgiram prontos numa única declaração. O curso acompanha mudanças nas ideias de cidadania, abolição, direitos sociais, genocídio, sistema internacional e movimentos civis para mostrar como novas reivindicações foram construídas historicamente.",
+    "questions": ["Quem foi inicialmente excluído da linguagem universal dos direitos?", "Como guerras e genocídio alteraram instituições internacionais?", "Como movimentos sociais ampliaram o sentido de cidadania?"],
+    "watch": ["Não confundir genealogia dos direitos com progresso inevitável.", "Direitos declarados e direitos efetivamente garantidos são coisas diferentes.", "O sistema internacional depende de instituições e relações de poder."],
+    "connection": "Liga Revoluções Atlânticas, abolição, guerras mundiais, descolonização, ditaduras e História Pública."
+  },
+  "historia-ambiental": {
+    "plain": "História Ambiental pergunta como sociedades transformam ecossistemas e como clima, doenças, energia, plantas e animais também condicionam escolhas humanas. Natureza aparece como parte do processo histórico, não como cenário imóvel.",
+    "questions": ["Como agricultura e impérios transformaram paisagens?", "Por que energia fóssil mudou escala e velocidade da industrialização?", "Como estudar clima sem cair em determinismo ambiental?"],
+    "watch": ["Ambiente influencia sem determinar sozinho sociedades.", "Intercâmbios biológicos também foram instrumentos de império.", "Antropoceno é conceito científico e historiográfico debatido."],
+    "connection": "Atravessa Pré-História, colonialismo, industrialização, saúde, alimentação e história global."
+  },
+  "humanidades-digitais": {
+    "plain": "Humanidades Digitais usa ferramentas computacionais para fazer perguntas históricas, mas ferramenta não substitui crítica de fonte. OCR, mapas, bancos de dados, redes e IA podem ampliar escala de análise desde que erros, vieses e decisões metodológicas sejam documentados.",
+    "questions": ["O que se perde quando uma fonte vira dado?", "Como medir e corrigir erros de OCR ou classificação?", "Como tornar análise digital reproduzível e auditável?"],
+    "watch": ["Digitalizado não significa completo ou neutro.", "Visualização pode esconder escolhas metodológicas.", "IA deve ser usada com verificação de fonte e registro de procedimento."],
+    "connection": "Une metodologia histórica, arquivos, GIS, estatística, programação e pesquisa contemporânea."
+  },
+  "metodologia-pesquisa": {
+    "plain": "Aqui você transforma interesse amplo em pesquisa viável. A disciplina ensina a formular problema, delimitar recorte, construir corpus de fontes, dialogar com historiografia e escolher métodos compatíveis com a pergunta.",
+    "questions": ["Qual pergunta exatamente você quer responder?", "Quais fontes permitem responder e quais limites elas impõem?", "Como demonstrar que sua interpretação é melhor sustentada que alternativas?"],
+    "watch": ["Tema não é problema de pesquisa.", "Método deve seguir a pergunta, não o contrário.", "Corpus precisa ser justificável e manejável."],
+    "connection": "Prepara diretamente o Trabalho Final e organiza competências acumuladas ao longo de todo o currículo."
+  },
+  "trabalho-final": {
+    "plain": "O Trabalho Final é a síntese da formação: uma investigação histórica própria, pequena o bastante para ser executável e rigorosa o bastante para demonstrar uso de fontes, historiografia e argumentação.",
+    "questions": ["Qual é sua pergunta central e por que ela importa?", "Que evidências sustentam sua resposta?", "Como sua interpretação conversa com trabalhos anteriores?"],
+    "watch": ["Recorte estreito costuma produzir análise melhor que tema gigantesco.", "Fonte não é ilustração: ela precisa participar do argumento.", "Conclusão deve responder à pergunta, não apenas resumir capítulos."],
+    "connection": "É o ponto de chegada metodológico da Cliofera e pode se transformar em artigo, ensaio longo, projeto público ou base para pesquisa futura."
+  }
+}

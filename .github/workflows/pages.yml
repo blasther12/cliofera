@@ -35,6 +35,7 @@ jobs:
           node scripts/validate-review.mjs
           node scripts/validate-study-extras.mjs
           node scripts/validate-pedagogy.mjs
+          node scripts/audit-readability.mjs
           node --check docs/assets/app.js
           node --check docs/assets/install.js
           node --check docs/assets/greece-enhancement.js
@@ -43,6 +44,8 @@ jobs:
           node --check docs/assets/bibliography-tools.js
           node --check docs/assets/lesson-meta.js
           node --check docs/assets/pedagogy.js
+          node --check docs/assets/course-guide.js
+          node --check docs/assets/readability.js
           node --check docs/assets/theme.js
           python -m json.tool docs/data.json > /dev/null
           python -m json.tool docs/extra-courses.json > /dev/null
@@ -51,6 +54,7 @@ jobs:
           python -m json.tool docs/assessments.json > /dev/null
           python -m json.tool docs/bibliography.json > /dev/null
           python -m json.tool docs/history-glossary.json > /dev/null
+          python -m json.tool docs/course-guides.json > /dev/null
           python -m json.tool docs/literature.json > /dev/null
           python -m json.tool docs/literature-review.json > /dev/null
           python -m json.tool docs/media.json > /dev/null
@@ -70,6 +74,7 @@ jobs:
           test -s docs/assets/study-tools.css
           test -s docs/assets/lesson-meta.css
           test -s docs/assets/pedagogy.css
+          test -s docs/assets/course-guide.css
           test -s docs/icons/apple-touch-icon-v2.png
           test -s docs/icons/icon-192-v2.png
           test -s docs/icons/icon-512-v2.png

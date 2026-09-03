@@ -3,6 +3,7 @@
   const all=(selector,root=document)=>[...root.querySelectorAll(selector)];
   const route=()=>location.hash.replace(/^#\/?/,'').split('/').filter(Boolean);
   let timelineCache=null;
+  let timelineRendering=false;
 
   const titleFromId=id=>String(id||'').split('-').map(part=>part?part[0].toUpperCase()+part.slice(1):part).join(' ');
   const esc=value=>String(value??'').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#039;');
@@ -52,18 +53,22 @@
 
   async function renderTimeline(){
     const app=$('#app');
-    if(!app||route()[0]!=='timeline'||app.dataset.ecosystemTimeline==='true')return;
-    app.dataset.ecosystemTimeline='true';
-    app.innerHTML='<div class="empty">Carregando cronologia…</div>';
+    if(!app||route()[0]!=='timeline'||$('.timeline-page',app)||timelineRendering)return;
+    timelineRendering=true;
+    app.innerHTML='<div class="empty" data-timeline-loading>Carregando cronologia…</div>';
     try{
       const data=await loadTimeline();
+      if(route()[0]!=='timeline')return;
       const axes=Array.isArray(data.axes)?data.axes:[];
       const events=Array.isArray(data.events)?data.events:[];
       app.innerHTML=`<div class="timeline-page"><header class="page-header"><div class="eyebrow">Cronologia Mestra</div><h1>Localize simultaneidades antes de explicar processos.</h1><p class="lead">${esc(data.intro||'Use a cronologia como orientação e volte às disciplinas para aprofundar causas, experiências e debates.')}</p></header>${axes.length?`<section><div class="section-head"><div><h2>Eixos transversais</h2><p>Perguntas que atravessam épocas e regiões.</p></div></div><div class="timeline-axes">${axes.map(axis=>`<article class="timeline-axis"><h3>${esc(axis.title)}</h3><p>${esc(axis.description)}</p></article>`).join('')}</div></section>`:''}<section><div class="timeline-tools"><div><div class="eyebrow">Linha do tempo</div><h2>Marcos de longa duração</h2></div><div><input id="timelineSearch" type="search" placeholder="Buscar evento, período ou disciplina…"><div id="timelineCount" style="margin-top:7px;color:var(--muted);font-size:12px">${events.length} marcos</div></div></div><div class="timeline-events">${events.map(eventHtml).join('')}</div></section></div>`;
       bindTimelineSearch();
       scrollTo(0,0);
     }catch(error){
-      app.innerHTML=`<div class="empty"><h2>Não foi possível carregar a cronologia</h2><p>${esc(error.message)}</p><a href="#/curriculo">Voltar ao currículo</a></div>`;
+      if(route()[0]==='timeline')app.innerHTML=`<div class="empty"><h2>Não foi possível carregar a cronologia</h2><p>${esc(error.message)}</p><a href="#/curriculo">Voltar ao currículo</a></div>`;
+    }finally{
+      timelineRendering=false;
+      if(route()[0]==='timeline'&&!$('.timeline-page',app)&&!$('[data-timeline-loading]',app))setTimeout(renderTimeline,0);
     }
   }
 
@@ -81,11 +86,7 @@
 
   function enhance(){
     if(route()[0]==='timeline')renderTimeline();
-    else{
-      const app=$('#app');
-      if(app)delete app.dataset.ecosystemTimeline;
-      addJourney();
-    }
+    else addJourney();
     markCurrentNav();
   }
 

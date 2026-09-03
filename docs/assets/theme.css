@@ -8,6 +8,7 @@
   --paper: #171b21;
   --paper-raised: #1c2128;
   --paper-soft: #12171d;
+  --paper-2: #12171d;
   --ink: #ece8df;
   --muted: #aaa59b;
   --line: #343b45;
@@ -115,6 +116,41 @@
   background: rgba(255,255,255,.035);
   border-color: var(--line);
   color: #cfc7ba;
+}
+
+/* Historian notebook and study tools */
+:root[data-theme="dark"] .historian-tools,
+:root[data-theme="dark"] .notebook-card,
+:root[data-theme="dark"] .path-card,
+:root[data-theme="dark"] .study-map-node,
+:root[data-theme="dark"] .history-search-result,
+:root[data-theme="dark"] .assessment-card,
+:root[data-theme="dark"] .rubric-item {
+  background: var(--paper);
+  border-color: var(--line);
+  color: var(--ink);
+}
+
+:root[data-theme="dark"] .historian-mastery label,
+:root[data-theme="dark"] .study-chip,
+:root[data-theme="dark"] .path-step {
+  background: var(--paper-soft);
+  border-color: var(--line);
+  color: var(--ink);
+}
+
+:root[data-theme="dark"] .historian-mastery strong {
+  color: var(--ink);
+}
+
+:root[data-theme="dark"] .historian-mastery small {
+  color: #bab4aa;
+}
+
+:root[data-theme="dark"] .historian-note {
+  background: #101419;
+  color: var(--ink);
+  border-color: var(--line);
 }
 
 /* Secondary course content */

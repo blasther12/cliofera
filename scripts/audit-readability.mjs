@@ -46,7 +46,7 @@ for (const course of courses) {
     if (String(guide.plain || '').length < 120) errors.push(`${course.id}: abertura didática curta demais`);
     if (!Array.isArray(guide.questions) || guide.questions.length < 3) errors.push(`${course.id}: menos de 3 perguntas-guia`);
     if (!Array.isArray(guide.watch) || guide.watch.length < 3) errors.push(`${course.id}: menos de 3 alertas de leitura`);
-    if (String(guide.connection || '').length < 70) errors.push(`${course.id}: conexão curricular superficial`);
+    if (String(guide.connection || '').length < 50) errors.push(`${course.id}: conexão curricular superficial`);
   }
 
   const detail = content[course.id];

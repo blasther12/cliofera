@@ -8,7 +8,13 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta name="apple-mobile-web-app-title" content="Cliofera" />
+  <meta property="og:title" content="Cliofera · Faculdade Livre de História" />
+  <meta property="og:description" content="Formação autodirigida em História com currículo, cronologia, fontes, historiografia, literatura e pesquisa." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://blasther12.github.io/cliofera/" />
+  <meta name="twitter:card" content="summary" />
   <title>Cliofera · Faculdade Livre de História</title>
+  <link rel="canonical" href="https://blasther12.github.io/cliofera/" />
   <link rel="manifest" href="./manifest.webmanifest" />
   <link rel="icon" type="image/svg+xml" href="./icons/cliofera-mark.svg" />
   <link rel="icon" type="image/png" sizes="32x32" href="./icons/icon-32-v2.png" />
@@ -26,9 +32,11 @@
   <link rel="stylesheet" href="./assets/course-guide.css" />
   <link rel="stylesheet" href="./assets/navigation-responsive.css" />
   <link rel="stylesheet" href="./assets/answer-tools.css" />
+  <link rel="stylesheet" href="./assets/ecosystem.css" />
   <script src="./assets/theme.js"></script>
 </head>
 <body>
+  <a class="skip-link" href="#app">Pular para o conteúdo</a>
   <div class="shell">
     <header class="topbar">
       <a class="brand" href="#/" aria-label="Cliofera — painel principal">
@@ -42,6 +50,15 @@
         <a href="#/timeline">Cronologia</a>
         <a href="#/debates">Grandes Debates</a>
         <a href="#/metodo">Método</a>
+        <a class="portal-home" href="https://blasther12.github.io/">⌂ Portal</a>
+        <details class="space-switcher">
+          <summary>Espaços</summary>
+          <div class="space-switcher-menu">
+            <a href="https://blasther12.github.io/blog/"><strong>Blog</strong><span>Textos e projetos sobre engenharia e trabalho.</span></a>
+            <a href="https://blasther12.github.io/cliofera/"><strong>Cliofera</strong><span>Você está aqui.</span></a>
+            <a href="https://blasther12.github.io/alexandria/"><strong>Alexandria</strong><span>Biblioteca de engenharia e tecnologia.</span></a>
+          </div>
+        </details>
         <button id="themeToggle" class="theme-toggle" type="button" aria-label="Alternar tema">☾ Escuro</button>
         <button id="installApp" class="nav-install" hidden>Instalar</button>
       </nav>
@@ -53,6 +70,7 @@
       <span>Cliofera · estudo histórico autodirigido</span>
       <div class="footer-actions">
         <a class="text-button" href="https://github.com/blasther12/blasther12.github.io/blob/main/CONTENT-GUIDE.md" target="_blank" rel="noopener noreferrer">Manual de conteúdo ↗</a>
+        <a class="text-button" href="https://blasther12.github.io/">Portal principal ↗</a>
         <button id="exportProgress" class="text-button">Exportar progresso</button>
         <button id="importProgress" class="text-button">Importar progresso</button>
         <button id="resetProgress" class="text-button">Zerar progresso</button>
@@ -80,5 +98,6 @@
   <script src="./assets/course-guide.js" defer></script>
   <script src="./assets/readability.js" defer></script>
   <script src="./assets/answer-tools.js" defer></script>
+  <script src="./assets/ecosystem.js" defer></script>
 </body>
 </html>

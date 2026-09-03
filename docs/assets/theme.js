@@ -11,9 +11,10 @@
     if (meta) meta.setAttribute('content', theme === 'dark' ? '#0f1216' : '#171611');
     const button = document.getElementById('themeToggle');
     if (button) {
-      button.textContent = theme === 'dark' ? '☀︎ Claro' : '☾ Escuro';
-      button.setAttribute('aria-label', theme === 'dark' ? 'Ativar tema claro' : 'Ativar tema escuro');
-      button.title = theme === 'dark' ? 'Ativar tema claro' : 'Ativar tema escuro';
+      const label = theme === 'dark' ? 'Usar tema claro' : 'Usar tema escuro';
+      button.textContent = label;
+      button.setAttribute('aria-label', label);
+      button.title = label;
     }
   }
 

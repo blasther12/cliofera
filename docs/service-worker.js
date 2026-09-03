@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cliofera-v19';
+const CACHE_NAME = 'cliofera-v20';
 const APP_SHELL = [
   './',
   './index.html',
@@ -41,6 +41,8 @@ const APP_SHELL = [
   './assets/course-guide.css',
   './assets/navigation-responsive.css',
   './assets/answer-tools.css',
+  './assets/ecosystem.css',
+  './assets/navigation-polish.css',
   './assets/app.js',
   './assets/install.js',
   './assets/theme.js',
@@ -53,6 +55,8 @@ const APP_SHELL = [
   './assets/course-guide.js',
   './assets/readability.js',
   './assets/answer-tools.js',
+  './assets/ecosystem.js',
+  './assets/navigation-polish.js',
   './icons/cliofera-mark.svg',
   './icons/cliofera-app-icon.svg',
   './icons/icon-32-v2.png',
